@@ -1,0 +1,331 @@
+{
+  "items": [
+    {
+      "texture": {
+        "coords": [
+          0,
+          1
+        ],
+        "size": [
+          1,
+          1
+        ],
+        "effectCoordsList": [
+          {
+            "x": 0,
+            "y": -1
+          }
+        ],
+        "textureName": "weapons"
+      },
+      "materials": [],
+      "itemType": "ITEM",
+      "subType": "EQUIPMENT",
+      "type": 0,
+      "rarity": 0,
+      "damage": 0,
+      "throwingDamage": 0,
+      "throwingRange": 0,
+      "description": "",
+      "name": "sword",
+      "attackSpeed": 70,
+      "attackType": "SLASH",
+      "index": 1,
+      "id": "fa898b5f-050f-493e-9b4b-75361d0abcbc"
+    },
+    {
+      "texture": {
+        "coords": [
+          3,
+          7
+        ],
+        "size": [
+          1,
+          2
+        ],
+        "effectCoordsList": [
+          {
+            "x": 0,
+            "y": -1
+          },
+          {
+            "x": -1,
+            "y": 0
+          },
+          {
+            "x": -1,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          }
+        ],
+        "textureName": "weapons"
+      },
+      "materials": [],
+      "itemType": "ITEM",
+      "type": 0,
+      "rarity": 0,
+      "damage": 0,
+      "throwingDamage": 0,
+      "throwingRange": 0,
+      "description": "",
+      "name": "ancientSword",
+      "attackSpeed": 200,
+      "attackType": "SLASH",
+      "index": 2,
+      "id": "7d00a4d9-3fd4-4d17-b00c-6c2fccd1fedc"
+    },
+    {
+      "texture": {
+        "coords": [
+          0,
+          2
+        ],
+        "size": [
+          1,
+          3
+        ],
+        "textureName": "weapons"
+      },
+      "materials": [],
+      "itemType": "ITEM",
+      "type": 0,
+      "rarity": 0,
+      "damage": 0,
+      "throwingDamage": 0,
+      "throwingRange": 0,
+      "description": "",
+      "name": "hammer",
+      "attackSpeed": 500,
+      "attackType": "SLASH",
+      "index": 3,
+      "id": "1e2d2740-6045-49a7-8c3f-7e30205a6392"
+    },
+    {
+      "texture": {
+        "coords": [
+          2,
+          11
+        ],
+        "size": [
+          1,
+          2
+        ],
+        "effectCoordsList": [
+          {
+            "x": 0,
+            "y": -1
+          },
+          {
+            "x": 0,
+            "y": 2
+          }
+        ],
+        "textureName": "weapons"
+      },
+      "materials": [
+        [
+          "Wood",
+          100,
+          1
+        ]
+      ],
+      "itemType": "ITEM",
+      "type": 0,
+      "rarity": 0,
+      "damage": 0,
+      "throwingDamage": 0,
+      "throwingRange": 0,
+      "description": "",
+      "name": "bow",
+      "attackSpeed": 500,
+      "attackType": "SHOOT",
+      "index": 4,
+      "id": "10ecdb26-81f0-45c9-9bec-cc491e4b6c10"
+    },
+    {
+      "texture": {
+        "coords": [
+          1,
+          11
+        ],
+        "size": [
+          1,
+          2
+        ],
+        "textureName": "weapons"
+      },
+      "materials": [
+        [
+          "Wood",
+          100,
+          1
+        ]
+      ],
+      "itemType": "ITEM",
+      "type": 0,
+      "rarity": 0,
+      "damage": 0,
+      "throwingDamage": 0,
+      "throwingRange": 0,
+      "description": "",
+      "name": "arrow",
+      "attackSpeed": 100,
+      "attackType": "SLASH",
+      "index": 5,
+      "id": "e53f5ae5-1f2d-4e60-94eb-f3da164a7252"
+    },
+    {
+      "itemType": "ITEM",
+      "materials": [],
+      "texture": {
+        "coords": [
+          5,
+          0
+        ],
+        "size": [
+          1,
+          1
+        ],
+        "textureName": "weapons"
+      },
+      "type": 0,
+      "rarity": 0,
+      "damage": 0,
+      "throwingDamage": 0,
+      "throwingRange": 0,
+      "description": "",
+      "name": "Iron",
+      "attackSpeed": 100,
+      "attackType": "SLASH",
+      "index": 6,
+      "id": "07ff72f5-d3cc-4b1a-ab48-4f447a062c56"
+    },
+    {
+      "itemType": "ITEM",
+      "materials": [],
+      "texture": {
+        "coords": [
+          4,
+          0
+        ],
+        "size": [
+          1,
+          1
+        ],
+        "textureName": "weapons"
+      },
+      "type": 0,
+      "rarity": 0,
+      "damage": 0,
+      "throwingDamage": 0,
+      "throwingRange": 0,
+      "description": "",
+      "name": "Wood",
+      "attackSpeed": 100,
+      "attackType": "SLASH",
+      "index": 7,
+      "id": "ad3abce6-a6bc-4a55-ab08-b7300ca05807"
+    },
+    {
+      "texture": {
+        "coords": [
+          7,
+          9
+        ],
+        "size": [
+          2,
+          2
+        ],
+        "textureName": "weapons"
+      },
+      "materials": [],
+      "itemType": "ITEM",
+      "type": 0,
+      "rarity": 0,
+      "damage": 0,
+      "throwingDamage": 0,
+      "throwingRange": 0,
+      "description": "",
+      "name": "Square",
+      "attackSpeed": 100,
+      "attackType": "SLASH",
+      "index": 7,
+      "id": "e6ab5d6a-f08d-41d6-9e82-e6577a5d0779"
+    },
+    {
+      "texture": {
+        "coords": [
+          9,
+          0
+        ],
+        "size": [
+          1,
+          3
+        ],
+        "textureName": "weapons"
+      },
+      "materials": [
+        [
+          "Wood",
+          100,
+          1
+        ]
+      ],
+      "itemType": "ITEM",
+      "type": 0,
+      "rarity": 0,
+      "damage": 0,
+      "throwingDamage": 0,
+      "throwingRange": 0,
+      "description": "",
+      "name": "spear",
+      "attackSpeed": 100,
+      "attackType": "SLASH",
+      "index": 5,
+      "id": "5d0b0a12-e237-4545-9ded-9025ba171a3b"
+    },
+    {
+      "texture": {
+        "coords": [
+          6,
+          3
+        ],
+        "size": [
+          1,
+          2
+        ],
+        "textureName": "weapons"
+      },
+      "materials": [
+        [
+          "Wood",
+          100,
+          1
+        ]
+      ],
+      "itemType": "ITEM",
+      "type": 0,
+      "rarity": 0,
+      "damage": 0,
+      "throwingDamage": 0,
+      "throwingRange": 0,
+      "description": "",
+      "name": "club",
+      "attackSpeed": 500,
+      "attackType": "SLASH",
+      "index": 4,
+      "id": "2274a1a1-b367-46ec-bf30-96d050978bf7"
+    }
+  ]
+}

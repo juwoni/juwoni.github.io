@@ -1,0 +1,336 @@
+{
+  "items": [
+    {
+      "itemType": "TILE",
+      "tileType": "AUTO_TILE",
+      "texture": {
+        "coords": [
+          0,
+          0
+        ],
+        "size": [
+          5,
+          3
+        ],
+        "textureName": "3x3AutoTiles"
+      },
+      "loots": [],
+      "name": "Water",
+      "index": 1,
+      "layer": 0,
+      "id": "f730b427-44ab-49b2-91da-3d4adddde460"
+    },
+    {
+      "itemType": "TILE",
+      "tileType": "AUTO_TILE",
+      "texture": {
+        "coords": [
+          0,
+          3
+        ],
+        "size": [
+          5,
+          3
+        ],
+        "textureName": "3x3AutoTiles"
+      },
+      "loots": [],
+      "name": "Grass",
+      "index": 2,
+      "layer": 0,
+      "id": "e1fc5337-03c2-4402-89f7-fc50a3a6f842"
+    },
+    {
+      "itemType": "TILE",
+      "tileType": "AUTO_TILE",
+      "texture": {
+        "coords": [
+          0,
+          6
+        ],
+        "size": [
+          5,
+          3
+        ],
+        "textureName": "3x3AutoTiles"
+      },
+      "loots": [],
+      "name": "Mud",
+      "index": 3,
+      "layer": 0,
+      "id": "c68e485f-784f-404d-b5fa-4a5ad098ad82"
+    },
+    {
+      "itemType": "TILE",
+      "tileType": "AUTO_TILE",
+      "texture": {
+        "coords": [
+          0,
+          9
+        ],
+        "size": [
+          5,
+          3
+        ],
+        "textureName": "3x3AutoTiles"
+      },
+      "loots": [],
+      "name": "Floor",
+      "index": 4,
+      "layer": 0,
+      "id": "0fabfb85-fe11-4d58-8ece-fef11cd1846b"
+    },
+    {
+      "itemType": "OBJECT",
+      "tileType": "AUTO_TILE",
+      "loots": [],
+      "texture": {
+        "coords": [
+          0,
+          15
+        ],
+        "size": [
+          5,
+          3
+        ],
+        "textureName": "3x3AutoTiles"
+      },
+      "hasShadow": true,
+      "name": "wall",
+      "index": 1,
+      "layer": 0,
+      "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f"
+    },
+    {
+      "loots": [],
+      "hasShadow": false,
+      "itemType": "OBJECT",
+      "tileType": "TILE",
+      "texture": {
+        "coords": [
+          35,
+          8
+        ],
+        "size": [
+          2,
+          2
+        ],
+        "textureName": "overworld"
+      },
+      "name": "ItemBox",
+      "index": 1,
+      "layer": 0,
+      "id": "3f9ebe55-ad10-45fe-8e54-f353a8b8efb0"
+    },
+    {
+      "itemType": "OBJECT",
+      "tileType": "TILE",
+      "loots": [],
+      "texture": {
+        "coords": [
+          6,
+          0
+        ],
+        "size": [
+          5,
+          5
+        ],
+        "textureName": "overworld"
+      },
+      "hasShadow": true,
+      "name": "House",
+      "index": 3,
+      "layer": 0,
+      "id": "577acbfb-2056-46c4-85a5-0a971b197881"
+    },
+    {
+      "itemType": "OBJECT",
+      "tileType": "TILE",
+      "loots": [],
+      "texture": {
+        "coords": [
+          18,
+          22
+        ],
+        "size": [
+          5,
+          6
+        ],
+        "textureName": "overworld"
+      },
+      "hasShadow": true,
+      "name": "Shop",
+      "index": 1,
+      "layer": 0,
+      "id": "a4481653-7100-4f90-9a2c-1d41ddf1b83e"
+    },
+    {
+      "loots": [],
+      "hasShadow": false,
+      "itemType": "OBJECT",
+      "tileType": "TILE",
+      "texture": {
+        "coords": [
+          33,
+          27
+        ],
+        "size": [
+          3,
+          1
+        ],
+        "textureName": "overworld"
+      },
+      "name": "workbench",
+      "id": "00e119cd-2313-45fe-bcaf-ebfec7db7bc3"
+    },
+    {
+      "itemType": "OBJECT",
+      "tileType": "TILE",
+      "loots": [],
+      "texture": {
+        "coords": [
+          7,
+          5
+        ],
+        "size": [
+          1,
+          1
+        ],
+        "textureName": "overworld"
+      },
+      "name": "ChoppedTree",
+      "index": 1,
+      "layer": 0,
+      "id": "1971f6df-7751-4b85-81e4-6f95d1035e75"
+    },
+    {
+      "itemType": "OBJECT",
+      "tileType": "TILE",
+      "loots": [
+        {
+          "name": "Wood",
+          "rate": 100,
+          "count": 1
+        }
+      ],
+      "texture": {
+        "coords": [
+          19,
+          15
+        ],
+        "size": [
+          1,
+          2
+        ],
+        "textureName": "overworld"
+      },
+      "hasShadow": true,
+      "name": "Tree1",
+      "id": "1a81fefe-ef52-419e-ba82-73254f0a2de9"
+    },
+    {
+      "itemType": "OBJECT",
+      "tileType": "TILE",
+      "loots": [
+        {
+          "name": "Wood",
+          "rate": 100,
+          "count": 1
+        }
+      ],
+      "texture": {
+        "coords": [
+          20,
+          15
+        ],
+        "size": [
+          1,
+          2
+        ],
+        "textureName": "overworld"
+      },
+      "hasShadow": true,
+      "name": "Tree2",
+      "id": "02720306-d7aa-4888-bdc7-b5437a10c422"
+    },
+    {
+      "itemType": "OBJECT",
+      "tileType": "TILE",
+      "loots": [],
+      "texture": {
+        "coords": [
+          22,
+          9
+        ],
+        "size": [
+          3,
+          3
+        ],
+        "textureName": "overworld"
+      },
+      "hasShadow": false,
+      "name": "Well",
+      "id": "4d0ca2c0-aa06-4eea-981b-bc596707ffd2"
+    },
+    {
+      "itemType": "OBJECT",
+      "tileType": "TILE",
+      "loots": [],
+      "texture": {
+        "coords": [
+          38,
+          0
+        ],
+        "size": [
+          1,
+          1
+        ],
+        "textureName": "overworld"
+      },
+      "hasShadow": false,
+      "hasLighting": true,
+      "name": "Torch",
+      "id": "505a8258-210d-4a06-b828-f12e2f49ab77"
+    },
+    {
+      "itemType": "OBJECT",
+      "tileType": "TILE",
+      "loots": [],
+      "texture": {
+        "coords": [
+          39,
+          1
+        ],
+        "size": [
+          1,
+          1
+        ],
+        "textureName": "overworld"
+      },
+      "hasShadow": false,
+      "hasLighting": true,
+      "name": "Torch2",
+      "id": "13e8f4f6-33b7-41d4-8a05-a92e1f4db441"
+    },
+    {
+      "itemType": "TILE",
+      "tileType": "TILE",
+      "texture": {
+        "coords": [
+          1,
+          0
+        ],
+        "size": [
+          1,
+          1
+        ],
+        "textureName": "overworld"
+      },
+      "loots": [],
+      "hasShadow": false,
+      "hasLighting": false,
+      "name": "Plant",
+      "id": "f07105e0-03dc-4f01-97c5-640f53ccb95c"
+    }
+  ]
+}
