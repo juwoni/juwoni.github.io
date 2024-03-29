@@ -1,0 +1,1502 @@
+{
+  "mapData": {
+    "tiles": [
+      {
+        "id": "f730b427-44ab-49b2-91da-3d4adddde460",
+        "coords": [
+          14,
+          26
+        ],
+        "type": "TILE"
+      },
+      {
+        "id": "f730b427-44ab-49b2-91da-3d4adddde460",
+        "coords": [
+          15,
+          26
+        ],
+        "type": "TILE"
+      },
+      {
+        "id": "f730b427-44ab-49b2-91da-3d4adddde460",
+        "coords": [
+          16,
+          26
+        ],
+        "type": "TILE"
+      },
+      {
+        "id": "f730b427-44ab-49b2-91da-3d4adddde460",
+        "coords": [
+          17,
+          26
+        ],
+        "type": "TILE"
+      },
+      {
+        "id": "f730b427-44ab-49b2-91da-3d4adddde460",
+        "coords": [
+          17,
+          25
+        ],
+        "type": "TILE"
+      },
+      {
+        "id": "f730b427-44ab-49b2-91da-3d4adddde460",
+        "coords": [
+          18,
+          25
+        ],
+        "type": "TILE"
+      },
+      {
+        "id": "f730b427-44ab-49b2-91da-3d4adddde460",
+        "coords": [
+          19,
+          25
+        ],
+        "type": "TILE"
+      },
+      {
+        "id": "f730b427-44ab-49b2-91da-3d4adddde460",
+        "coords": [
+          20,
+          25
+        ],
+        "type": "TILE"
+      },
+      {
+        "id": "f730b427-44ab-49b2-91da-3d4adddde460",
+        "coords": [
+          21,
+          26
+        ],
+        "type": "TILE"
+      },
+      {
+        "id": "f730b427-44ab-49b2-91da-3d4adddde460",
+        "coords": [
+          22,
+          26
+        ],
+        "type": "TILE"
+      },
+      {
+        "id": "f730b427-44ab-49b2-91da-3d4adddde460",
+        "coords": [
+          22,
+          27
+        ],
+        "type": "TILE"
+      },
+      {
+        "id": "e1fc5337-03c2-4402-89f7-fc50a3a6f842",
+        "coords": [
+          16,
+          33
+        ],
+        "type": "TILE"
+      },
+      {
+        "id": "e1fc5337-03c2-4402-89f7-fc50a3a6f842",
+        "coords": [
+          16,
+          32
+        ],
+        "type": "TILE"
+      },
+      {
+        "id": "e1fc5337-03c2-4402-89f7-fc50a3a6f842",
+        "coords": [
+          17,
+          32
+        ],
+        "type": "TILE"
+      },
+      {
+        "id": "e1fc5337-03c2-4402-89f7-fc50a3a6f842",
+        "coords": [
+          17,
+          31
+        ],
+        "type": "TILE"
+      },
+      {
+        "id": "e1fc5337-03c2-4402-89f7-fc50a3a6f842",
+        "coords": [
+          18,
+          31
+        ],
+        "type": "TILE"
+      },
+      {
+        "id": "e1fc5337-03c2-4402-89f7-fc50a3a6f842",
+        "coords": [
+          19,
+          31
+        ],
+        "type": "TILE"
+      },
+      {
+        "id": "e1fc5337-03c2-4402-89f7-fc50a3a6f842",
+        "coords": [
+          20,
+          31
+        ],
+        "type": "TILE"
+      },
+      {
+        "id": "e1fc5337-03c2-4402-89f7-fc50a3a6f842",
+        "coords": [
+          21,
+          31
+        ],
+        "type": "TILE"
+      },
+      {
+        "id": "e1fc5337-03c2-4402-89f7-fc50a3a6f842",
+        "coords": [
+          22,
+          31
+        ],
+        "type": "TILE"
+      },
+      {
+        "id": "e1fc5337-03c2-4402-89f7-fc50a3a6f842",
+        "coords": [
+          22,
+          32
+        ],
+        "type": "TILE"
+      },
+      {
+        "id": "e1fc5337-03c2-4402-89f7-fc50a3a6f842",
+        "coords": [
+          22,
+          33
+        ],
+        "type": "TILE"
+      },
+      {
+        "id": "e1fc5337-03c2-4402-89f7-fc50a3a6f842",
+        "coords": [
+          23,
+          33
+        ],
+        "type": "TILE"
+      },
+      {
+        "id": "c68e485f-784f-404d-b5fa-4a5ad098ad82",
+        "coords": [
+          20,
+          28
+        ],
+        "type": "TILE"
+      },
+      {
+        "id": "c68e485f-784f-404d-b5fa-4a5ad098ad82",
+        "coords": [
+          21,
+          28
+        ],
+        "type": "TILE"
+      },
+      {
+        "id": "c68e485f-784f-404d-b5fa-4a5ad098ad82",
+        "coords": [
+          21,
+          29
+        ],
+        "type": "TILE"
+      },
+      {
+        "id": "c68e485f-784f-404d-b5fa-4a5ad098ad82",
+        "coords": [
+          22,
+          29
+        ],
+        "type": "TILE"
+      },
+      {
+        "id": "c68e485f-784f-404d-b5fa-4a5ad098ad82",
+        "coords": [
+          23,
+          29
+        ],
+        "type": "TILE"
+      },
+      {
+        "id": "c68e485f-784f-404d-b5fa-4a5ad098ad82",
+        "coords": [
+          24,
+          29
+        ],
+        "type": "TILE"
+      },
+      {
+        "id": "c68e485f-784f-404d-b5fa-4a5ad098ad82",
+        "coords": [
+          25,
+          30
+        ],
+        "type": "TILE"
+      },
+      {
+        "id": "c68e485f-784f-404d-b5fa-4a5ad098ad82",
+        "coords": [
+          26,
+          30
+        ],
+        "type": "TILE"
+      },
+      {
+        "id": "c68e485f-784f-404d-b5fa-4a5ad098ad82",
+        "coords": [
+          27,
+          30
+        ],
+        "type": "TILE"
+      },
+      {
+        "id": "c68e485f-784f-404d-b5fa-4a5ad098ad82",
+        "coords": [
+          28,
+          30
+        ],
+        "type": "TILE"
+      },
+      {
+        "id": "f07105e0-03dc-4f01-97c5-640f53ccb95c",
+        "coords": [
+          16,
+          29
+        ],
+        "type": "TILE"
+      },
+      {
+        "id": "f07105e0-03dc-4f01-97c5-640f53ccb95c",
+        "coords": [
+          18,
+          29
+        ],
+        "type": "TILE"
+      }
+    ],
+    "objects": [
+      {
+        "id": "505a8258-210d-4a06-b828-f12e2f49ab77",
+        "coords": [
+          13,
+          28
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          11,
+          26
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          11,
+          27
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          10,
+          27
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          10,
+          28
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          10,
+          29
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          10,
+          30
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          10,
+          31
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          11,
+          31
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          11,
+          32
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          12,
+          32
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1a81fefe-ef52-419e-ba82-73254f0a2de9",
+        "coords": [
+          7,
+          25
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1a81fefe-ef52-419e-ba82-73254f0a2de9",
+        "coords": [
+          10,
+          22
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1a81fefe-ef52-419e-ba82-73254f0a2de9",
+        "coords": [
+          13,
+          24
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1a81fefe-ef52-419e-ba82-73254f0a2de9",
+        "coords": [
+          15,
+          21
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1a81fefe-ef52-419e-ba82-73254f0a2de9",
+        "coords": [
+          18,
+          21
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1a81fefe-ef52-419e-ba82-73254f0a2de9",
+        "coords": [
+          23,
+          22
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1a81fefe-ef52-419e-ba82-73254f0a2de9",
+        "coords": [
+          25,
+          24
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1a81fefe-ef52-419e-ba82-73254f0a2de9",
+        "coords": [
+          26,
+          26
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1a81fefe-ef52-419e-ba82-73254f0a2de9",
+        "coords": [
+          30,
+          28
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1a81fefe-ef52-419e-ba82-73254f0a2de9",
+        "coords": [
+          32,
+          25
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1a81fefe-ef52-419e-ba82-73254f0a2de9",
+        "coords": [
+          30,
+          21
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "02720306-d7aa-4888-bdc7-b5437a10c422",
+        "coords": [
+          7,
+          30
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "02720306-d7aa-4888-bdc7-b5437a10c422",
+        "coords": [
+          4,
+          27
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "02720306-d7aa-4888-bdc7-b5437a10c422",
+        "coords": [
+          4,
+          26
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "02720306-d7aa-4888-bdc7-b5437a10c422",
+        "coords": [
+          4,
+          24
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "02720306-d7aa-4888-bdc7-b5437a10c422",
+        "coords": [
+          8,
+          21
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "02720306-d7aa-4888-bdc7-b5437a10c422",
+        "coords": [
+          8,
+          20
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "02720306-d7aa-4888-bdc7-b5437a10c422",
+        "coords": [
+          11,
+          19
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "02720306-d7aa-4888-bdc7-b5437a10c422",
+        "coords": [
+          16,
+          22
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "02720306-d7aa-4888-bdc7-b5437a10c422",
+        "coords": [
+          19,
+          24
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "02720306-d7aa-4888-bdc7-b5437a10c422",
+        "coords": [
+          20,
+          24
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "02720306-d7aa-4888-bdc7-b5437a10c422",
+        "coords": [
+          22,
+          20
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "02720306-d7aa-4888-bdc7-b5437a10c422",
+        "coords": [
+          24,
+          19
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "02720306-d7aa-4888-bdc7-b5437a10c422",
+        "coords": [
+          25,
+          19
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "02720306-d7aa-4888-bdc7-b5437a10c422",
+        "coords": [
+          27,
+          22
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "02720306-d7aa-4888-bdc7-b5437a10c422",
+        "coords": [
+          28,
+          25
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "02720306-d7aa-4888-bdc7-b5437a10c422",
+        "coords": [
+          28,
+          26
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          15,
+          36
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          16,
+          36
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          17,
+          36
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          18,
+          36
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          19,
+          36
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          20,
+          36
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          21,
+          36
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          22,
+          37
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          23,
+          37
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          24,
+          36
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          25,
+          36
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          26,
+          36
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          27,
+          36
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          28,
+          36
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          29,
+          35
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          29,
+          34
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          29,
+          33
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          30,
+          33
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          30,
+          32
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          31,
+          32
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          32,
+          32
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          32,
+          31
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          38,
+          30
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          38,
+          29
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          37,
+          29
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          37,
+          28
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          36,
+          28
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          36,
+          27
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          36,
+          26
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          36,
+          25
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          36,
+          24
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          37,
+          24
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          37,
+          23
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          38,
+          23
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          38,
+          22
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          38,
+          21
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          39,
+          21
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          39,
+          22
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          40,
+          22
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          41,
+          22
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          42,
+          22
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          42,
+          23
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          43,
+          23
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          43,
+          24
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          43,
+          25
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          42,
+          25
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          42,
+          26
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          20,
+          30
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          20,
+          31
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          20,
+          32
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          20,
+          33
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          21,
+          33
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          22,
+          33
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "505a8258-210d-4a06-b828-f12e2f49ab77",
+        "coords": [
+          18,
+          34
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "505a8258-210d-4a06-b828-f12e2f49ab77",
+        "coords": [
+          26,
+          34
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "13e8f4f6-33b7-41d4-8a05-a92e1f4db441",
+        "coords": [
+          26,
+          28
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "13e8f4f6-33b7-41d4-8a05-a92e1f4db441",
+        "coords": [
+          25,
+          22
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "13e8f4f6-33b7-41d4-8a05-a92e1f4db441",
+        "coords": [
+          8,
+          23
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "3f9ebe55-ad10-45fe-8e54-f353a8b8efb0",
+        "coords": [
+          18,
+          27
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          0,
+          49
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          0,
+          48
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          0,
+          47
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          0,
+          46
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          1,
+          46
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          2,
+          46
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          3,
+          46
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          11,
+          41
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          10,
+          41
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          9,
+          41
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          8,
+          40
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          7,
+          39
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          7,
+          38
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          7,
+          37
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          7,
+          36
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          8,
+          36
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          9,
+          36
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          10,
+          36
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          11,
+          37
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          12,
+          38
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          12,
+          39
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          13,
+          39
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          13,
+          40
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          13,
+          41
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          12,
+          41
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          13,
+          38
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          14,
+          39
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          15,
+          39
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          16,
+          38
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          16,
+          37
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          14,
+          36
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          13,
+          36
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          12,
+          36
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          11,
+          36
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          20,
+          40
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          10,
+          33
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          10,
+          34
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          10,
+          35
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          12,
+          33
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          12,
+          34
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          12,
+          35
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          9,
+          33
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          8,
+          33
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          7,
+          33
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          7,
+          34
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+        "coords": [
+          7,
+          35
+        ],
+        "type": "OBJECT"
+      }
+    ],
+    "characters": [
+      {
+        "id": "3674e1af-de36-4e4b-9b1c-2fd3d92c7ff5",
+        "coords": [
+          16,
+          28
+        ],
+        "type": "CHARACTER"
+      },
+      {
+        "id": "af197a42-8e61-4c58-8fe4-5a4705b1122a",
+        "coords": [
+          15,
+          24
+        ],
+        "type": "CHARACTER"
+      },
+      {
+        "id": "1e3aa9bf-62a5-4c25-827f-d7f68d60250d",
+        "coords": [
+          17,
+          24
+        ],
+        "type": "CHARACTER"
+      }
+    ],
+    "items": [
+      {
+        "id": "fa898b5f-050f-493e-9b4b-75361d0abcbc",
+        "coords": [
+          13,
+          30
+        ],
+        "type": "ITEM"
+      },
+      {
+        "id": "fa898b5f-050f-493e-9b4b-75361d0abcbc",
+        "coords": [
+          14,
+          30
+        ],
+        "type": "ITEM"
+      },
+      {
+        "id": "fa898b5f-050f-493e-9b4b-75361d0abcbc",
+        "coords": [
+          15,
+          30
+        ],
+        "type": "ITEM"
+      },
+      {
+        "id": "7d00a4d9-3fd4-4d17-b00c-6c2fccd1fedc",
+        "coords": [
+          12,
+          29
+        ],
+        "type": "ITEM"
+      },
+      {
+        "id": "7d00a4d9-3fd4-4d17-b00c-6c2fccd1fedc",
+        "coords": [
+          15,
+          32
+        ],
+        "type": "ITEM"
+      }
+    ],
+    "width": 50,
+    "height": 50
+  }
+}
