@@ -20,6 +20,7 @@
         "외부 리소스(JSON, 텍스처 등) 수정 시 자동 업데이트되도록 의존성 최소화 시스템 구축",
         "~Firebase Functions + Firestore기반 서버 설계 및 매칭 데이터 저장 시스템 개발",
         "Docker & Docker Compose를 활용 개발 및 실행 환경을 컨테이너화.",
+        "AWS (elastic beanstalk 배포 자동화)"
       ],
     },
     {
