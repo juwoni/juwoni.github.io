@@ -1,27 +1,31 @@
 {
   items: [
     {
-      title: "Fantasy Duel(Godot)",
-      stack: ["C#", "Godot 3.5 mono", "GDScript", "javascript", "react.js", "Node.js", "postgresql", "Sequelize"],
-      date: "2023.10 ~ 2023.11",
-      url: "https://juwoni.github.io/fantasyduel",
-      urlComment: "(prototype)",
-      screenshots: [
-        "images/fantasyDuel/gameplay1.png",
-        "images/fantasyDuel/gameplay2.png",
-        // "images/fantasyDuel/FantasyDuel.png",
-        "images/fantasyDuel/item.png",
-        "images/fantasyDuel/snapshot.png",
-      ],
+      "versions" : {
+        "prototype" : {
+          title: "Fantasy Duel(Godot)",
+          stack: ["C#", "Godot 3.5 mono", "GDScript", "javascript", "react.js", "Node.js", "postgresql", "Sequelize"],
+          date: "2023.10 ~ 2023.11",
+          url: "https://juwoni.github.io/fantasyduel",
+          urlComment: "(prototype)",
+          screenshots: [
+            "images/fantasyDuel/gameplay1.png",
+            "images/fantasyDuel/gameplay2.png",
+            // "images/fantasyDuel/FantasyDuel.png",
+            "images/fantasyDuel/item.png",
+            "images/fantasyDuel/snapshot.png",
+          ],
 
-      description: [
-        "인벤토리 관리 및 1v1 매칭 전투 시스템구현",
-        "GDScript로 프로토타입 개발 후, 디버깅 효율을 위해 C#으로 리팩터링",
-        "외부 리소스(JSON, 텍스처 등) 수정 시 자동 업데이트되도록 의존성 최소화 시스템 구축",
-        "~Firebase Functions + Firestore기반 서버 설계 및 매칭 데이터 저장 시스템 개발",
-        "Docker & Docker Compose를 활용 개발 및 실행 환경을 컨테이너화.",
-        "Github action + AWS (elastic beanstalk 배포 자동화)"
-      ],
+          description: [
+            "인벤토리 관리 및 1v1 매칭 전투 시스템구현",
+            "GDScript로 프로토타입 개발 후, 디버깅 효율을 위해 C#으로 리팩터링",
+            "외부 리소스(JSON, 텍스처 등) 수정 시 자동 업데이트되도록 의존성 최소화 시스템 구축",
+            "~Firebase Functions + Firestore기반 서버 설계 및 매칭 데이터 저장 시스템 개발",
+            "Docker & Docker Compose를 활용 개발 및 실행 환경을 컨테이너화.",
+            "Github action + AWS (elastic beanstalk 배포 자동화)"
+          ]
+        }
+      }
     },
     {
       title: "Fantasy World(Unity) & WebTool",
@@ -116,6 +120,7 @@
 //      screenshots: [
 //        "images/doc.png",
 //      ],
+//
 //    },
 //    {
 //      title: "Dogs of doom",
