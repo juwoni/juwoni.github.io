@@ -96,10 +96,12 @@
         "textureName": "3x3AutoTiles"
       },
       "hasShadow": true,
+      "hasLighting": false,
       "name": "wall",
       "index": 1,
       "layer": 0,
-      "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f"
+      "id": "1f581556-16c5-4e4f-a83b-74fdb04d2a4f",
+      "description": "플레이어의 이동을 방해할수있는 벽."
     },
     {
       "loots": [],
@@ -225,8 +227,10 @@
         "textureName": "overworld"
       },
       "hasShadow": true,
+      "hasLighting": false,
       "name": "Tree1",
-      "id": "1a81fefe-ef52-419e-ba82-73254f0a2de9"
+      "id": "1a81fefe-ef52-419e-ba82-73254f0a2de9",
+      "description": "나무1"
     },
     {
       "itemType": "OBJECT",
@@ -250,8 +254,10 @@
         "textureName": "overworld"
       },
       "hasShadow": true,
+      "hasLighting": false,
       "name": "Tree2",
-      "id": "02720306-d7aa-4888-bdc7-b5437a10c422"
+      "id": "02720306-d7aa-4888-bdc7-b5437a10c422",
+      "description": "나무2"
     },
     {
       "itemType": "OBJECT",
@@ -331,6 +337,46 @@
       "hasLighting": false,
       "name": "Plant",
       "id": "f07105e0-03dc-4f01-97c5-640f53ccb95c"
+    },
+    {
+      "itemType": "OBJECT",
+      "tileType": "TILE",
+      "loots": [],
+      "texture": {
+        "coords": [
+          3,
+          5
+        ],
+        "size": [
+          3,
+          1
+        ],
+        "textureName": "overworld"
+      },
+      "hasShadow": false,
+      "hasLighting": false,
+      "name": "newItem 16",
+      "id": "dd8849a2-c76f-4b7c-a9d7-b40694bb0d92"
+    },
+    {
+      "itemType": "TILE",
+      "tileType": "AUTO_TILE",
+      "texture": {
+        "coords": [
+          0,
+          12
+        ],
+        "size": [
+          5,
+          3
+        ],
+        "textureName": "3x3AutoTiles"
+      },
+      "loots": [],
+      "hasShadow": false,
+      "hasLighting": false,
+      "name": "newItem 17",
+      "id": "95a07785-be00-485f-977e-9ea810a767b2"
     }
   ]
 }

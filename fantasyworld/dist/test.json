@@ -1,0 +1,932 @@
+{
+  "autoTiles": {
+    "keys": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0",
+      "6_0",
+      "7_0",
+      "0_1",
+      "1_1",
+      "2_1",
+      "3_1",
+      "4_1",
+      "5_1",
+      "6_1",
+      "7_1",
+      "0_2",
+      "1_2",
+      "2_2",
+      "3_2",
+      "4_2",
+      "5_2",
+      "6_2",
+      "7_2",
+      "0_3",
+      "1_3",
+      "2_3",
+      "3_3",
+      "4_3",
+      "5_3",
+      "6_3",
+      "7_3",
+      "0_4",
+      "1_4",
+      "2_4",
+      "3_4",
+      "4_4",
+      "5_4",
+      "6_4",
+      "7_4",
+      "0_5",
+      "1_5",
+      "2_5",
+      "3_5",
+      "4_5",
+      "5_5",
+      "6_5",
+      "7_5",
+      "0_6",
+      "1_6",
+      "2_6",
+      "3_6",
+      "4_6",
+      "5_6",
+      "6_6",
+      "7_6",
+      "0_7",
+      "1_7",
+      "2_7",
+      "3_7",
+      "4_7",
+      "5_7",
+      "6_7",
+      "7_7"
+    ],
+    "values": [
+      255,
+      127,
+      253,
+      125,
+      247,
+      119,
+      245,
+      117,
+      223,
+      95,
+      221,
+      93,
+      215,
+      87,
+      213,
+      85,
+      31,
+      29,
+      23,
+      21,
+      124,
+      116,
+      92,
+      84,
+      241,
+      209,
+      113,
+      81,
+      199,
+      71,
+      197,
+      69,
+      17,
+      68,
+      28,
+      20,
+      112,
+      80,
+      193,
+      65,
+      7,
+      5,
+      16,
+      4,
+      1,
+      64,
+      0,
+      255,
+      255,
+      255,
+      255,
+      255,
+      255,
+      255,
+      255,
+      255,
+      255,
+      255,
+      255,
+      255,
+      255,
+      255,
+      255,
+      255
+    ]
+  },
+  "gameData": {
+    "tiles": [
+      {
+        "tileType": "AUTO_TILE",
+        "texture": {
+          "coords": [
+            0,
+            0
+          ],
+          "size": [
+            5,
+            3
+          ],
+          "textureName": "3x3AutoTiles"
+        },
+        "itemType": "TILE",
+        "name": "WATER",
+        "textureName": "environment",
+        "terrainType": "WALL",
+        "autoTileIndex": 0,
+        "index": 1,
+        "layer": 0
+      },
+      {
+        "tileType": "AUTO_TILE",
+        "texture": {
+          "coords": [
+            0,
+            3
+          ],
+          "size": [
+            5,
+            3
+          ],
+          "textureName": "3x3AutoTiles"
+        },
+        "itemType": "TILE",
+        "name": "GRASS",
+        "textureName": "environment",
+        "terrainType": "WALL",
+        "autoTileIndex": 1,
+        "index": 2,
+        "layer": 0
+      },
+      {
+        "tileType": "AUTO_TILE",
+        "texture": {
+          "coords": [
+            0,
+            6
+          ],
+          "size": [
+            5,
+            3
+          ],
+          "textureName": "3x3AutoTiles"
+        },
+        "itemType": "TILE",
+        "name": "MUD",
+        "textureName": "environment",
+        "terrainType": "WALL",
+        "autoTileIndex": 2,
+        "index": 3,
+        "layer": 0
+      },
+      {
+        "tileType": "AUTO_TILE",
+        "texture": {
+          "coords": [
+            0,
+            9
+          ],
+          "size": [
+            5,
+            3
+          ],
+          "textureName": "3x3AutoTiles"
+        },
+        "itemType": "TILE",
+        "name": "FLOOR",
+        "textureName": "environment",
+        "terrainType": "WALL",
+        "autoTileIndex": 0,
+        "index": 1,
+        "layer": 0
+      },
+      {
+        "tileType": "AUTO_TILE",
+        "texture": {
+          "coords": [
+            0,
+            0
+          ],
+          "size": [
+            5,
+            3
+          ],
+          "textureName": "3x3AutoTiles"
+        },
+        "itemType": "TILE",
+        "name": "WATER3",
+        "textureName": "environment",
+        "terrainType": "WALL",
+        "autoTileIndex": 0,
+        "index": 1,
+        "layer": 0
+      },
+      {
+        "tileType": "AUTO_TILE",
+        "texture": {
+          "coords": [
+            0,
+            0
+          ],
+          "size": [
+            5,
+            3
+          ],
+          "textureName": "3x3AutoTiles"
+        },
+        "itemType": "TILE",
+        "name": "WATER34",
+        "textureName": "environment",
+        "terrainType": "WALL",
+        "autoTileIndex": 0,
+        "index": 1,
+        "layer": 0
+      }
+    ],
+    "objects": [
+      {
+        "tileType": "AUTO_TILE",
+        "texture": {
+          "coords": [
+            0,
+            15
+          ],
+          "size": [
+            5,
+            3
+          ],
+          "textureName": "3x3AutoTiles"
+        },
+        "itemType": "OBJECT",
+        "name": "WALL",
+        "textureName": "environment",
+        "terrainType": "WALL",
+        "autoTileIndex": 0,
+        "index": 1,
+        "layer": 0
+      }
+    ]
+  },
+  "mapData": {
+    "tiles": [
+      {
+        "index": 1,
+        "coords": [
+          20,
+          25
+        ],
+        "type": "TILE"
+      },
+      {
+        "index": 1,
+        "coords": [
+          19,
+          25
+        ],
+        "type": "TILE"
+      },
+      {
+        "index": 1,
+        "coords": [
+          18,
+          25
+        ],
+        "type": "TILE"
+      },
+      {
+        "index": 1,
+        "coords": [
+          17,
+          25
+        ],
+        "type": "TILE"
+      },
+      {
+        "index": 1,
+        "coords": [
+          16,
+          24
+        ],
+        "type": "TILE"
+      },
+      {
+        "index": 1,
+        "coords": [
+          15,
+          23
+        ],
+        "type": "TILE"
+      },
+      {
+        "index": 1,
+        "coords": [
+          16,
+          23
+        ],
+        "type": "TILE"
+      },
+      {
+        "index": 1,
+        "coords": [
+          16,
+          22
+        ],
+        "type": "TILE"
+      },
+      {
+        "index": 1,
+        "coords": [
+          17,
+          21
+        ],
+        "type": "TILE"
+      },
+      {
+        "index": 1,
+        "coords": [
+          18,
+          20
+        ],
+        "type": "TILE"
+      },
+      {
+        "index": 1,
+        "coords": [
+          18,
+          21
+        ],
+        "type": "TILE"
+      },
+      {
+        "index": 1,
+        "coords": [
+          18,
+          22
+        ],
+        "type": "TILE"
+      },
+      {
+        "index": 1,
+        "coords": [
+          18,
+          23
+        ],
+        "type": "TILE"
+      },
+      {
+        "index": 1,
+        "coords": [
+          18,
+          24
+        ],
+        "type": "TILE"
+      },
+      {
+        "index": 1,
+        "coords": [
+          17,
+          24
+        ],
+        "type": "TILE"
+      },
+      {
+        "index": 1,
+        "coords": [
+          17,
+          23
+        ],
+        "type": "TILE"
+      },
+      {
+        "index": 1,
+        "coords": [
+          17,
+          22
+        ],
+        "type": "TILE"
+      },
+      {
+        "index": 0,
+        "coords": [
+          10,
+          24
+        ],
+        "type": "TILE"
+      },
+      {
+        "index": 0,
+        "coords": [
+          9,
+          25
+        ],
+        "type": "TILE"
+      },
+      {
+        "index": 0,
+        "coords": [
+          8,
+          25
+        ],
+        "type": "TILE"
+      },
+      {
+        "index": 0,
+        "coords": [
+          8,
+          26
+        ],
+        "type": "TILE"
+      },
+      {
+        "index": 0,
+        "coords": [
+          9,
+          26
+        ],
+        "type": "TILE"
+      },
+      {
+        "index": 0,
+        "coords": [
+          9,
+          27
+        ],
+        "type": "TILE"
+      },
+      {
+        "index": 0,
+        "coords": [
+          10,
+          27
+        ],
+        "type": "TILE"
+      },
+      {
+        "index": 0,
+        "coords": [
+          10,
+          26
+        ],
+        "type": "TILE"
+      },
+      {
+        "index": 0,
+        "coords": [
+          11,
+          26
+        ],
+        "type": "TILE"
+      },
+      {
+        "index": 0,
+        "coords": [
+          11,
+          25
+        ],
+        "type": "TILE"
+      },
+      {
+        "index": 0,
+        "coords": [
+          10,
+          25
+        ],
+        "type": "TILE"
+      },
+      {
+        "index": 2,
+        "coords": [
+          8,
+          17
+        ],
+        "type": "TILE"
+      },
+      {
+        "index": 2,
+        "coords": [
+          7,
+          17
+        ],
+        "type": "TILE"
+      },
+      {
+        "index": 2,
+        "coords": [
+          6,
+          17
+        ],
+        "type": "TILE"
+      },
+      {
+        "index": 2,
+        "coords": [
+          6,
+          18
+        ],
+        "type": "TILE"
+      },
+      {
+        "index": 2,
+        "coords": [
+          5,
+          18
+        ],
+        "type": "TILE"
+      },
+      {
+        "index": 2,
+        "coords": [
+          4,
+          18
+        ],
+        "type": "TILE"
+      },
+      {
+        "index": 2,
+        "coords": [
+          4,
+          19
+        ],
+        "type": "TILE"
+      },
+      {
+        "index": 2,
+        "coords": [
+          5,
+          17
+        ],
+        "type": "TILE"
+      },
+      {
+        "index": 2,
+        "coords": [
+          8,
+          16
+        ],
+        "type": "TILE"
+      },
+      {
+        "index": 2,
+        "coords": [
+          7,
+          16
+        ],
+        "type": "TILE"
+      },
+      {
+        "index": 2,
+        "coords": [
+          6,
+          16
+        ],
+        "type": "TILE"
+      },
+      {
+        "index": 2,
+        "coords": [
+          4,
+          17
+        ],
+        "type": "TILE"
+      }
+    ],
+    "objects": [
+      {
+        "index": 0,
+        "coords": [
+          31,
+          25
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "index": 0,
+        "coords": [
+          30,
+          25
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "index": 0,
+        "coords": [
+          29,
+          25
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "index": 0,
+        "coords": [
+          28,
+          25
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "index": 0,
+        "coords": [
+          27,
+          25
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "index": 0,
+        "coords": [
+          26,
+          25
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "index": 0,
+        "coords": [
+          26,
+          24
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "index": 0,
+        "coords": [
+          26,
+          23
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "index": 0,
+        "coords": [
+          27,
+          23
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "index": 0,
+        "coords": [
+          28,
+          22
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "index": 0,
+        "coords": [
+          29,
+          22
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "index": 0,
+        "coords": [
+          30,
+          22
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "index": 0,
+        "coords": [
+          18,
+          27
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "index": 0,
+        "coords": [
+          18,
+          28
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "index": 0,
+        "coords": [
+          19,
+          28
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "index": 0,
+        "coords": [
+          19,
+          29
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "index": 0,
+        "coords": [
+          20,
+          29
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "index": 0,
+        "coords": [
+          21,
+          29
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "index": 0,
+        "coords": [
+          22,
+          29
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "index": 0,
+        "coords": [
+          15,
+          18
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "index": 0,
+        "coords": [
+          16,
+          18
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "index": 0,
+        "coords": [
+          17,
+          18
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "index": 0,
+        "coords": [
+          18,
+          18
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "index": 0,
+        "coords": [
+          19,
+          18
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "index": 0,
+        "coords": [
+          20,
+          18
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "index": 0,
+        "coords": [
+          21,
+          18
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "index": 0,
+        "coords": [
+          18,
+          23
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "index": 0,
+        "coords": [
+          13,
+          23
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "index": 0,
+        "coords": [
+          12,
+          23
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "index": 0,
+        "coords": [
+          12,
+          22
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "index": 0,
+        "coords": [
+          11,
+          21
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "index": 0,
+        "coords": [
+          12,
+          21
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "index": 0,
+        "coords": [
+          13,
+          21
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "index": 0,
+        "coords": [
+          13,
+          22
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "index": 0,
+        "coords": [
+          14,
+          22
+        ],
+        "type": "OBJECT"
+      },
+      {
+        "index": 0,
+        "coords": [
+          14,
+          23
+        ],
+        "type": "OBJECT"
+      }
+    ],
+    "characters": [
+      {
+        "index": 0,
+        "coords": [
+          16,
+          26
+        ],
+        "type": "CHARACTER"
+      },
+      {
+        "index": 1,
+        "coords": [
+          9,
+          29
+        ],
+        "type": "CHARACTER"
+      },
+      {
+        "index": 4,
+        "coords": [
+          11,
+          30
+        ],
+        "type": "CHARACTER"
+      }
+    ],
+    "undefined": [],
+    "width": 50,
+    "height": 50
+  }
+}

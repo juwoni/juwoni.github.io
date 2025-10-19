@@ -3,34 +3,39 @@
     {
       "texture": {
         "coords": [
-          6,
-          14
+          10,
+          11
         ],
         "size": [
           1,
           1
         ],
-        "textureName": "spritesheet_16x16"
-      },
-      "skills": [],
-      "description": {
-        "KR": "",
-        "EN": ""
+        "affectCoordsList": [],
+        "textureName": "weapons"
       },
       "stats": [
         {
           "type": "RESTORE_MANA",
-          "value": 1
+          "value": 10
         }
       ],
+      "skills": [
+        "d58b1be7-2929-4f78-82de-6d5af363e235"
+      ],
       "itemType": "ITEM",
-      "materials": [],
+      "socketStats": {},
       "defense": 0,
+      "cost": 1,
+      "rarity": 0,
       "cardType": "USABLE",
+      "localizedText": {
+        "name_kr": "마나 허브",
+        "name_en": "Mana Herb",
+        "desc_kr": "마력을 회복시켜주는 신비한 약초입니다. 마법 사용 시 유용하게 쓰입니다.",
+        "desc_en": "A mystical herb that restores mana. Useful when casting spells."
+      },
       "subType": "EQUIPMENT",
       "type": 0,
-      "rarity": 0,
-      "damage": 1,
       "throwingDamage": 0,
       "throwingRange": 0,
       "name": "Mana herb",
@@ -38,8 +43,9 @@
       "attackType": "SLASH",
       "index": 1,
       "id": "1ceb4562-68ec-4fe1-813a-11d12f9a0b90",
-      "cost": 1,
-      "soundEffect": "air duster 5.wav"
+      "soundEffect": "air duster 5.wav",
+      "tier": 0,
+      "castingCost": 3
     },
     {
       "texture": {
@@ -80,18 +86,20 @@
       "skills": [
         "549fb2ef-5566-44e2-adcc-37a74be9918a"
       ],
-      "description": {
-        "KR": "",
-        "EN": ""
-      },
       "itemType": "ITEM",
-      "materials": [],
+      "socketStats": {},
       "defense": 0,
+      "cost": 6,
+      "rarity": 0,
       "cardType": "WEAPON",
+      "localizedText": {
+        "name_kr": "단검",
+        "name_en": "Short Sword",
+        "desc_kr": "가볍고 다루기 쉬운 검. 초반에 유용한 무기입니다.",
+        "desc_en": "A light and easy-to-handle sword. A useful weapon for the early game."
+      },
       "subType": "EQUIPMENT",
       "type": 0,
-      "rarity": 0,
-      "damage": 1,
       "throwingDamage": 0,
       "throwingRange": 0,
       "name": "Short Sword",
@@ -99,24 +107,9 @@
       "attackType": "SLASH",
       "index": 1,
       "id": "fa898b5f-050f-493e-9b4b-75361d0abcbc",
-      "cost": 6
+      "tier": 0
     },
     {
-      "itemType": "ITEM",
-      "skills": [],
-      "stats": [
-        {
-          "type": "DAMAGE",
-          "value": 1
-        }
-      ],
-      "materials": [],
-      "defense": 0,
-      "cardType": "WEAPON",
-      "description": {
-        "KR": "",
-        "EN": ""
-      },
       "texture": {
         "coords": [
           2,
@@ -138,9 +131,26 @@
         ],
         "textureName": "weapons"
       },
-      "type": 0,
+      "stats": [
+        {
+          "type": "DAMAGE",
+          "value": 1
+        }
+      ],
+      "skills": [],
+      "itemType": "ITEM",
+      "socketStats": {},
+      "defense": 0,
+      "cost": 2,
       "rarity": 0,
-      "damage": 1,
+      "cardType": "WEAPON",
+      "localizedText": {
+        "name_kr": "나무 활",
+        "name_en": "Wooden Bow",
+        "desc_kr": "초보자가 사용하기 좋은 나무로 만든 활입니다. 기본적인 공격력을 제공합니다.",
+        "desc_en": "A wooden bow suitable for beginners. Provides basic attack power."
+      },
+      "type": 0,
       "throwingDamage": 0,
       "throwingRange": 0,
       "name": "Bow",
@@ -148,7 +158,8 @@
       "attackType": "SHOOT",
       "index": 4,
       "id": "10ecdb26-81f0-45c9-9bec-cc491e4b6c10",
-      "cost": 2
+      "tier": 0,
+      "attackEffect": "65a3262f-8fc7-4259-9605-ed0d7dd1c2ba"
     },
     {
       "texture": {
@@ -160,20 +171,38 @@
           1,
           2
         ],
+        "affectCoordsList": [],
         "textureName": "weapons"
       },
       "stats": [],
       "skills": [],
-      "description": {
-        "KR": "",
-        "EN": ""
-      },
+      "materials": [
+        [
+          "fa898b5f-050f-493e-9b4b-75361d0abcbc",
+          3
+        ],
+        [
+          "10ecdb26-81f0-45c9-9bec-cc491e4b6c10",
+          8
+        ],
+        [
+          "e53f5ae5-1f2d-4e60-94eb-f3da164a7252",
+          2
+        ]
+      ],
       "itemType": "ITEM",
-      "materials": [],
+      "socketStats": {},
       "defense": 0,
-      "cardType": "NONE",
-      "type": 0,
+      "cost": 1,
       "rarity": 0,
+      "cardType": "AMMO",
+      "localizedText": {
+        "name_kr": "화살",
+        "name_en": "Arrow",
+        "desc_kr": "기본적인 공격에 사용되는 투척 무기입니다.",
+        "desc_en": "A basic projectile weapon used for attacks."
+      },
+      "type": 0,
       "damage": 1,
       "throwingDamage": 0,
       "throwingRange": 0,
@@ -182,7 +211,8 @@
       "attackType": "SLASH",
       "index": 5,
       "id": "e53f5ae5-1f2d-4e60-94eb-f3da164a7252",
-      "cost": 1
+      "tier": 0,
+      "castingCost": 40
     },
     {
       "texture": {
@@ -202,32 +232,56 @@
           {
             "x": 0,
             "y": -2
+          }
+        ],
+        "textureName": "weapons",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
           },
           {
             "x": 0,
-            "y": -3
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
           }
-        ],
-        "textureName": "weapons"
-      },
-      "materials": [],
-      "skills": [],
-      "description": {
-        "KR": "",
-        "EN": ""
+        ]
       },
       "stats": [
         {
           "type": "DAMAGE",
-          "value": 5
+          "value": 2
         }
       ],
+      "skills": [
+        "7a4fcb9c-b30b-42e2-a79b-eeab23dfda83"
+      ],
+      "materials": [
+        [
+          "273e8ae5-d54a-4803-a399-82fa25795b31",
+          1
+        ],
+        [
+          "aba946e6-6eea-4fdd-a648-18d561e8763f",
+          1
+        ]
+      ],
       "itemType": "ITEM",
+      "socketStats": {},
       "defense": 0,
-      "cardType": "WEAPON",
-      "type": 0,
+      "cost": 3,
       "rarity": 0,
-      "damage": 3,
+      "cardType": "WEAPON",
+      "localizedText": {
+        "name_kr": "강철 창",
+        "name_en": "Steel Spear",
+        "desc_kr": "견고한 강철로 만들어진 창입니다. 기본적인 공격력을 제공합니다.",
+        "desc_en": "A spear forged from sturdy steel. Provides basic attack power."
+      },
+      "type": 0,
       "throwingDamage": 0,
       "throwingRange": 0,
       "name": "Spear",
@@ -235,7 +289,7 @@
       "attackType": "SLASH",
       "index": 5,
       "id": "16e2d2c2-f219-467f-9bcb-d122149adf57",
-      "cost": 1
+      "tier": 0
     },
     {
       "texture": {
@@ -270,18 +324,20 @@
         }
       ],
       "skills": [],
-      "description": {
-        "KR": "단순한 막대기.",
-        "EN": ""
-      },
       "itemType": "ITEM",
-      "materials": [],
+      "socketStats": {},
       "defense": 0,
+      "cost": 1,
+      "rarity": 0,
       "cardType": "WEAPON",
+      "localizedText": {
+        "name_kr": "지팡이",
+        "name_en": "Staff of Guidance",
+        "desc_kr": "길을 잃은 자에게 방향을 제시하는 지팡이입니다. 마나 회복 속도를 증가시킵니다.",
+        "desc_en": "A staff that guides those who are lost. Increases mana regeneration rate."
+      },
       "subType": "EQUIPMENT",
       "type": 0,
-      "rarity": 0,
-      "damage": 1,
       "throwingDamage": 0,
       "throwingRange": 0,
       "name": "Staff",
@@ -289,8 +345,8 @@
       "attackType": "SLASH",
       "index": 1,
       "id": "aba946e6-6eea-4fdd-a648-18d561e8763f",
-      "cost": 1,
-      "soundEffect": "air duster 5.wav"
+      "soundEffect": "air duster 5.wav",
+      "tier": 0
     },
     {
       "texture": {
@@ -302,18 +358,18 @@
           1,
           3
         ],
-        "textureName": "weapons"
-      },
-      "materials": [
-        "d32c58fa-9f0a-44e0-b843-5a306698aa05",
-        "aba946e6-6eea-4fdd-a648-18d561e8763f"
-      ],
-      "skills": [
-        "928192a4-0200-489a-8220-d7c274688a3a"
-      ],
-      "description": {
-        "KR": "",
-        "EN": ""
+        "affectCoordsList": [
+          {
+            "x": 0,
+            "y": -1
+          },
+          {
+            "x": 0,
+            "y": 3
+          }
+        ],
+        "textureName": "weapons",
+        "cells": []
       },
       "stats": [
         {
@@ -321,12 +377,32 @@
           "value": 1
         }
       ],
+      "skills": [
+        "7a4fcb9c-b30b-42e2-a79b-eeab23dfda83"
+      ],
+      "materials": [
+        [
+          "aba946e6-6eea-4fdd-a648-18d561e8763f",
+          1
+        ],
+        [
+          "273e8ae5-d54a-4803-a399-82fa25795b31",
+          2
+        ]
+      ],
       "itemType": "ITEM",
+      "socketStats": {},
       "defense": 0,
-      "cardType": "WEAPON",
-      "type": 0,
+      "cost": 5,
       "rarity": 0,
-      "damage": 3,
+      "cardType": "WEAPON",
+      "localizedText": {
+        "name_kr": "이단 쌍날 지팡이",
+        "name_en": "Double bladed staff",
+        "desc_kr": "두 개의 날을 가진 강력한 지팡이. 공격력이 매우 높지만, 사용에 익숙하지 않으면 제어하기 어렵다.",
+        "desc_en": "A powerful staff with two blades. It has very high attack power, but it is difficult to control if you are not familiar with its use."
+      },
+      "type": 0,
       "throwingDamage": 0,
       "throwingRange": 0,
       "name": "Double bladed staff",
@@ -334,24 +410,9 @@
       "attackType": "SLASH",
       "index": 5,
       "id": "e255534a-c053-4491-9917-bdae27298eee",
-      "cost": 5
+      "tier": 0
     },
     {
-      "itemType": "ITEM",
-      "skills": [],
-      "stats": [
-        {
-          "type": "DEFENSE",
-          "value": 1
-        }
-      ],
-      "materials": [],
-      "defense": 1,
-      "cardType": "ARMOR",
-      "description": {
-        "KR": "",
-        "EN": ""
-      },
       "texture": {
         "coords": [
           4,
@@ -395,10 +456,46 @@
             "y": 2
           }
         ],
-        "textureName": "weapons"
+        "textureName": "weapons",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      "stats": [
+        {
+          "type": "DEFENSE",
+          "value": 3
+        }
+      ],
+      "skills": [],
+      "itemType": "ITEM",
+      "socketStats": {},
+      "defense": 1,
+      "cost": 2,
+      "rarity": 0,
+      "cardType": "ARMOR",
+      "localizedText": {
+        "name_kr": "버클러",
+        "name_en": "Buckler",
+        "desc_kr": "가볍고 작지만, 갑작스러운 공격을 막아주는 방패입니다. 숙련된 전사에게 유용합니다.",
+        "desc_en": "A small and lightweight shield that can deflect sudden attacks. Useful for skilled warriors."
       },
       "type": 0,
-      "rarity": 0,
       "damage": 0,
       "throwingDamage": 0,
       "throwingRange": 0,
@@ -407,26 +504,9 @@
       "attackType": "SLASH",
       "index": 5,
       "id": "0addee77-dac8-4045-a390-fcc59eba028d",
-      "cost": 1
+      "tier": 0
     },
     {
-      "itemType": "ITEM",
-      "skills": [
-        "cd1e0eec-9d2d-498f-bc03-87c9192a65fb"
-      ],
-      "stats": [
-        {
-          "type": "DEFENSE",
-          "value": 1
-        }
-      ],
-      "materials": [],
-      "defense": 1,
-      "cardType": "ARMOR",
-      "description": {
-        "KR": "",
-        "EN": ""
-      },
       "texture": {
         "coords": [
           7,
@@ -472,8 +552,28 @@
         ],
         "textureName": "weapons"
       },
-      "type": 0,
+      "stats": [
+        {
+          "type": "DEFENSE",
+          "value": 5
+        }
+      ],
+      "skills": [
+        "cd1e0eec-9d2d-498f-bc03-87c9192a65fb"
+      ],
+      "itemType": "ITEM",
+      "socketStats": {},
+      "defense": 1,
+      "cost": 1,
       "rarity": 0,
+      "cardType": "ARMOR",
+      "localizedText": {
+        "name_kr": "조각천 옷",
+        "name_en": "Patchwork Garb",
+        "desc_kr": "여러 조각 천을 이어 만든 옷입니다. 낡았지만 따뜻함을 제공합니다. 방어력은 낮지만, 이동 속도를 약간 증가시킵니다.",
+        "desc_en": "A garment made from various scraps of cloth. It's worn and patched, but offers some warmth. Provides low armor, but slightly increases movement speed."
+      },
+      "type": 0,
       "damage": 0,
       "throwingDamage": 0,
       "throwingRange": 0,
@@ -482,7 +582,7 @@
       "attackType": "SLASH",
       "index": 5,
       "id": "4bc45513-71bb-4434-8e8e-10dfe460393b",
-      "cost": 1
+      "tier": 0
     },
     {
       "texture": {
@@ -498,9 +598,55 @@
           {
             "x": 2,
             "y": 0
+          },
+          {
+            "x": 1,
+            "y": -1
+          },
+          {
+            "x": 0,
+            "y": -1
+          },
+          {
+            "x": -1,
+            "y": 0
+          },
+          {
+            "x": -1,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 1
           }
         ],
-        "textureName": "weapons"
+        "textureName": "weapons",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
       },
       "stats": [
         {
@@ -508,19 +654,20 @@
           "value": 10
         }
       ],
-      "skills": [
-        "cd1e0eec-9d2d-498f-bc03-87c9192a65fb"
-      ],
-      "description": {
-        "KR": "",
-        "EN": ""
-      },
+      "skills": [],
       "itemType": "ITEM",
-      "materials": [],
+      "socketStats": {},
       "defense": 1,
-      "cardType": "ARMOR",
-      "type": 0,
+      "cost": 5,
       "rarity": 0,
+      "cardType": "ARMOR",
+      "localizedText": {
+        "name_kr": "가죽 갑옷",
+        "name_en": "Leather Armor",
+        "desc_kr": "초보자에게 적합한 기본적인 방어구입니다. 가볍고 움직임이 자유롭지만, 강철 갑옷만큼 튼튼하지는 않습니다.",
+        "desc_en": "A basic piece of armor suitable for beginners. It's lightweight and allows for freedom of movement, but isn't as sturdy as a steel breastplate."
+      },
+      "type": 0,
       "damage": 0,
       "throwingDamage": 0,
       "throwingRange": 0,
@@ -529,7 +676,7 @@
       "attackType": "SLASH",
       "index": 5,
       "id": "bdb300bf-be05-4f38-a80a-36483d3e13e4",
-      "cost": 5
+      "tier": 0
     },
     {
       "texture": {
@@ -577,26 +724,29 @@
         ],
         "textureName": "weapons"
       },
-      "materials": [],
+      "stats": [
+        {
+          "type": "DEFENSE",
+          "value": 5
+        }
+      ],
       "skills": [
         "cd1e0eec-9d2d-498f-bc03-87c9192a65fb",
         "8164d3ed-975c-48ea-ae61-ba7c00c59c23"
       ],
-      "description": {
-        "KR": "",
-        "EN": ""
-      },
-      "stats": [
-        {
-          "type": "DEFENSE",
-          "value": 3
-        }
-      ],
       "itemType": "ITEM",
+      "socketStats": {},
       "defense": 1,
-      "cardType": "ARMOR",
-      "type": 0,
+      "cost": 7,
       "rarity": 2,
+      "cardType": "ARMOR",
+      "localizedText": {
+        "name_kr": "소년 모험가의 조각난 옷",
+        "name_en": "Boy Adventurer's Patchwork Garb",
+        "desc_kr": "어린 시절 모험을 꿈꾸던 소년이 직접 꿰매 만든 옷이다. 낡았지만 따뜻함과 용기를 상징한다. 방어력은 낮지만, 약간의 행운을 더해준다.",
+        "desc_en": "A patchwork garment sewn by a young boy who dreamed of adventure. It's worn but symbolizes warmth and courage. Offers low defense, but grants a slight luck bonus."
+      },
+      "type": 0,
       "damage": 0,
       "throwingDamage": 0,
       "throwingRange": 0,
@@ -605,41 +755,7 @@
       "attackType": "SLASH",
       "index": 5,
       "id": "83462f8e-fe61-41e4-ab83-111da91194ec",
-      "cost": 1
-    },
-    {
-      "texture": {
-        "coords": [
-          9,
-          7
-        ],
-        "size": [
-          2,
-          2
-        ],
-        "textureName": "weapons"
-      },
-      "materials": [],
-      "skills": [],
-      "description": {
-        "KR": "",
-        "EN": ""
-      },
-      "stats": [],
-      "itemType": "ITEM",
-      "defense": 0,
-      "cardType": "NONE",
-      "type": 0,
-      "rarity": 2,
-      "damage": 0,
-      "throwingDamage": 0,
-      "throwingRange": 0,
-      "name": "Cake",
-      "attackSpeed": 1000,
-      "attackType": "SLASH",
-      "index": 5,
-      "id": "ee88e9e8-cecb-4fb8-b1de-d5e78215b1a6",
-      "cost": 1
+      "tier": 0
     },
     {
       "texture": {
@@ -651,29 +767,35 @@
           2,
           2
         ],
+        "affectCoordsList": [],
         "textureName": "weapons"
       },
       "stats": [
         {
           "type": "FIRE_DAMAGE",
-          "value": 3
+          "value": 5
         },
         {
-          "type": "INT",
-          "value": 5
+          "type": "BURN_STACK",
+          "value": 3
         }
       ],
-      "skills": [],
-      "description": {
-        "KR": "초당 1의 마나를 소모합니다. 마나를 10소모했을때 10*INT의 FIRE 데미지를 가합니다.",
-        "EN": ""
-      },
+      "skills": [
+        "c3cb6bd9-de10-4cfb-8593-e0fe3a5c1289"
+      ],
       "itemType": "ITEM",
-      "materials": [],
+      "socketStats": {},
       "defense": 0,
-      "cardType": "SPELL",
-      "type": 0,
+      "cost": 7,
       "rarity": 2,
+      "cardType": "SPELL",
+      "localizedText": {
+        "name_kr": "화염 마법서",
+        "name_en": "Spell Book: Fireball",
+        "desc_kr": "강력한 화염 마법 '파이어볼'을 사용할 수 있게 해주는 고대 마법서입니다. 숙련된 사용자는 더욱 강력한 파이어볼을 시전할 수 있습니다.",
+        "desc_en": "An ancient spellbook that allows the user to cast the powerful fire magic, 'Fireball'. Skilled users can channel even more potent Fireballs."
+      },
+      "type": 0,
       "throwingDamage": 0,
       "throwingRange": 0,
       "name": "Spell Book : FireBall",
@@ -681,83 +803,69 @@
       "attackType": "SLASH",
       "index": 5,
       "id": "09de9873-ef96-4260-b120-890951d71363",
-      "cost": 1,
-      "castingCost": 3
+      "castingCost": 5,
+      "tier": 0,
+      "attackEffect": "c3cb6bd9-de10-4cfb-8593-e0fe3a5c1289"
     },
     {
-      "itemType": "ITEM",
-      "skills": [
-        "928192a4-0200-489a-8220-d7c274688a3a"
-      ],
-      "stats": [],
-      "materials": [],
-      "defense": 0,
-      "cardType": "NONE",
-      "description": {
-        "KR": "",
-        "EN": ""
-      },
       "texture": {
         "coords": [
-          14,
-          10
-        ],
-        "size": [
-          1,
-          1
-        ],
-        "textureName": "weapons"
-      },
-      "type": 0,
-      "rarity": 0,
-      "damage": 0,
-      "throwingDamage": 0,
-      "throwingRange": 0,
-      "name": "Slime liquid",
-      "attackSpeed": 1000,
-      "attackType": "SLASH",
-      "index": 5,
-      "id": "4908e96c-698a-4b20-8d96-d7a4424c1742",
-      "cost": 1
-    },
-    {
-      "itemType": "ITEM",
-      "skills": [],
-      "stats": [
-        {
-          "type": "DAMAGE",
-          "value": 3
-        }
-      ],
-      "materials": [],
-      "defense": 0,
-      "cardType": "WEAPON",
-      "description": {
-        "KR": "",
-        "EN": ""
-      },
-      "texture": {
-        "coords": [
-          13,
-          13
+          11,
+          12
         ],
         "size": [
           2,
           2
         ],
-        "textureName": "weapons"
+        "affectCoordsList": [],
+        "textureName": "weapons",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      "stats": [
+        {
+          "type": "DAMAGE",
+          "value": 1
+        },
+        {
+          "type": "DEFENSE",
+          "value": 1
+        }
+      ],
+      "skills": [],
+      "itemType": "ITEM",
+      "socketStats": {},
+      "defense": 0,
+      "cost": 5,
+      "rarity": 0,
+      "cardType": "WEAPON",
+      "localizedText": {
+        "name_kr": "부메랑",
+        "name_en": "Boomerang",
+        "desc_kr": "던져서 목표물을 맞추고 다시 돌아오는 무기입니다. 적에게 피해를 입히고, 때로는 아군을 구하는 데 사용될 수 있습니다.",
+        "desc_en": "A thrown weapon that returns to the thrower after hitting a target. It can inflict damage on enemies and sometimes rescue allies."
       },
       "type": 0,
-      "rarity": 0,
-      "damage": 1,
       "throwingDamage": 0,
       "throwingRange": 0,
       "name": "Boomerang",
-      "attackSpeed": 3000,
+      "attackSpeed": 1000,
       "attackType": "SLASH",
       "index": 5,
       "id": "18e6be89-463a-4c52-9527-f73afa3667df",
-      "cost": 5
+      "tier": 0
     },
     {
       "texture": {
@@ -808,18 +916,23 @@
       "stats": [
         {
           "type": "DEFENSE",
-          "value": 1
+          "value": 2
         }
       ],
-      "skills": [
-        "cd1e0eec-9d2d-498f-bc03-87c9192a65fb"
-      ],
+      "skills": [],
       "itemType": "ITEM",
-      "materials": [],
+      "socketStats": {},
       "defense": 1,
-      "cardType": "ARMOR",
-      "type": 0,
+      "cost": 2,
       "rarity": 0,
+      "cardType": "ARMOR",
+      "localizedText": {
+        "name_kr": "카우보이 팬츠",
+        "name_en": "Cowboy Pants",
+        "desc_kr": "튼튼한 면 소재로 만들어진 카우보이 스타일의 바지입니다. 활동성을 높여주며, 험난한 모험에 적합합니다.",
+        "desc_en": "Durable cotton pants in a cowboy style. Increases agility and is suitable for challenging adventures."
+      },
+      "type": 0,
       "damage": 0,
       "throwingDamage": 0,
       "throwingRange": 0,
@@ -828,7 +941,7 @@
       "attackType": "SLASH",
       "index": 5,
       "id": "d8ae5318-c9df-476e-9a33-6fa1a5d17cc3",
-      "cost": 1
+      "tier": 0
     },
     {
       "texture": {
@@ -850,43 +963,48 @@
             "y": 1
           },
           {
-            "x": 2,
-            "y": 0
-          },
-          {
             "x": 1,
             "y": -1
           },
           {
             "x": 0,
             "y": -1
-          },
-          {
-            "x": -1,
-            "y": 0
           }
         ],
-        "textureName": "weapons"
+        "textureName": "weapons",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          }
+        ]
       },
       "stats": [
         {
-          "type": "WILL",
-          "value": 5
-        },
-        {
           "type": "DEFENSE",
-          "value": 1
+          "value": 2
         }
       ],
       "skills": [
         "cd1e0eec-9d2d-498f-bc03-87c9192a65fb"
       ],
       "itemType": "ITEM",
-      "materials": [],
+      "socketStats": {},
       "defense": 1,
+      "cost": 5,
+      "rarity": 0,
       "cardType": "ARMOR",
+      "localizedText": {
+        "name_kr": "굳건함의 띠",
+        "name_en": "Belt of Tenacity",
+        "desc_kr": "끈기를 상징하는 가죽 벨트입니다. 착용 시 정신력이 증가하며, 위기 상황에서 더욱 침착하게 대처할 수 있게 해줍니다.",
+        "desc_en": "A leather belt symbolizing tenacity. Increases Mental Strength and allows you to handle crises with greater composure."
+      },
       "type": 0,
-      "rarity": 1,
       "damage": 0,
       "throwingDamage": 0,
       "throwingRange": 0,
@@ -895,46 +1013,7 @@
       "attackType": "SLASH",
       "index": 5,
       "id": "5a01a72f-39c2-4e65-ae80-c3212f173d3c",
-      "cost": 1
-    },
-    {
-      "itemType": "ITEM",
-      "skills": [],
-      "stats": [
-        {
-          "type": "WILL",
-          "value": 7
-        }
-      ],
-      "materials": [],
-      "defense": 1,
-      "cardType": "Acc",
-      "description": {
-        "KR": "",
-        "EN": ""
-      },
-      "texture": {
-        "coords": [
-          2,
-          14
-        ],
-        "size": [
-          2,
-          2
-        ],
-        "textureName": "weapons"
-      },
-      "type": 0,
-      "rarity": 1,
-      "damage": 0,
-      "throwingDamage": 0,
-      "throwingRange": 0,
-      "name": "The Book from Grandfather",
-      "attackSpeed": 1000,
-      "attackType": "SLASH",
-      "index": 5,
-      "id": "59d4d183-b0fd-4427-a5e2-9661e4040556",
-      "cost": 1
+      "tier": 0
     },
     {
       "texture": {
@@ -946,25 +1025,29 @@
           2,
           2
         ],
+        "affectCoordsList": [],
         "textureName": "weapons"
       },
       "stats": [
         {
           "type": "DEFENSE",
-          "value": 7
+          "value": 3
         }
       ],
       "skills": [],
-      "description": {
-        "KR": "",
-        "EN": ""
-      },
       "itemType": "ITEM",
-      "materials": [],
+      "socketStats": {},
       "defense": 1,
-      "cardType": "ARMOR",
-      "type": 0,
+      "cost": 5,
       "rarity": 0,
+      "cardType": "ARMOR",
+      "localizedText": {
+        "name_kr": "철 투구",
+        "name_en": "Iron Helm",
+        "desc_kr": "견고한 철로 만들어진 기본적인 투구입니다. 방어력을 조금이나마 높여줍니다.",
+        "desc_en": "A basic helmet made of sturdy iron. It provides a small amount of defense."
+      },
+      "type": 0,
       "damage": 0,
       "throwingDamage": 0,
       "throwingRange": 0,
@@ -973,48 +1056,52 @@
       "attackType": "SLASH",
       "index": 5,
       "id": "43dabb77-a7c0-4b57-b397-5c2db51d8b4d",
-      "cost": 1
+      "tier": 0
     },
     {
       "texture": {
         "coords": [
-          6,
-          14
+          7,
+          0
         ],
         "size": [
           2,
-          2
+          3
         ],
-        "textureName": "weapons"
+        "affectCoordsList": [],
+        "textureName": "weapons",
+        "cells": []
       },
       "stats": [
         {
           "type": "DEFENSE",
-          "value": 20
+          "value": 5
         }
       ],
       "skills": [
         "bb9c980c-920e-48a9-a36b-db9f7c575747"
       ],
-      "description": {
-        "KR": "",
-        "EN": ""
-      },
       "itemType": "ITEM",
-      "materials": [],
+      "socketStats": {},
       "defense": 1,
+      "cost": 10,
+      "rarity": 2,
       "cardType": "ARMOR",
+      "localizedText": {
+        "name_kr": "철 갑옷",
+        "name_en": "Iron Mail",
+        "desc_kr": "견고한 철로 만들어진 갑옷입니다. 기본적인 방어력을 제공합니다.",
+        "desc_en": "A sturdy armor crafted from iron. Provides basic defense."
+      },
       "type": 0,
-      "rarity": 0,
       "damage": 0,
       "throwingDamage": 0,
       "throwingRange": 0,
       "name": "Iron Mail",
-      "attackSpeed": 1000,
       "attackType": "SLASH",
       "index": 5,
       "id": "38ba496b-6f27-4b12-b837-64c8fc33c0d2",
-      "cost": 1
+      "tier": 0
     },
     {
       "texture": {
@@ -1026,31 +1113,30 @@
           1,
           2
         ],
+        "affectCoordsList": [],
         "textureName": "weapons"
       },
       "stats": [
         {
           "type": "DAMAGE",
-          "value": 1
-        },
-        {
-          "type": "MANA_STEAL",
-          "value": 1
+          "value": 3
         }
       ],
       "skills": [],
-      "description": {
-        "KR": "",
-        "EN": ""
-      },
       "itemType": "ITEM",
-      "materials": [],
+      "socketStats": {},
       "defense": 0,
+      "cost": 7,
+      "rarity": 0,
       "cardType": "WEAPON",
+      "localizedText": {
+        "name_kr": "수정 검",
+        "name_en": "Crystal Sword",
+        "desc_kr": "마법 에너지가 응축된 수정으로 만들어진 검. 날카로운 절단력과 함께 미미한 마력을 부여한다.",
+        "desc_en": "A sword forged from a crystal imbued with magical energy. It possesses sharp cutting power and grants a minor amount of magic damage."
+      },
       "subType": "EQUIPMENT",
       "type": 0,
-      "rarity": 0,
-      "damage": 1,
       "throwingDamage": 0,
       "throwingRange": 0,
       "name": "Ccrystal sword",
@@ -1058,8 +1144,9 @@
       "attackType": "SLASH",
       "index": 1,
       "id": "c5bb6dae-2b2a-4332-a375-0b2a86337c0e",
-      "cost": 1,
-      "soundEffect": "air duster 5.wav"
+      "soundEffect": "air duster 5.wav",
+      "tier": 0,
+      "castingCost": 1
     },
     {
       "texture": {
@@ -1071,20 +1158,29 @@
           1,
           2
         ],
+        "affectCoordsList": [],
         "textureName": "weapons"
       },
-      "stats": [],
+      "stats": [
+        {
+          "type": "POISON_STACK",
+          "value": 1
+        }
+      ],
       "skills": [],
-      "description": {
-        "KR": "",
-        "EN": ""
-      },
       "itemType": "ITEM",
-      "materials": [],
+      "socketStats": {},
       "defense": 0,
-      "cardType": "WEAPON",
-      "type": 0,
+      "cost": 3,
       "rarity": 0,
+      "cardType": "AMMO",
+      "localizedText": {
+        "name_kr": "독화살",
+        "name_en": "Poison Arrow",
+        "desc_kr": "표적에게 독을 바르는 화살입니다. 명중 시 일정 시간 동안 지속적인 피해를 입힙니다.",
+        "desc_en": "An arrow coated with poison. Inflicts continuous damage over time when hit."
+      },
+      "type": 0,
       "damage": 1,
       "throwingDamage": 0,
       "throwingRange": 0,
@@ -1093,7 +1189,7 @@
       "attackType": "SLASH",
       "index": 5,
       "id": "f5ad8245-7081-4235-b2da-02549d0bca7f",
-      "cost": 1
+      "tier": 0
     },
     {
       "texture": {
@@ -1105,38 +1201,40 @@
           2,
           2
         ],
+        "affectCoordsList": [],
         "textureName": "weapons"
       },
       "stats": [
         {
-          "type": "INT",
-          "value": 5
-        },
-        {
           "type": "LIGHTNING_DAMAGE",
-          "value": 5
+          "value": 1
         }
       ],
-      "skills": [],
-      "description": {
-        "KR": "초당 1의 마나를 소모합니다. 마나를 10소모했을때 10*INT의 Lightning 데미지를 가합니다.",
-        "EN": ""
-      },
+      "skills": [
+        "785fd569-2698-4eed-b533-e4eb691d8de9"
+      ],
       "itemType": "ITEM",
-      "materials": [],
+      "socketStats": {},
       "defense": 0,
-      "cardType": "SPELL",
-      "type": 0,
+      "cost": 7,
       "rarity": 2,
+      "cardType": "SPELL",
+      "localizedText": {
+        "name_kr": "번개 마법서",
+        "name_en": "Spell Book: Lightning",
+        "desc_kr": "강력한 번개 마법을 담은 고대 마법서입니다. 숙련된 마법사에게 큰 힘이 될 것입니다.",
+        "desc_en": "An ancient spellbook containing potent lightning magic. It will be a great asset to skilled mages."
+      },
+      "type": 0,
       "throwingDamage": 0,
       "throwingRange": 0,
       "name": "Spell Book : Lightning",
-      "attackSpeed": 0,
       "attackType": "SLASH",
       "index": 5,
       "id": "ef15a014-b83c-46b1-8ff4-ae7b7034e0f3",
-      "cost": 1,
-      "castingCost": 1
+      "castingCost": 1,
+      "tier": 0,
+      "attackEffect": "785fd569-2698-4eed-b533-e4eb691d8de9"
     },
     {
       "texture": {
@@ -1148,37 +1246,56 @@
           1,
           1
         ],
-        "textureName": "spritesheet_16x16"
+        "affectCoordsList": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": -1,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": -1
+          }
+        ],
+        "textureName": "spritesheet_16x16",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          }
+        ]
       },
+      "skills": [],
+      "itemType": "ITEM",
+      "stats": [],
       "socketStats": {
-        "WEAPON": [
+        "SPELL": [
           {
             "type": "LIGHTNING_DAMAGE",
             "value": 1,
             "socketPart": "WEAPON"
           }
-        ],
-        "ARMOR": [
-          {
-            "type": "DEFENSE",
-            "value": 1,
-            "socketPart": "ARMOR"
-          }
         ]
       },
-      "skills": [],
-      "description": {
-        "KR": "",
-        "EN": ""
-      },
-      "materials": [],
-      "stats": [],
-      "itemType": "ITEM",
       "defense": 0,
+      "cost": 5,
+      "rarity": 1,
       "cardType": "GEM",
+      "localizedText": {
+        "name_kr": "토파즈",
+        "name_en": "Topaz",
+        "desc_kr": "맑고 푸른 빛을 내는 보석. 마법적인 힘을 증폭시키는 데 사용될 수 있다.",
+        "desc_en": "A clear, blue gemstone. Can be used to amplify magical power."
+      },
       "subType": "EQUIPMENT",
       "type": 0,
-      "rarity": 1,
       "damage": 1,
       "throwingDamage": 0,
       "throwingRange": 0,
@@ -1187,8 +1304,8 @@
       "attackType": "SLASH",
       "index": 1,
       "id": "e935dd73-98a8-41fb-a067-d98a2cf04db8",
-      "cost": 1,
-      "soundEffect": "air duster 5.wav"
+      "soundEffect": "air duster 5.wav",
+      "tier": 0
     },
     {
       "texture": {
@@ -1200,30 +1317,63 @@
           1,
           1
         ],
-        "textureName": "spritesheet_16x16"
-      },
-      "socketStats": {
-        "WEAPON": [
+        "affectCoordsList": [
           {
-            "type": "FIRE_DAMAGE",
-            "value": 1,
-            "socketPart": "WEAPON"
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": -1
+          },
+          {
+            "x": -1,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          }
+        ],
+        "textureName": "spritesheet_16x16",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
           }
         ]
       },
       "skills": [],
-      "description": {
-        "KR": "",
-        "EN": ""
-      },
-      "materials": [],
-      "stats": [],
       "itemType": "ITEM",
+      "stats": [],
+      "socketStats": {
+        "ARMOR": [
+          {
+            "type": "ADD_HP",
+            "value": 5,
+            "socketPart": "ARMOR"
+          }
+        ],
+        "SPELL": [
+          {
+            "type": "FIRE_DAMAGE",
+            "value": 1,
+            "socketPart": "SPELL"
+          }
+        ]
+      },
       "defense": 0,
+      "cost": 5,
+      "rarity": 1,
       "cardType": "GEM",
+      "localizedText": {
+        "name_kr": "루비",
+        "name_en": "Ruby",
+        "desc_kr": "귀한 보석, 루비. 마법적인 힘을 지니고 있으며, 행운과 치유에 사용된다고 전해진다.",
+        "desc_en": "A precious gem, Ruby. It holds magical power and is said to be used for luck and healing."
+      },
       "subType": "EQUIPMENT",
       "type": 0,
-      "rarity": 1,
       "damage": 1,
       "throwingDamage": 0,
       "throwingRange": 0,
@@ -1232,8 +1382,8 @@
       "attackType": "SLASH",
       "index": 1,
       "id": "05b41ebe-452c-4a20-b547-bf340d9af1c0",
-      "cost": 1,
-      "soundEffect": "air duster 5.wav"
+      "soundEffect": "air duster 5.wav",
+      "tier": 0
     },
     {
       "texture": {
@@ -1245,22 +1395,63 @@
           1,
           1
         ],
-        "textureName": "spritesheet_16x16"
+        "affectCoordsList": [
+          {
+            "x": -1,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": -1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          }
+        ],
+        "textureName": "spritesheet_16x16",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          }
+        ]
       },
-      "socketStats": {},
       "skills": [],
-      "description": {
-        "KR": "",
-        "EN": ""
-      },
-      "materials": [],
-      "stats": [],
       "itemType": "ITEM",
+      "stats": [],
+      "socketStats": {
+        "ARMOR": [
+          {
+            "type": "ADD_MANA",
+            "value": 5,
+            "socketPart": "ARMOR"
+          }
+        ],
+        "WEAPON": [
+          {
+            "type": "LIGHTNING_DAMAGE",
+            "value": 1,
+            "socketPart": "WEAPON"
+          }
+        ]
+      },
       "defense": 0,
+      "cost": 5,
+      "rarity": 1,
       "cardType": "GEM",
+      "localizedText": {
+        "name_kr": "사파이어",
+        "name_en": "Sapphire",
+        "desc_kr": "마법적인 힘이 느껴지는 푸른 보석. 지혜와 행운을 가져다준다고 전해진다.",
+        "desc_en": "A blue gemstone imbued with magical power. It is said to bring wisdom and good fortune."
+      },
       "subType": "EQUIPMENT",
       "type": 0,
-      "rarity": 1,
       "damage": 1,
       "throwingDamage": 0,
       "throwingRange": 0,
@@ -1269,8 +1460,8 @@
       "attackType": "SLASH",
       "index": 1,
       "id": "fc7a003a-fa4d-4295-af99-e90e69b45433",
-      "cost": 1,
-      "soundEffect": "air duster 5.wav"
+      "soundEffect": "air duster 5.wav",
+      "tier": 0
     },
     {
       "texture": {
@@ -1282,27 +1473,32 @@
           1,
           1
         ],
+        "affectCoordsList": [],
         "textureName": "spritesheet_16x16"
-      },
-      "skills": [],
-      "description": {
-        "KR": "",
-        "EN": ""
       },
       "stats": [
         {
           "type": "RESTORE_HP",
-          "value": 1
+          "value": 5
         }
       ],
+      "skills": [
+        "893bbd7e-2a28-4ba6-91c2-2c9f52bbb596"
+      ],
       "itemType": "ITEM",
-      "materials": [],
+      "socketStats": {},
       "defense": 0,
+      "cost": 1,
+      "rarity": 0,
       "cardType": "USABLE",
+      "localizedText": {
+        "name_kr": "체력 물약",
+        "name_en": "HP Potion",
+        "desc_kr": "체력을 회복시켜주는 물약입니다.",
+        "desc_en": "A potion that restores HP."
+      },
       "subType": "EQUIPMENT",
       "type": 0,
-      "rarity": 0,
-      "damage": 1,
       "throwingDamage": 0,
       "throwingRange": 0,
       "name": "Hp potion",
@@ -1310,35 +1506,47 @@
       "attackType": "SLASH",
       "index": 1,
       "id": "f9c6919b-8228-4f63-bb9e-59b7669fe25c",
-      "cost": 1,
-      "soundEffect": "air duster 5.wav"
+      "soundEffect": "air duster 5.wav",
+      "tier": 0,
+      "castingCost": 3
     },
     {
       "texture": {
         "coords": [
-          5,
-          0
+          12,
+          17
         ],
         "size": [
           1,
           1
         ],
-        "textureName": "weapons"
+        "affectCoordsList": [],
+        "textureName": "spritesheet_16x16"
       },
+      "stats": [
+        {
+          "type": "DAMAGE",
+          "value": 2
+        }
+      ],
       "skills": [],
-      "description": {
-        "KR": "",
-        "EN": ""
-      },
-      "stats": [],
       "itemType": "ITEM",
-      "materials": [],
+      "socketStats": {},
       "defense": 0,
-      "cardType": "ACC",
+      "cost": 5,
+      "rarity": 0,
+      "cardType": "WEAPON",
+      "localizedText": {
+        "name_kr": "철괴",
+        "name_en": "Iron Ingot",
+        "desc_kr": "가장 기본적인 금속 재료입니다. 다양한 도구와 장비를 제작하는 데 사용됩니다.",
+        "desc_en": "A basic metallic material used in crafting various tools and equipment."
+      },
       "name": "Iron",
       "id": "d32c58fa-9f0a-44e0-b843-5a306698aa05",
-      "cost": 1,
-      "castingCost": 0
+      "castingCost": 0,
+      "tier": 0,
+      "attackSpeed": 3000
     },
     {
       "texture": {
@@ -1350,47 +1558,1192 @@
           2,
           2
         ],
+        "affectCoordsList": [],
         "textureName": "weapons"
       },
       "stats": [],
       "skills": [],
-      "description": {
-        "KR": "",
-        "EN": ""
-      },
-      "materials": [],
       "itemType": "ITEM",
+      "socketStats": {},
       "defense": 0,
+      "cost": 3,
+      "rarity": 0,
       "cardType": "BAG",
-      "name": "Bag",
+      "localizedText": {
+        "name_kr": "낡은 가방",
+        "name_en": "Tattered Bag",
+        "desc_kr": "오래되고 찢어진 가방입니다. 겨우 몇 가지 작은 물건 정도만 넣을 수 있습니다.",
+        "desc_en": "A worn and torn bag. It can only hold a few small items."
+      },
+      "name": "Tattered Bag",
       "id": "256ba398-9dcd-411c-9da8-b29d21bb7dfa",
-      "cost": 1
+      "tier": 0
+    },
+    {
+      "texture": {
+        "coords": [
+          7,
+          4
+        ],
+        "size": [
+          2,
+          2
+        ],
+        "affectCoordsList": [],
+        "textureName": "weapons"
+      },
+      "stats": [],
+      "skills": [
+        "3b8ef5b1-ecf9-452a-85de-8db97b0e6d48"
+      ],
+      "itemType": "ITEM",
+      "socketStats": {},
+      "defense": 0,
+      "cost": 5,
+      "rarity": 0,
+      "cardType": "BAG",
+      "localizedText": {
+        "name_kr": "견습 모험가의 가방",
+        "name_en": "Adventurer's Bag",
+        "desc_kr": "초보 모험가에게 지급되는 기본적인 수납 가방입니다. 넉넉한 공간을 제공하여 다양한 아이템을 보관할 수 있습니다.",
+        "desc_en": "A basic storage bag given to novice adventurers. It provides ample space for storing various items."
+      },
+      "name": "Adventurer's Bag",
+      "id": "5395d103-886e-4391-8fd5-b559d4002c06",
+      "tier": 0
+    },
+    {
+      "texture": {
+        "coords": [
+          11,
+          7
+        ],
+        "size": [
+          2,
+          2
+        ],
+        "affectCoordsList": [],
+        "textureName": "weapons"
+      },
+      "stats": [],
+      "skills": [],
+      "itemType": "ITEM",
+      "socketStats": {},
+      "defense": 0,
+      "cost": 3,
+      "rarity": 0,
+      "cardType": "BAG",
+      "localizedText": {
+        "name_kr": "휴대용 가방",
+        "name_en": "Portable Bag",
+        "desc_kr": "다양한 아이템을 보관할 수 있는 기본적인 가방입니다. 더 많은 물건을 챙길 수 있도록 공간을 확보하세요.",
+        "desc_en": "A basic bag to store various items. Secure space to carry more goods."
+      },
+      "name": "Bag",
+      "id": "76489b79-4af2-49b8-a365-6b2c3ca9958a",
+      "tier": 0
     },
     {
       "texture": {
         "coords": [
           14,
-          6
+          14
         ],
         "size": [
           2,
+          2
+        ],
+        "affectCoordsList": [],
+        "textureName": "weapons"
+      },
+      "stats": [
+        {
+          "type": "RESTORE_HP",
+          "value": 5
+        }
+      ],
+      "skills": [
+        "893bbd7e-2a28-4ba6-91c2-2c9f52bbb596"
+      ],
+      "materials": [],
+      "itemType": "ITEM",
+      "socketStats": {},
+      "defense": 0,
+      "cost": 7,
+      "rarity": 2,
+      "cardType": "SPELL",
+      "localizedText": {
+        "name_kr": "마법책: 치유",
+        "name_en": "Spell Book: Heal",
+        "desc_kr": "체력을 회복하는 마법을 담은 책입니다. 숙련된 치료사의 지혜가 깃들어 있습니다.",
+        "desc_en": "A spell book containing a healing magic. It holds the wisdom of a skilled healer."
+      },
+      "type": 0,
+      "throwingDamage": 0,
+      "throwingRange": 0,
+      "name": "Spell Book : Heal",
+      "attackType": "SLASH",
+      "index": 5,
+      "id": "8a299b79-3234-4d24-b2e5-ca83ab52777e",
+      "castingCost": 3,
+      "tier": 0,
+      "attackEffect": "893bbd7e-2a28-4ba6-91c2-2c9f52bbb596"
+    },
+    {
+      "texture": {
+        "coords": [
+          13,
+          11
+        ],
+        "size": [
+          2,
+          2
+        ],
+        "affectCoordsList": [
+          {
+            "x": 2,
+            "y": 1
+          }
+        ],
+        "textureName": "weapons",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      "stats": [
+        {
+          "type": "DEFENSE",
+          "value": 2
+        }
+      ],
+      "skills": [],
+      "itemType": "ITEM",
+      "socketStats": {},
+      "defense": 0,
+      "cost": 3,
+      "rarity": 0,
+      "cardType": "ARMOR",
+      "localizedText": {
+        "name_kr": "장갑",
+        "name_en": "Gloves",
+        "desc_kr": "손을 보호해주는 기본적인 장비입니다. 가벼운 충격으로부터 안전하게 지켜줍니다.",
+        "desc_en": "Basic gear to protect your hands. Provides safety from light impacts."
+      },
+      "name": "Gloves",
+      "id": "a58c5e2b-3067-4dde-b70d-6a1c2d0bf84b",
+      "tier": 0,
+      "castingCost": 0
+    },
+    {
+      "texture": {
+        "coords": [
+          8,
+          17
+        ],
+        "size": [
+          1,
+          1
+        ],
+        "affectCoordsList": [],
+        "textureName": "spritesheet_16x16"
+      },
+      "stats": [
+        {
+          "type": "DAMAGE",
+          "value": 1
+        }
+      ],
+      "skills": [],
+      "itemType": "ITEM",
+      "socketStats": {},
+      "defense": 0,
+      "cost": 1,
+      "rarity": 0,
+      "cardType": "WEAPON",
+      "localizedText": {
+        "name_kr": "돌멩이",
+        "name_en": "Pebble",
+        "desc_kr": "흔한 돌멩이다. 던지거나, 굴릴 수 있다. 가치가 거의 없다.",
+        "desc_en": "A common pebble. Can be thrown or rolled. It has little value."
+      },
+      "name": "Pebble",
+      "id": "a0720b11-c356-49d9-9c4d-22e674affe79",
+      "attackSpeed": 3000,
+      "tier": 0
+    },
+    {
+      "texture": {
+        "coords": [
+          11,
+          6
+        ],
+        "size": [
+          1,
+          1
+        ],
+        "affectCoordsList": [],
+        "textureName": "weapons"
+      },
+      "stats": [],
+      "skills": [],
+      "itemType": "ITEM",
+      "socketStats": {},
+      "defense": 0,
+      "cost": 3,
+      "rarity": 0,
+      "cardType": "BAG",
+      "localizedText": {
+        "name_kr": "소형 가방",
+        "name_en": "Small Bag",
+        "desc_kr": "물건을 조금 더 많이 담을 수 있는 가방입니다.",
+        "desc_en": "A bag that allows you to carry a few more items."
+      },
+      "name": "Small Bag",
+      "id": "f358277e-48a8-4a2d-8c61-9667a46f4bbf",
+      "tier": 0
+    },
+    {
+      "texture": {
+        "coords": [
+          7,
+          11
+        ],
+        "size": [
+          2,
+          2
+        ],
+        "affectCoordsList": [],
+        "textureName": "weapons",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      "stats": [
+        {
+          "type": "DEFENSE",
+          "value": 3
+        }
+      ],
+      "skills": [],
+      "itemType": "ITEM",
+      "socketStats": {},
+      "defense": 0,
+      "cost": 3,
+      "rarity": 0,
+      "cardType": "ARMOR",
+      "localizedText": {
+        "name_kr": "모자",
+        "name_en": "Hood",
+        "desc_kr": "추위를 막아주고, 가끔은 숨겨주기도 하는 얇은 천으로 만든 덮개입니다.",
+        "desc_en": "A thin cloth covering that keeps out the cold and sometimes provides concealment."
+      },
+      "name": "Hood",
+      "id": "e37843c1-b5e5-4368-b8ba-662f1e71d258",
+      "tier": 0
+    },
+    {
+      "texture": {
+        "coords": [
+          9,
           3
+        ],
+        "size": [
+          1,
+          4
+        ],
+        "affectCoordsList": [
+          {
+            "x": 0,
+            "y": -1
+          },
+          {
+            "x": 0,
+            "y": -2
+          },
+          {
+            "x": 0,
+            "y": -3
+          }
+        ],
+        "textureName": "weapons",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          }
+        ]
+      },
+      "stats": [
+        {
+          "type": "DAMAGE",
+          "value": 2
+        }
+      ],
+      "skills": [
+        "7a4fcb9c-b30b-42e2-a79b-eeab23dfda83"
+      ],
+      "materials": [
+        [
+          "aba946e6-6eea-4fdd-a648-18d561e8763f",
+          2
+        ],
+        [
+          "273e8ae5-d54a-4803-a399-82fa25795b31",
+          1
+        ]
+      ],
+      "itemType": "ITEM",
+      "socketStats": {},
+      "defense": 0,
+      "cost": 5,
+      "rarity": 0,
+      "cardType": "WEAPON",
+      "localizedText": {
+        "name_kr": "장창",
+        "name_en": "Long Spear",
+        "desc_kr": "균형 잡힌 공격력을 가진 긴 창입니다. 넓은 범위를 커버할 수 있습니다.",
+        "desc_en": "A long spear with balanced attack power. It can cover a wide range."
+      },
+      "name": "Long Spear",
+      "id": "37ef2b05-205f-4b2f-9088-04aefcfc16ee",
+      "attackSpeed": 3000,
+      "tier": 0
+    },
+    {
+      "texture": {
+        "coords": [
+          0,
+          11
+        ],
+        "size": [
+          1,
+          2
+        ],
+        "affectCoordsList": [
+          {
+            "x": 0,
+            "y": -1
+          }
+        ],
+        "textureName": "weapons",
+        "cells": []
+      },
+      "stats": [
+        {
+          "type": "DAMAGE",
+          "value": 1
+        }
+      ],
+      "skills": [
+        "7a4fcb9c-b30b-42e2-a79b-eeab23dfda83"
+      ],
+      "materials": [
+        [
+          "a0720b11-c356-49d9-9c4d-22e674affe79",
+          1
+        ],
+        [
+          "aba946e6-6eea-4fdd-a648-18d561e8763f",
+          1
+        ]
+      ],
+      "itemType": "ITEM",
+      "socketStats": {},
+      "defense": 0,
+      "cost": 2,
+      "rarity": 0,
+      "cardType": "WEAPON",
+      "localizedText": {
+        "name_kr": "돌 창",
+        "name_en": "Stone Spear",
+        "desc_kr": "가볍게 만들 수 있는 기본적인 창입니다. 데미지는 낮지만, 사거리가 짧은 무기들을 압도할 수 있습니다.",
+        "desc_en": "A basic spear easily crafted. Deals low damage but can overcome short-range weapons."
+      },
+      "name": "Stone Spear",
+      "id": "67261f3b-a036-45aa-ad48-f780178395d3",
+      "tier": 0,
+      "attackSpeed": 1000
+    },
+    {
+      "texture": {
+        "coords": [
+          4,
+          5
+        ],
+        "size": [
+          2,
+          2
+        ],
+        "affectCoordsList": [],
+        "textureName": "weapons"
+      },
+      "stats": [
+        {
+          "type": "DEFENSE",
+          "value": 2
+        }
+      ],
+      "skills": [
+        "dcecb02b-d79d-4722-a5f3-9a964b253e04"
+      ],
+      "itemType": "ITEM",
+      "socketStats": {},
+      "defense": 0,
+      "cost": 5,
+      "rarity": 2,
+      "cardType": "ARMOR",
+      "localizedText": {
+        "name_kr": "철 방패",
+        "name_en": "Iron Shield",
+        "desc_kr": "견고한 철로 만들어진 방패입니다. 기본적인 공격을 막아줍니다.",
+        "desc_en": "A sturdy shield crafted from iron. It provides basic protection against attacks."
+      },
+      "name": "IronShield",
+      "id": "9ef0f174-222c-4401-8008-edd9d585e62b",
+      "tier": 0,
+      "attackSpeed": 5000,
+      "attackEffect": "d3452aaf-9671-48c3-b5f4-c9bf5c407a05"
+    },
+    {
+      "texture": {
+        "coords": [
+          3,
+          11
+        ],
+        "size": [
+          1,
+          2
+        ],
+        "affectCoordsList": [
+          {
+            "x": -1,
+            "y": 0
+          },
+          {
+            "x": -1,
+            "y": 1
+          }
         ],
         "textureName": "weapons"
       },
-      "itemType": "ITEM",
+      "stats": [
+        {
+          "type": "DAMAGE",
+          "value": 1
+        }
+      ],
       "skills": [],
-      "stats": [],
-      "materials": [],
+      "materials": [
+        [
+          "1ceb4562-68ec-4fe1-813a-11d12f9a0b90",
+          1
+        ],
+        [
+          "10ecdb26-81f0-45c9-9bec-cc491e4b6c10",
+          1
+        ]
+      ],
+      "itemType": "ITEM",
+      "socketStats": {},
       "defense": 0,
-      "cardType": "BAG",
-      "description": {
-        "KR": "",
-        "EN": ""
+      "cost": 3,
+      "rarity": 0,
+      "cardType": "WEAPON",
+      "localizedText": {
+        "name_kr": "엘븐 활",
+        "name_en": "Elven Bow",
+        "desc_kr": "엘프 장인들이 정교하게 제작한 활입니다. 일반 활보다 명중률과 공격력이 높습니다.",
+        "desc_en": "A bow meticulously crafted by elven artisans. It boasts higher accuracy and attack power than standard bows."
       },
-      "name": "Adventurer's Bag",
-      "id": "5395d103-886e-4391-8fd5-b559d4002c06",
-      "cost": 1
+      "name": "Elven Bow",
+      "id": "f46f0778-2e5d-4819-a88a-c0d7e0a3fba3",
+      "attackSpeed": 800,
+      "tier": 0,
+      "attackEffect": "65a3262f-8fc7-4259-9605-ed0d7dd1c2ba"
+    },
+    {
+      "texture": {
+        "coords": [
+          9,
+          9
+        ],
+        "size": [
+          1,
+          2
+        ],
+        "affectCoordsList": [],
+        "textureName": "weapons"
+      },
+      "stats": [
+        {
+          "type": "DAMAGE",
+          "value": 1
+        }
+      ],
+      "skills": [],
+      "itemType": "ITEM",
+      "socketStats": {},
+      "defense": 0,
+      "cost": 1,
+      "rarity": 0,
+      "cardType": "WEAPON",
+      "localizedText": {
+        "name_kr": "나뭇가지",
+        "name_en": "Twig",
+        "desc_kr": "간신히 꺾어 만든 임시 무기입니다. 공격력은 매우 낮지만, 어딘가에는 도움이 될 수 있습니다.",
+        "desc_en": "A hastily snapped twig used as a makeshift weapon.  Its attack power is very low, but it may prove useful in some situations."
+      },
+      "name": "Twig",
+      "id": "c82550ed-9aca-4d41-8c70-ed82ed0fa2ea",
+      "tier": 0,
+      "attackSpeed": 1500
+    },
+    {
+      "texture": {
+        "coords": [
+          10,
+          10
+        ],
+        "size": [
+          1,
+          1
+        ],
+        "affectCoordsList": [],
+        "textureName": "weapons"
+      },
+      "stats": [
+        {
+          "type": "DAMAGE",
+          "value": 1
+        }
+      ],
+      "skills": [],
+      "itemType": "ITEM",
+      "socketStats": {},
+      "defense": 0,
+      "cost": 1,
+      "rarity": 0,
+      "cardType": "WEAPON",
+      "localizedText": {
+        "name_kr": "뼈 조각",
+        "name_en": "Bone Shard",
+        "desc_kr": "생물의 뼈에서 떨어져 나온 작은 파편입니다. 연금술 재료로 사용될 수 있습니다.",
+        "desc_en": "A small fragment broken off from the bones of a creature. Can be used as an alchemy ingredient."
+      },
+      "name": "Bone",
+      "id": "2c72d7fb-3389-40da-a8d7-f0ba8bf8faaf",
+      "attackSpeed": 2000,
+      "tier": 0
+    },
+    {
+      "texture": {
+        "coords": [
+          2,
+          7
+        ],
+        "size": [
+          1,
+          2
+        ],
+        "affectCoordsList": [],
+        "textureName": "weapons"
+      },
+      "stats": [
+        {
+          "type": "DAMAGE",
+          "value": 2
+        }
+      ],
+      "skills": [],
+      "itemType": "ITEM",
+      "socketStats": {},
+      "defense": 0,
+      "cost": 5,
+      "rarity": 0,
+      "cardType": "WEAPON",
+      "localizedText": {
+        "name_kr": "레이피어",
+        "name_en": "Rapier",
+        "desc_kr": "우아하고 날렵한 검으로, 정확하고 빠른 공격에 특화되어 있습니다. 훈련된 전사에게 적합합니다.",
+        "desc_en": "An elegant and agile sword, specialized for precise and swift attacks. Suitable for trained warriors."
+      },
+      "name": "Rapier",
+      "id": "6773b6e3-5b58-4d4b-813d-6cc8e137f1a3",
+      "attackSpeed": 1000,
+      "tier": 0
+    },
+    {
+      "texture": {
+        "coords": [
+          2,
+          3
+        ],
+        "size": [
+          1,
+          2
+        ],
+        "affectCoordsList": [],
+        "textureName": "weapons"
+      },
+      "stats": [
+        {
+          "type": "DAMAGE",
+          "value": 2
+        }
+      ],
+      "skills": [],
+      "materials": [
+        [
+          "273e8ae5-d54a-4803-a399-82fa25795b31",
+          1
+        ],
+        [
+          "aba946e6-6eea-4fdd-a648-18d561e8763f",
+          1
+        ]
+      ],
+      "itemType": "ITEM",
+      "socketStats": {},
+      "defense": 0,
+      "cost": 3,
+      "rarity": 0,
+      "cardType": "WEAPON",
+      "localizedText": {
+        "name_kr": "스파이크 클럽",
+        "name_en": "Spike Club",
+        "desc_kr": "날카로운 가시가 박힌 둔기. 공격력이 높지만, 명중률이 낮다.",
+        "desc_en": "A bludgeon studded with sharp spikes. High attack power but low accuracy."
+      },
+      "name": "Spike Club",
+      "id": "86832112-45f6-4063-ac45-15562f5537f4",
+      "tier": 0,
+      "attackSpeed": 1501
+    },
+    {
+      "texture": {
+        "coords": [
+          3,
+          7
+        ],
+        "size": [
+          1,
+          2
+        ],
+        "affectCoordsList": [
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": -1,
+            "y": 0
+          },
+          {
+            "x": -1,
+            "y": 1
+          }
+        ],
+        "textureName": "weapons",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          }
+        ]
+      },
+      "stats": [
+        {
+          "type": "DAMAGE",
+          "value": 3
+        }
+      ],
+      "skills": [
+        "11505c4d-fd80-431a-a200-0ad98688bc03"
+      ],
+      "itemType": "ITEM",
+      "socketStats": {},
+      "defense": 0,
+      "cost": 8,
+      "rarity": 2,
+      "cardType": "WEAPON",
+      "localizedText": {
+        "name_kr": "브로드소드",
+        "name_en": "Broadsword",
+        "desc_kr": "날카로운 칼날을 가진 일반적인 검입니다. 꽤나 무겁지만, 강력한 공격력을 자랑합니다.",
+        "desc_en": "A common sword with a sharp blade. It's quite heavy but boasts significant attack power."
+      },
+      "name": "Broadsword",
+      "id": "fd228ef8-8738-44f5-9fe6-86ecae031adf",
+      "tier": 0,
+      "attackSpeed": 1000
+    },
+    {
+      "texture": {
+        "coords": [
+          6,
+          8
+        ],
+        "size": [
+          1,
+          1
+        ],
+        "affectCoordsList": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": -1
+          },
+          {
+            "x": -1,
+            "y": 0
+          }
+        ],
+        "textureName": "spritesheet_16x16",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      "skills": [],
+      "itemType": "ITEM",
+      "stats": [],
+      "socketStats": {
+        "WEAPON": [
+          {
+            "type": "DAMAGE",
+            "value": 1,
+            "socketPart": "WEAPON"
+          }
+        ]
+      },
+      "defense": 0,
+      "cost": 5,
+      "rarity": 1,
+      "cardType": "GEM",
+      "localizedText": {
+        "name_kr": "검은 파쇄광석",
+        "name_en": "Black Crushing Ore",
+        "desc_kr": "무기의 공격력을 높여주는 광석입니다. 짙고 검은색을 띠고 있습니다.",
+        "desc_en": "An ore that increases weapon attack power. It has a deep black color."
+      },
+      "name": "Black Crushing Ore",
+      "id": "020ab5ff-8312-40fa-98d4-2d376a3e8286",
+      "tier": 0
+    },
+    {
+      "texture": {
+        "coords": [
+          5,
+          15
+        ],
+        "size": [
+          1,
+          1
+        ],
+        "affectCoordsList": [],
+        "textureName": "spritesheet_16x16"
+      },
+      "stats": [
+        {
+          "type": "RESTORE_HP",
+          "value": 10
+        }
+      ],
+      "skills": [
+        "893bbd7e-2a28-4ba6-91c2-2c9f52bbb596"
+      ],
+      "itemType": "ITEM",
+      "socketStats": {},
+      "defense": 0,
+      "cost": 5,
+      "rarity": 0,
+      "cardType": "USABLE",
+      "localizedText": {
+        "name_kr": "초대량 회복 포션",
+        "name_en": "Massive Healing Potion",
+        "desc_kr": "극도로 강력한 회복 효과를 가진 포션입니다. 생명이 위태로울 때 사용하세요.",
+        "desc_en": "A potion with an extremely powerful healing effect. Use it when your life is in danger."
+      },
+      "name": "Massive Healing Potion",
+      "id": "93064261-b64e-4516-b7e2-614bc49a03ed",
+      "attackSpeed": 2000,
+      "tier": 0
+    },
+    {
+      "texture": {
+        "coords": [
+          0,
+          5
+        ],
+        "size": [
+          1,
+          2
+        ],
+        "affectCoordsList": [],
+        "textureName": "weapons"
+      },
+      "stats": [
+        {
+          "type": "DAMAGE",
+          "value": 3
+        }
+      ],
+      "skills": [
+        "7ed72342-9a55-4172-ae1e-abb631b2a2f3"
+      ],
+      "itemType": "ITEM",
+      "socketStats": {},
+      "defense": 0,
+      "cost": 5,
+      "rarity": 0,
+      "cardType": "WEAPON",
+      "localizedText": {
+        "name_kr": "고대의 검",
+        "name_en": "Ancient Sword",
+        "desc_kr": "오랜 세월 동안 전설적인 영웅들이 사용했던 검. 강력한 힘과 함께, 검을 든 자에게 고대 지혜를 전달한다고 전해진다.",
+        "desc_en": "A sword wielded by legendary heroes throughout history. It is said to grant the wielder ancient wisdom alongside its immense power."
+      },
+      "name": "Ancient Sword",
+      "id": "1a674642-059d-4cac-8a5f-12c656a70182",
+      "tier": 0,
+      "attackSpeed": 1500
+    },
+    {
+      "texture": {
+        "coords": [
+          3,
+          13
+        ],
+        "size": [
+          1,
+          1
+        ],
+        "affectCoordsList": [],
+        "textureName": "spritesheet_16x16"
+      },
+      "stats": [
+        {
+          "type": "RESTORE_SP",
+          "value": 5
+        }
+      ],
+      "skills": [
+        "90b714ef-92ce-4d67-9ed0-0732ac95f32e"
+      ],
+      "itemType": "ITEM",
+      "socketStats": {},
+      "defense": 0,
+      "cost": 10,
+      "rarity": 2,
+      "cardType": "SPELL",
+      "localizedText": {
+        "name_kr": "생명의 속삭임",
+        "name_en": "Whisper of Life",
+        "desc_kr": "약한 생명을 감싸 안아 치유하는 마법이 깃든 작은 조각. 사용 시 소량의 체력을 회복한다.",
+        "desc_en": "A small fragment imbued with a gentle healing magic, embracing weak life. Restores a small amount of health when used."
+      },
+      "name": "Whisper of Life",
+      "id": "ccdca401-67d3-4919-a95c-9f73cde8b265",
+      "tier": 0,
+      "castingCost": 2,
+      "attackSpeed": 1
+    },
+    {
+      "texture": {
+        "coords": [
+          10,
+          4
+        ],
+        "size": [
+          2,
+          2
+        ],
+        "affectCoordsList": [],
+        "textureName": "weapons",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      "stats": [
+        {
+          "type": "DEFENSE",
+          "value": 4
+        }
+      ],
+      "skills": [],
+      "itemType": "ITEM",
+      "socketStats": {},
+      "defense": 0,
+      "cost": 5,
+      "rarity": 0,
+      "cardType": "ARMOR",
+      "localizedText": {
+        "name_kr": "가죽 갑옷",
+        "name_en": "Leather Armor",
+        "desc_kr": "초보자가 착용하기 좋은 기본적인 갑옷입니다. 방어력이 낮지만 가볍고 움직임이 자유롭습니다.",
+        "desc_en": "A basic armor suitable for beginners. It has low defense but is lightweight and allows for free movement."
+      },
+      "name": "Leather Armor",
+      "id": "f5992578-97f2-4b40-929d-51e251f6f350",
+      "attackSpeed": 1000,
+      "tier": 0
+    },
+    {
+      "texture": {
+        "coords": [
+          12,
+          14
+        ],
+        "size": [
+          2,
+          2
+        ],
+        "affectCoordsList": [
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": -1
+          },
+          {
+            "x": 0,
+            "y": -1
+          },
+          {
+            "x": -1,
+            "y": 0
+          },
+          {
+            "x": -1,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ],
+        "textureName": "weapons",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      "stats": [
+        {
+          "type": "CHAOS_DAMAGE",
+          "value": 1
+        }
+      ],
+      "skills": [],
+      "materials": [
+        [
+          "09de9873-ef96-4260-b120-890951d71363",
+          1
+        ],
+        [
+          "ef15a014-b83c-46b1-8ff4-ae7b7034e0f3",
+          1
+        ],
+        [
+          "2cf574cf-6a68-4e46-a6a1-782ede3e03f2",
+          1
+        ]
+      ],
+      "itemType": "ITEM",
+      "socketStats": {},
+      "defense": 0,
+      "cost": 7,
+      "rarity": 2,
+      "cardType": "SPELL",
+      "localizedText": {
+        "name_kr": "사이코볼 마법서",
+        "name_en": "Spell Book: Fireball",
+        "desc_kr": "인벤토리에 소지하면, 원소데미지를 받을때마다 카오스스택을 획득합니다. 카오스택 3을 소모하여 사이코볼을 시전합니다. 인접한 영역에 있는 아이템 버프를 무효화합니다.",
+        "desc_en": "An ancient spellbook that allows the user to cast the powerful fire magic, 'Fireball'. Skilled users can channel even more potent Fireballs."
+      },
+      "type": 0,
+      "throwingDamage": 0,
+      "throwingRange": 0,
+      "name": "Spell Book : PsychoBall",
+      "attackSpeed": 0,
+      "attackType": "SLASH",
+      "index": 5,
+      "id": "17748a40-b6d9-4da1-83f6-52a36f40be94",
+      "castingCost": 3,
+      "tier": 0,
+      "attackEffect": "3ec6344e-d643-4f12-88e4-6689e537a117"
+    },
+    {
+      "texture": {
+        "coords": [
+          0,
+          16
+        ],
+        "size": [
+          2,
+          2
+        ],
+        "affectCoordsList": [],
+        "textureName": "weapons"
+      },
+      "stats": [
+        {
+          "type": "ICE_DAMAGE",
+          "value": 5
+        },
+        {
+          "type": "FREEZE_STACK",
+          "value": 3
+        }
+      ],
+      "skills": [
+        "c3cb6bd9-de10-4cfb-8593-e0fe3a5c1289"
+      ],
+      "itemType": "ITEM",
+      "socketStats": {},
+      "defense": 0,
+      "cost": 7,
+      "rarity": 2,
+      "cardType": "SPELL",
+      "localizedText": {
+        "name_kr": "마법서 - 아이스볼",
+        "name_en": "Spell Book - Ice Ball",
+        "desc_kr": "차가운 마력을 담은 마법서입니다. 사용 시, 적에게 얼음탄을 발사하여 피해를 입힙니다.",
+        "desc_en": "A spell book imbued with cold magic. Upon use, fires an ice ball projectile at the enemy, dealing damage."
+      },
+      "type": 0,
+      "throwingDamage": 0,
+      "throwingRange": 0,
+      "name": "Spell Book : IceBall",
+      "attackSpeed": 0,
+      "attackType": "SLASH",
+      "index": 5,
+      "id": "2cf574cf-6a68-4e46-a6a1-782ede3e03f2",
+      "castingCost": 5,
+      "tier": 0,
+      "attackEffect": "ca4ad590-fb23-46b8-8cff-ee142435bb85"
+    },
+    {
+      "texture": {
+        "coords": [
+          2,
+          16
+        ],
+        "size": [
+          1,
+          1
+        ],
+        "affectCoordsList": [],
+        "textureName": "weapons",
+        "cells": []
+      },
+      "stats": [],
+      "skills": [],
+      "itemType": "ITEM",
+      "socketStats": {},
+      "defense": 0,
+      "cost": 0,
+      "rarity": 0,
+      "cardType": "NONE",
+      "localizedText": {
+        "name_kr": "아이템 한국어 이름",
+        "name_en": "item english name",
+        "desc_kr": "한국어 설명",
+        "desc_en": "English description"
+      },
+      "name": "Nail",
+      "id": "273e8ae5-d54a-4803-a399-82fa25795b31",
+      "tier": 0
     }
   ],
   "Rarities": [

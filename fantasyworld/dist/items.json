@@ -10,6 +10,7 @@
           1,
           1
         ],
+        "affectCoordsList": [],
         "effectCoordsList": [
           {
             "x": 0,
@@ -31,7 +32,15 @@
       "attackSpeed": 70,
       "attackType": "SLASH",
       "index": 1,
-      "id": "fa898b5f-050f-493e-9b4b-75361d0abcbc"
+      "id": "fa898b5f-050f-493e-9b4b-75361d0abcbc",
+      "ItemCategory": "Equipment",
+      "tier": 0,
+      "localizedText": {
+        "name_kr": "아이템 한국어 이름",
+        "name_en": "item english name",
+        "desc_kr": "한국어 설명",
+        "desc_en": "English description"
+      }
     },
     {
       "texture": {
@@ -83,7 +92,15 @@
       "attackSpeed": 200,
       "attackType": "SLASH",
       "index": 2,
-      "id": "7d00a4d9-3fd4-4d17-b00c-6c2fccd1fedc"
+      "id": "7d00a4d9-3fd4-4d17-b00c-6c2fccd1fedc",
+      "ItemCategory": "Equipment",
+      "tier": 0,
+      "localizedText": {
+        "name_kr": "아이템 한국어 이름",
+        "name_en": "item english name",
+        "desc_kr": "한국어 설명",
+        "desc_en": "English description"
+      }
     },
     {
       "texture": {
@@ -95,6 +112,7 @@
           1,
           3
         ],
+        "affectCoordsList": [],
         "textureName": "weapons"
       },
       "materials": [],
@@ -109,7 +127,15 @@
       "attackSpeed": 500,
       "attackType": "SLASH",
       "index": 3,
-      "id": "1e2d2740-6045-49a7-8c3f-7e30205a6392"
+      "id": "1e2d2740-6045-49a7-8c3f-7e30205a6392",
+      "ItemCategory": "Equipment",
+      "tier": 0,
+      "localizedText": {
+        "name_kr": "아이템 한국어 이름",
+        "name_en": "item english name",
+        "desc_kr": "한국어 설명",
+        "desc_en": "English description"
+      }
     },
     {
       "texture": {
@@ -151,7 +177,15 @@
       "attackSpeed": 500,
       "attackType": "SHOOT",
       "index": 4,
-      "id": "10ecdb26-81f0-45c9-9bec-cc491e4b6c10"
+      "id": "10ecdb26-81f0-45c9-9bec-cc491e4b6c10",
+      "ItemCategory": "Equipment",
+      "tier": 0,
+      "localizedText": {
+        "name_kr": "아이템 한국어 이름",
+        "name_en": "item english name",
+        "desc_kr": "한국어 설명",
+        "desc_en": "English description"
+      }
     },
     {
       "texture": {
@@ -183,11 +217,17 @@
       "attackSpeed": 100,
       "attackType": "SLASH",
       "index": 5,
-      "id": "e53f5ae5-1f2d-4e60-94eb-f3da164a7252"
+      "id": "e53f5ae5-1f2d-4e60-94eb-f3da164a7252",
+      "ItemCategory": "Equipment",
+      "tier": 0,
+      "localizedText": {
+        "name_kr": "아이템 한국어 이름",
+        "name_en": "item english name",
+        "desc_kr": "한국어 설명",
+        "desc_en": "English description"
+      }
     },
     {
-      "itemType": "ITEM",
-      "materials": [],
       "texture": {
         "coords": [
           5,
@@ -199,6 +239,8 @@
         ],
         "textureName": "weapons"
       },
+      "materials": [],
+      "itemType": "ITEM",
       "type": 0,
       "rarity": 0,
       "damage": 0,
@@ -209,11 +251,17 @@
       "attackSpeed": 100,
       "attackType": "SLASH",
       "index": 6,
-      "id": "07ff72f5-d3cc-4b1a-ab48-4f447a062c56"
+      "id": "07ff72f5-d3cc-4b1a-ab48-4f447a062c56",
+      "ItemCategory": "Equipment",
+      "tier": 0,
+      "localizedText": {
+        "name_kr": "아이템 한국어 이름",
+        "name_en": "item english name",
+        "desc_kr": "한국어 설명",
+        "desc_en": "English description"
+      }
     },
     {
-      "itemType": "ITEM",
-      "materials": [],
       "texture": {
         "coords": [
           4,
@@ -225,6 +273,8 @@
         ],
         "textureName": "weapons"
       },
+      "materials": [],
+      "itemType": "ITEM",
       "type": 0,
       "rarity": 0,
       "damage": 0,
@@ -235,7 +285,15 @@
       "attackSpeed": 100,
       "attackType": "SLASH",
       "index": 7,
-      "id": "ad3abce6-a6bc-4a55-ab08-b7300ca05807"
+      "id": "ad3abce6-a6bc-4a55-ab08-b7300ca05807",
+      "ItemCategory": "Equipment",
+      "tier": 0,
+      "localizedText": {
+        "name_kr": "아이템 한국어 이름",
+        "name_en": "item english name",
+        "desc_kr": "한국어 설명",
+        "desc_en": "English description"
+      }
     },
     {
       "texture": {
@@ -261,7 +319,15 @@
       "attackSpeed": 100,
       "attackType": "SLASH",
       "index": 7,
-      "id": "e6ab5d6a-f08d-41d6-9e82-e6577a5d0779"
+      "id": "e6ab5d6a-f08d-41d6-9e82-e6577a5d0779",
+      "ItemCategory": "Equipment",
+      "tier": 0,
+      "localizedText": {
+        "name_kr": "아이템 한국어 이름",
+        "name_en": "item english name",
+        "desc_kr": "한국어 설명",
+        "desc_en": "English description"
+      }
     },
     {
       "texture": {
@@ -293,7 +359,15 @@
       "attackSpeed": 100,
       "attackType": "SLASH",
       "index": 5,
-      "id": "5d0b0a12-e237-4545-9ded-9025ba171a3b"
+      "id": "5d0b0a12-e237-4545-9ded-9025ba171a3b",
+      "ItemCategory": "Equipment",
+      "tier": 0,
+      "localizedText": {
+        "name_kr": "아이템 한국어 이름",
+        "name_en": "item english name",
+        "desc_kr": "한국어 설명",
+        "desc_en": "English description"
+      }
     },
     {
       "texture": {
@@ -305,6 +379,7 @@
           1,
           2
         ],
+        "affectCoordsList": [],
         "textureName": "weapons"
       },
       "materials": [
@@ -325,7 +400,64 @@
       "attackSpeed": 500,
       "attackType": "SLASH",
       "index": 4,
-      "id": "2274a1a1-b367-46ec-bf30-96d050978bf7"
+      "id": "2274a1a1-b367-46ec-bf30-96d050978bf7",
+      "ItemCategory": "Equipment",
+      "tier": 0,
+      "localizedText": {
+        "name_kr": "아이템 한국어 이름",
+        "name_en": "item english name",
+        "desc_kr": "한국어 설명",
+        "desc_en": "English description"
+      }
+    },
+    {
+      "texture": {
+        "coords": [
+          4,
+          0
+        ],
+        "size": [
+          1,
+          1
+        ],
+        "affectCoordsList": [],
+        "textureName": "weapons"
+      },
+      "materials": [],
+      "itemType": "ITEM",
+      "name": "Stone Wall",
+      "id": "b8008c1b-5a64-4a43-bf7b-693be30274ec",
+      "ItemCategory": "Equipment",
+      "rarity": 0,
+      "attackType": "SLASH",
+      "damage": 0,
+      "throwingDamage": 0,
+      "attackSpeed": 2000,
+      "tier": 0,
+      "localizedText": {
+        "name_kr": "아이템 한국어 이름",
+        "name_en": "item english name",
+        "desc_kr": "한국어 설명",
+        "desc_en": "English description"
+      }
+    },
+    {
+      "texture": {
+        "coords": [
+          13,
+          21
+        ],
+        "size": [
+          1,
+          1
+        ],
+        "affectCoordsList": [],
+        "textureName": "spritesheet_16x16"
+      },
+      "materials": [],
+      "itemType": "ITEM",
+      "name": "wood",
+      "id": "3959474a-eb31-4b9d-97ee-35774bec1cc3"
     }
   ]
 }
