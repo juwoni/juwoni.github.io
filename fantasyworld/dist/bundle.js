@@ -67596,7 +67596,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var lodash_isObject__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(lodash_isObject__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var lodash_set__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! lodash/set */ "./node_modules/lodash/set.js");
 /* harmony import */ var lodash_set__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(lodash_set__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var nanoid__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! nanoid */ "./node_modules/@rjsf/core/node_modules/nanoid/index.browser.js");
+/* harmony import */ var nanoid__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! nanoid */ "./node_modules/nanoid/index.browser.js");
 
 
 
@@ -308984,6 +308984,9 @@ class MapToolRenderer extends StageRenderer_1.StageRenderer {
         });
         this.SelectionHelper = new SelectionHelper_1.SelectionHelper();
         this.wheelValue = 4;
+        this.lastFPSUpdateTime = 0;
+        this.cachedFPS = 0;
+        this.cachedFPSText = 'FPS : 0';
         this.selectedAction = Types_1.ActionTypes.EDIT;
         this.selectionGraphic = new PIXI.Graphics();
         this.userActions = {
@@ -309215,25 +309218,30 @@ class MapToolRenderer extends StageRenderer_1.StageRenderer {
         const isDownedTileMapContainer = this.tileMap.isDownedTileMapContainer;
         const tileCoordX = Math.floor(mousePosition.x / Types_1.TILE_SIZE);
         const tileCoordY = Math.floor(mousePosition.y / Types_1.TILE_SIZE);
-        this.debugText.text = `tilePos : ${mousePosition.x} ${mousePosition.y}`;
-        this.debugText.text = `FPS : ${Math.floor(PIXI.Ticker.shared.FPS)}`;
-        this.debugText.text += `\nSelected drawType : ${this.drawType}`;
-        this.debugText.text += `\nCamera Pos : ${Math.floor(mapToolRenderer.container.x)} ${Math.floor(mapToolRenderer.container.y)}`;
-        this.debugText.text += `\nCoords : ${tileCoordX} ${tileCoordY}`;
-        this.debugText.text += `\nglobalMousePosition : ${globalMousePosition.x} ${globalMousePosition.y}`;
-        this.debugText.text += `\nradian : ${weaponMgr.radian}`;
-        // this.debugText.text += `\nCoords : ${this.coords.x} ${this.coords.y}`;
-        // this.debugText.text += `\nisDownedContainer : ${this.isDownedContainer} `;
-        this.debugText.text += `\nisDownedTileMapContainer : ${isDownedTileMapContainer}`;
-        this.debugText.text += `\nwheelValue : ${mapToolRenderer.wheelValue} `;
-        this.debugText.text += `\nuserAction : ${this.selectedAction} `;
+        // 전체 디버그 텍스트 생성 (FPS 제외)
+        let newText = this.cachedFPSText;
+        newText += `\ntilePos : ${mousePosition.x} ${mousePosition.y}`;
+        newText += `\nSelected drawType : ${this.drawType}`;
+        newText += `\nCamera Pos : ${Math.floor(mapToolRenderer.container.x)} ${Math.floor(mapToolRenderer.container.y)}`;
+        newText += `\nCoords : ${tileCoordX} ${tileCoordY}`;
+        newText += `\nglobalMousePosition : ${globalMousePosition.x} ${globalMousePosition.y}`;
+        newText += `\nradian : ${weaponMgr.radian}`;
+        // newText += `\nCoords : ${this.coords.x} ${this.coords.y}`;
+        // newText += `\nisDownedContainer : ${this.isDownedContainer} `;
+        newText += `\nisDownedTileMapContainer : ${isDownedTileMapContainer}`;
+        newText += `\nwheelValue : ${mapToolRenderer.wheelValue} `;
+        newText += `\nuserAction : ${this.selectedAction} `;
         if (hero) {
-            this.debugText.text += `\nhero pos : ${hero.x} ${hero.y} `;
+            newText += `\nhero pos : ${hero.x} ${hero.y} `;
         }
-        this.debugText.text += `\ntile count : ${mapToolRenderer.layers[Types_1.EntityTypes.TILE].children.length} `;
-        this.debugText.text += `\nobject count : ${mapToolRenderer.layers[Types_1.EntityTypes.OBJECT].children.length} `;
-        this.debugText.text += `\ncharacter count : ${mapToolRenderer.layers[Types_1.EntityTypes.CHARACTER].children.length} `;
-        this.debugText.text += `\nmissile count : ${mapToolRenderer.layers[Types_1.EntityTypes.MISSILE].children.length} `;
+        newText += `\ntile count : ${mapToolRenderer.layers[Types_1.EntityTypes.TILE].children.length} `;
+        newText += `\nobject count : ${mapToolRenderer.layers[Types_1.EntityTypes.OBJECT].children.length} `;
+        newText += `\ncharacter count : ${mapToolRenderer.layers[Types_1.EntityTypes.CHARACTER].children.length} `;
+        newText += `\nmissile count : ${mapToolRenderer.layers[Types_1.EntityTypes.MISSILE].children.length} `;
+        // 텍스트가 변경된 경우에만 업데이트
+        if (this.debugText.text !== newText) {
+            this.debugText.text = newText;
+        }
     }
     selectDrawItem(selectedDrawItem) {
         this.drawType = selectedDrawItem;
@@ -309286,6 +309294,13 @@ class MapToolRenderer extends StageRenderer_1.StageRenderer {
     }
     render() {
         this.keyFrame();
+        // FPS를 1초마다 갱신
+        const currentTime = Date.now();
+        if (currentTime - this.lastFPSUpdateTime >= 1000) {
+            this.cachedFPS = Math.floor(PIXI.Ticker.shared.FPS);
+            this.cachedFPSText = `FPS : ${this.cachedFPS}`;
+            this.lastFPSUpdateTime = currentTime;
+        }
         const userAction = this.userActions[this.selectedAction];
         if (!userAction.initialized) {
             userAction.init();
@@ -318338,120 +318353,6 @@ var le={wrapper:{display:"flex",position:"relative",textAlign:"initial"},fullWid
 
 /***/ }),
 
-/***/ "./node_modules/@rjsf/core/node_modules/nanoid/index.browser.js":
-/*!**********************************************************************!*\
-  !*** ./node_modules/@rjsf/core/node_modules/nanoid/index.browser.js ***!
-  \**********************************************************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   customAlphabet: () => (/* binding */ customAlphabet),
-/* harmony export */   customRandom: () => (/* binding */ customRandom),
-/* harmony export */   nanoid: () => (/* binding */ nanoid),
-/* harmony export */   random: () => (/* binding */ random),
-/* harmony export */   urlAlphabet: () => (/* reexport safe */ _url_alphabet_index_js__WEBPACK_IMPORTED_MODULE_0__.urlAlphabet)
-/* harmony export */ });
-/* harmony import */ var _url_alphabet_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./url-alphabet/index.js */ "./node_modules/@rjsf/core/node_modules/nanoid/url-alphabet/index.js");
-// This file replaces `index.js` in bundlers like webpack or Rollup,
-// according to `browser` config in `package.json`.
-
-
-
-let random = bytes => crypto.getRandomValues(new Uint8Array(bytes))
-
-let customRandom = (alphabet, defaultSize, getRandom) => {
-  // First, a bitmask is necessary to generate the ID. The bitmask makes bytes
-  // values closer to the alphabet size. The bitmask calculates the closest
-  // `2^31 - 1` number, which exceeds the alphabet size.
-  // For example, the bitmask for the alphabet size 30 is 31 (00011111).
-  // `Math.clz32` is not used, because it is not available in browsers.
-  let mask = (2 << (Math.log(alphabet.length - 1) / Math.LN2)) - 1
-  // Though, the bitmask solution is not perfect since the bytes exceeding
-  // the alphabet size are refused. Therefore, to reliably generate the ID,
-  // the random bytes redundancy has to be satisfied.
-
-  // Note: every hardware random generator call is performance expensive,
-  // because the system call for entropy collection takes a lot of time.
-  // So, to avoid additional system calls, extra bytes are requested in advance.
-
-  // Next, a step determines how many random bytes to generate.
-  // The number of random bytes gets decided upon the ID size, mask,
-  // alphabet size, and magic number 1.6 (using 1.6 peaks at performance
-  // according to benchmarks).
-
-  // `-~f => Math.ceil(f)` if f is a float
-  // `-~i => i + 1` if i is an integer
-  let step = -~((1.6 * mask * defaultSize) / alphabet.length)
-
-  return (size = defaultSize) => {
-    let id = ''
-    while (true) {
-      let bytes = getRandom(step)
-      // A compact alternative for `for (var i = 0; i < step; i++)`.
-      let j = step | 0
-      while (j--) {
-        // Adding `|| ''` refuses a random byte that exceeds the alphabet size.
-        id += alphabet[bytes[j] & mask] || ''
-        if (id.length === size) return id
-      }
-    }
-  }
-}
-
-let customAlphabet = (alphabet, size = 21) =>
-  customRandom(alphabet, size, random)
-
-let nanoid = (size = 21) =>
-  crypto.getRandomValues(new Uint8Array(size)).reduce((id, byte) => {
-    // It is incorrect to use bytes exceeding the alphabet size.
-    // The following mask reduces the random byte in the 0-255 value
-    // range to the 0-63 value range. Therefore, adding hacks, such
-    // as empty string fallback or magic numbers, is unneccessary because
-    // the bitmask trims bytes down to the alphabet size.
-    byte &= 63
-    if (byte < 36) {
-      // `0-9a-z`
-      id += byte.toString(36)
-    } else if (byte < 62) {
-      // `A-Z`
-      id += (byte - 26).toString(36).toUpperCase()
-    } else if (byte > 62) {
-      id += '-'
-    } else {
-      id += '_'
-    }
-    return id
-  }, '')
-
-
-
-
-/***/ }),
-
-/***/ "./node_modules/@rjsf/core/node_modules/nanoid/url-alphabet/index.js":
-/*!***************************************************************************!*\
-  !*** ./node_modules/@rjsf/core/node_modules/nanoid/url-alphabet/index.js ***!
-  \***************************************************************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   urlAlphabet: () => (/* binding */ urlAlphabet)
-/* harmony export */ });
-// This alphabet uses `A-Za-z0-9_-` symbols.
-// The order of characters is optimized for better gzip and brotli compression.
-// Same as in non-secure/index.js
-let urlAlphabet =
-  'useandom-26T198340PX75pxJACKVERYMINDBUSHWOLF_GQZbfghjklqvwyzrict'
-
-
-
-
-/***/ }),
-
 /***/ "./node_modules/js-cookie/dist/js.cookie.mjs":
 /*!***************************************************!*\
   !*** ./node_modules/js-cookie/dist/js.cookie.mjs ***!
@@ -325918,6 +325819,78 @@ function t(){return t=Object.assign?Object.assign.bind():function(e){for(var t=1
 
 /***/ }),
 
+/***/ "./node_modules/nanoid/index.browser.js":
+/*!**********************************************!*\
+  !*** ./node_modules/nanoid/index.browser.js ***!
+  \**********************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   customAlphabet: () => (/* binding */ customAlphabet),
+/* harmony export */   customRandom: () => (/* binding */ customRandom),
+/* harmony export */   nanoid: () => (/* binding */ nanoid),
+/* harmony export */   random: () => (/* binding */ random),
+/* harmony export */   urlAlphabet: () => (/* reexport safe */ _url_alphabet_index_js__WEBPACK_IMPORTED_MODULE_0__.urlAlphabet)
+/* harmony export */ });
+/* harmony import */ var _url_alphabet_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./url-alphabet/index.js */ "./node_modules/nanoid/url-alphabet/index.js");
+
+let random = bytes => crypto.getRandomValues(new Uint8Array(bytes))
+let customRandom = (alphabet, defaultSize, getRandom) => {
+  let mask = (2 << (Math.log(alphabet.length - 1) / Math.LN2)) - 1
+  let step = -~((1.6 * mask * defaultSize) / alphabet.length)
+  return (size = defaultSize) => {
+    let id = ''
+    while (true) {
+      let bytes = getRandom(step)
+      let j = step | 0
+      while (j--) {
+        id += alphabet[bytes[j] & mask] || ''
+        if (id.length === size) return id
+      }
+    }
+  }
+}
+let customAlphabet = (alphabet, size = 21) =>
+  customRandom(alphabet, size, random)
+let nanoid = (size = 21) =>
+  crypto.getRandomValues(new Uint8Array(size)).reduce((id, byte) => {
+    byte &= 63
+    if (byte < 36) {
+      id += byte.toString(36)
+    } else if (byte < 62) {
+      id += (byte - 26).toString(36).toUpperCase()
+    } else if (byte > 62) {
+      id += '-'
+    } else {
+      id += '_'
+    }
+    return id
+  }, '')
+
+
+
+/***/ }),
+
+/***/ "./node_modules/nanoid/url-alphabet/index.js":
+/*!***************************************************!*\
+  !*** ./node_modules/nanoid/url-alphabet/index.js ***!
+  \***************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   urlAlphabet: () => (/* binding */ urlAlphabet)
+/* harmony export */ });
+let urlAlphabet =
+  'useandom-26T198340PX75pxJACKVERYMINDBUSHWOLF_GQZbfghjklqvwyzrict'
+
+
+
+/***/ }),
+
 /***/ "./node_modules/react-toastify/dist/react-toastify.esm.mjs":
 /*!*****************************************************************!*\
   !*** ./node_modules/react-toastify/dist/react-toastify.esm.mjs ***!
@@ -328481,7 +328454,7 @@ module.exports = /*#__PURE__*/JSON.parse('{"items":[{"itemType":"TILE","tileType
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("5c8a47aff30de86c3143")
+/******/ 		__webpack_require__.h = () => ("bb15afcd7315075caa65")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
