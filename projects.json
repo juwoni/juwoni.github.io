@@ -9,6 +9,9 @@
           url: "https://juwoni.github.io/fantasyduel",
           urlComment: "(prototype)",
           screenshots: [
+            "images/fantasyDuel/img_2.png",
+            "images/fantasyDuel/img_4.png",
+
             "images/fantasyDuel/gameplay1.png",
             "images/fantasyDuel/gameplay2.png",
             // "images/fantasyDuel/FantasyDuel.png",
