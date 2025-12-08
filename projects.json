@@ -2,6 +2,30 @@
   items: [
     {
       "versions" : {
+        "alpha" : {
+          title: "Fantasy Duel(Godot)",
+          stack: ["C#", "Godot 4.5.1","javascript", "react.js", "Node.js", "postgresql", "prisma"],
+          date: "2023.10 ~ 2023.11",
+          url: "https://juwoni.github.io/fantasyduel",
+          urlComment: "(prototype)",
+          screenshots: [
+            "images/fantasyDuel/img_22.png",
+            "images/fantasyDuel/img_44.png",
+            "images/fantasyDuel/custom.png",
+            "images/fantasyDuel/history.png",
+            "images/fantasyDuel/snapshot2.png",
+            "images/fantasyDuel/deckEditor.png",
+            "images/fantasyDuel/loading.png"
+
+          ],
+
+          description: [
+            "플레이어 스냅샷 MMR 기준으로 저장 & 스냅샷 웹뷰어 구현",
+            "전투 히스토리 구현 & 히스토리 웹뷰어 구현",
+            "덱 편집기 구현 (웹)",
+            "캐릭터 커스터마이징 구현"
+          ]
+        },
         "prototype" : {
           title: "Fantasy Duel(Godot)",
           stack: ["C#", "Godot 3.5 mono", "GDScript", "javascript", "react.js", "Node.js", "postgresql", "Sequelize"],
@@ -9,9 +33,6 @@
           url: "https://juwoni.github.io/fantasyduel",
           urlComment: "(prototype)",
           screenshots: [
-            "images/fantasyDuel/img_2.png",
-            "images/fantasyDuel/img_4.png",
-
             "images/fantasyDuel/gameplay1.png",
             "images/fantasyDuel/gameplay2.png",
             // "images/fantasyDuel/FantasyDuel.png",
