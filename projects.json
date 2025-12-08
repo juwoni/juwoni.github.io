@@ -6,7 +6,7 @@
           title: "Fantasy Duel(Godot)",
           stack: ["C#", "Godot 4.5.1","javascript", "react.js", "Node.js", "postgresql", "prisma"],
           date: "2023.10 ~ 2023.11",
-          url: "https://juwoni.github.io/fantasyduel",
+//          url: "https://juwoni.github.io/fantasyduel",
           urlComment: "(prototype)",
           screenshots: [
             "images/fantasyDuel/img_22.png",
@@ -30,7 +30,7 @@
           title: "Fantasy Duel(Godot)",
           stack: ["C#", "Godot 3.5 mono", "GDScript", "javascript", "react.js", "Node.js", "postgresql", "Sequelize"],
           date: "2023.10 ~ 2023.11",
-          url: "https://juwoni.github.io/fantasyduel",
+//          url: "https://juwoni.github.io/fantasyduel",
           urlComment: "(prototype)",
           screenshots: [
             "images/fantasyDuel/gameplay1.png",
