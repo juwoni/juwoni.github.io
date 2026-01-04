@@ -1,12 +1,48 @@
 {
   items: [
     {
-      "versions" : {
-        "alpha" : {
+      "versions": {
+        "alphaV2": {
           title: "Fantasy Duel(Godot)",
-          stack: ["C#", "Godot 4.5.1","javascript", "react.js", "Node.js", "postgresql", "prisma"],
+          stack: [
+            "C#",
+            "Godot 4.5.1",
+            "javascript",
+            "react.js",
+            "Node.js",
+            "postgresql",
+            "prisma"
+          ],
           date: "2023.10 ~ 2023.11",
-//          url: "https://juwoni.github.io/fantasyduel",
+          //          url: "https://juwoni.github.io/fantasyduel",
+          urlComment: "(prototype)",
+          screenshots: [
+            "images/fantasyDuel-alpha/custom.png",
+            "images/fantasyDuel-alpha/deck.png"
+          ],
+          description: [
+            "Godot 기반 1:1 전투 게임으로, 데이터 레이어부터 매칭·리플레이·인벤토리 시스템 설계 및 구현",
+            "서버 장애 상황에서도 플레이가 가능하도록 offline-first 데이터 구조 설계(로컬 캐시 및 seed 기반 폴백 처리 로직 구현)",
+            "MMR 기반 1:1 매칭 시스템 구현, 서버 매칭 실패 시 캐시된 인벤토리 스냅샷을 활용한 대체 매칭 흐름 구성",
+            "전투 중 발생하는 주요 이벤트를 기록하는 이벤트 로그 기반 리플레이 시스템 구현",
+            "아이템 그리드 기반 인벤토리 및 상점 시스템 구현(배치, 회전·리롤 구조 설계)",
+            "커스텀 셰이더 및 VFX 제작을 통해 전투 연출 및 아이템 효과 시각화",
+            "아이템 드롭 시 물리 기반 연출(낙하·충돌·바운스) 구현"
+          ]
+        },
+        "alpha": {
+          title: "Fantasy Duel(Godot)",
+          stack: [
+            "C#",
+            "Godot 4.5.1",
+            "javascript",
+            "react.js",
+            "Node.js",
+            "postgresql",
+            "prisma"
+          ],
+          date: "2023.10 ~ 2023.11",
+          //          url: "https://juwoni.github.io/fantasyduel",
           urlComment: "(prototype)",
           screenshots: [
             "images/fantasyDuel/img_22.png",
@@ -17,9 +53,7 @@
             "images/fantasyDuel/snapshot2.png",
             "images/fantasyDuel/deckEditor.png",
             "images/fantasyDuel/loading.png"
-
           ],
-
           description: [
             "플레이어 스냅샷 MMR 기준으로 저장 & 스냅샷 웹뷰어 구현",
             "전투 히스토리 구현 & 히스토리 웹뷰어 구현",
@@ -27,20 +61,28 @@
             "캐릭터 커스터마이징 구현"
           ]
         },
-        "prototype" : {
+        "prototype": {
           title: "Fantasy Duel(Godot)",
-          stack: ["C#", "Godot 3.5 mono", "GDScript", "javascript", "react.js", "Node.js", "postgresql", "Sequelize"],
+          stack: [
+            "C#",
+            "Godot 3.5 mono",
+            "GDScript",
+            "javascript",
+            "react.js",
+            "Node.js",
+            "postgresql",
+            "Sequelize"
+          ],
           date: "2023.10 ~ 2023.11",
-//          url: "https://juwoni.github.io/fantasyduel",
+          //          url: "https://juwoni.github.io/fantasyduel",
           urlComment: "(prototype)",
           screenshots: [
             "images/fantasyDuel/gameplay1.png",
             "images/fantasyDuel/gameplay2.png",
             // "images/fantasyDuel/FantasyDuel.png",
             "images/fantasyDuel/item.png",
-            "images/fantasyDuel/snapshot.png",
+            "images/fantasyDuel/snapshot.png"
           ],
-
           description: [
             "인벤토리 관리 및 1v1 매칭 전투 시스템구현",
             "GDScript로 프로토타입 개발 후, 디버깅 효율을 위해 C#으로 리팩터링",
@@ -54,18 +96,24 @@
     },
     {
       title: "Fantasy World(Unity) & WebTool",
-      stack: ["C#", "Unity Engine", "node.js", "javascript", "typescript", "pixi.js", "react.js",],
+      stack: [
+        "C#",
+        "Unity Engine",
+        "node.js",
+        "javascript",
+        "typescript",
+        "pixi.js",
+        "react.js"
+      ],
       date: "2020.10",
       url: "https://juwoni.github.io/fantasyworld",
-
       screenshots: [
         "images/fantasyWorld/unityPlayer.png",
         "images/fantasyWorld/itemtool.png",
         "images/fantasyWorld/unityEngine.png",
         "images/fantasyWorld/region system.png",
-        "images/fantasyWorld/uielement.png",
+        "images/fantasyWorld/uielement.png"
       ],
-
       description: [
         "pixi.js + react.js로 웹툴을 개발",
         "Unity 엔진 으로 웹툴플레이어 개발 (web export)",
@@ -73,35 +121,52 @@
         "*A 알고리즘으로 길찾기 구현",
         "Room detection 구현",
         "Unity UI elements 사용",
-        "Unity custom URP 개발",
-
-      ],
+        "Unity custom URP 개발"
+      ]
     },
     {
       title: "Fantasy Craft",
-      stack: ["JavaScript", "Pixi.js", "GLSL", " react.js", "react-reconciliation", "redux", "Node.js", "Yoga-layout"],
+      stack: [
+        "JavaScript",
+        "Pixi.js",
+        "GLSL",
+        " react.js",
+        "react-reconciliation",
+        "redux",
+        "Node.js",
+        "Yoga-layout"
+      ],
       date: "2018.10",
-
       screenshots: [
         "images/fantasyCraft/FantasyCraft.png",
         "images/fantasyCraft/FantasyCraft2.png",
         // "images/fantasyCraft/fantasyCraft3.png",
         "images/fantasyCraft/overView.png",
         "images/fantasyCraft/marching squares.png",
-        "images/fantasyCraft/physics.png",
+        "images/fantasyCraft/physics.png"
       ],
       description: [
-//        "UI 개발 시 React JSX 스타일 적용을 위해 react-reconciliation 도입, React 방식으로 WebGL UI 구현",
+        //        "UI 개발 시 React JSX 스타일 적용을 위해 react-reconciliation 도입, React 방식으로 WebGL UI 구현",
         "게임 오브젝트에 물리 적용",
         "*A 알고리즘으로 길찾기 구현",
         "UI 개발시 react-reconciliation 사용하여 JSX문법 적용",
         "시뮬레이션 행동 시스템 구현.",
         "Yoga-layout 사용하여 flexbox 레이아웃 적용."
-      ],
+      ]
     },
     {
       title: "Fantasy Heroes",
-      stack: ["JavaScript", "Pixi.js", "GLSL", "react.js", "redux", "AWS", "Node.js", "uWebsocket", "Mongodb"],
+      stack: [
+        "JavaScript",
+        "Pixi.js",
+        "GLSL",
+        "react.js",
+        "redux",
+        "AWS",
+        "Node.js",
+        "uWebsocket",
+        "Mongodb"
+      ],
       date: "2017.01",
       screenshots: [
         "images/fantasyheroes/ingame.png",
@@ -109,7 +174,7 @@
         "images/fantasyheroes/tool.png",
         "images/fantasyheroes/install.png",
         "images/fantasyheroes/lightning.png",
-        "images/fantasyheroes/gameOver.png",
+        "images/fantasyheroes/gameOver.png"
         // "images/fantasyheroes/fov.png",
       ],
       description: [
@@ -117,47 +182,54 @@
         "Marching Squares 알고리즘을 활용하여 2D FOV 연산 최적화",
         "uWebSocket을 사용하여 실시간 캐릭터 위치 및 상태 동기화 처리",
         "아웃라인 및 글로우 쉐이더 적용, 포스트 프로세싱 쉐이더 적용",
-        "React.js를 사용하여 게임 UI 및 에디터 툴 개발",
-      ],
+        "React.js를 사용하여 게임 UI 및 에디터 툴 개발"
+      ]
     },
     {
       title: "맛짱",
-      stack: ["C++", "WINAPI", "Winsock", "IOCP", "Directx9.0", "MFC", "Shader", "3dmaxsdk"],
+      stack: [
+        "C++",
+        "WINAPI",
+        "Winsock",
+        "IOCP",
+        "Directx9.0",
+        "MFC",
+        "Shader",
+        "3dmaxsdk"
+      ],
       date: "2008.02 ~ 2008.08",
-
       screenshots: [
         "images/tasteking/chartool.jpg",
         "images/tasteking/ui.png",
-        "images/tasteking/2_gamediz.jpg",
+        "images/tasteking/2_gamediz.jpg"
       ],
-
       description: [
         "UI 툴 메인, 캐릭터 툴 서브 개발로 참여.",
         "UI 툴 작업 데이터를 고유 포맷으로 저장 및 파싱하는 기능 구현",
         "3DMax SDK를 활용하여 버텍스 및 애니메이션 행렬을 Export하는 3DMax Utility개발",
-        "Vertex Shader를 이용한 Skinned Animation 구현",
+        "Vertex Shader를 이용한 Skinned Animation 구현"
       ]
-    },
-//    {
-//      title: "Dogs Of Chaos",
-//      date: "2007.11 (1month)",
-//      stack: ["C++", "WINAPI", "Winsock", "IOCP"],
-//      screenshots: [
-//        "images/doc.png",
-//      ],
-//
-//    },
-//    {
-//      title: "Dogs of doom",
-//      stack: ["C++", "WINAPI"],
-//      date: "2007.10 (1week)",
-//      screenshots: [
-//        "images/DogsOfDoom.png",
-//      ],
-//
-//      description  :[
-//      "삼각함수를 활용하여 유도탄, 샷건, 관통탄, 기관총 등 다양한 발사체 구현",
-//    ]
-//    },
+    }
+    //    {
+    //      title: "Dogs Of Chaos",
+    //      date: "2007.11 (1month)",
+    //      stack: ["C++", "WINAPI", "Winsock", "IOCP"],
+    //      screenshots: [
+    //        "images/doc.png",
+    //      ],
+    //
+    //    },
+    //    {
+    //      title: "Dogs of doom",
+    //      stack: ["C++", "WINAPI"],
+    //      date: "2007.10 (1week)",
+    //      screenshots: [
+    //        "images/DogsOfDoom.png",
+    //      ],
+    //
+    //      description  :[
+    //      "삼각함수를 활용하여 유도탄, 샷건, 관통탄, 기관총 등 다양한 발사체 구현",
+    //    ]
+    //    },
   ]
 }
