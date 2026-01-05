@@ -14,6 +14,8 @@
             "prisma"
           ],
           date: "2023.10 ~ 2023.11",
+          toolUrl: "https://juwoni.github.io/fantasyworld",
+          "videoLink" : "https://youtu.be/FW2mgOOwvOo",
           //          url: "https://juwoni.github.io/fantasyduel",
           urlComment: "(prototype)",
           screenshots: [
@@ -42,6 +44,8 @@
             "prisma"
           ],
           date: "2023.10 ~ 2023.11",
+          toolUrl: "https://juwoni.github.io/fantasyworld",
+
           //          url: "https://juwoni.github.io/fantasyduel",
           urlComment: "(prototype)",
           screenshots: [
@@ -74,6 +78,8 @@
             "Sequelize"
           ],
           date: "2023.10 ~ 2023.11",
+          toolUrl: "https://juwoni.github.io/fantasyworld",
+
           //          url: "https://juwoni.github.io/fantasyduel",
           urlComment: "(prototype)",
           screenshots: [
@@ -106,7 +112,7 @@
         "react.js"
       ],
       date: "2020.10",
-      url: "https://juwoni.github.io/fantasyworld",
+      toolUrl: "https://juwoni.github.io/fantasyworld",
       screenshots: [
         "images/fantasyWorld/unityPlayer.png",
         "images/fantasyWorld/itemtool.png",
