@@ -19,6 +19,7 @@
           //          url: "https://juwoni.github.io/fantasyduel",
           urlComment: "(prototype)",
           screenshots: [
+            "images/fantasyDuel-alpha/ingame.png",
             "images/fantasyDuel-alpha/custom.png",
             "images/fantasyDuel-alpha/deck.png"
           ],
