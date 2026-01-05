@@ -15,7 +15,7 @@
           ],
           date: "2023.10 ~ 2023.11",
           toolUrl: "https://juwoni.github.io/fantasyworld",
-          "videoLink" : "https://youtu.be/FW2mgOOwvOo",
+          "videoLink" : "https://youtu.be/qJj5jmnmB-4",
           //          url: "https://juwoni.github.io/fantasyduel",
           urlComment: "(prototype)",
           screenshots: [
@@ -144,9 +144,9 @@
       ],
       date: "2018.10",
       screenshots: [
-        "images/fantasyCraft/FantasyCraft.png",
-        "images/fantasyCraft/FantasyCraft2.png",
-        // "images/fantasyCraft/fantasyCraft3.png",
+        "images/fantasyCraft/fantasyCraft.png",
+        "images/fantasyCraft/fantasyCraft22.png",
+        // "images/fantasyCraft/fantasyCraft33.png",
         "images/fantasyCraft/overView.png",
         "images/fantasyCraft/marching squares.png",
         "images/fantasyCraft/physics.png"
