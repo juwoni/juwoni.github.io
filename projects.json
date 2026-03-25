@@ -7,8 +7,8 @@
         "react.js",
         "javascript"
       ],
-      date: "2026.01.18 ~ 2026.01.19",
-      //      toolUrl: "https://juwoni.github.io/fantasyworld",
+      date: "2026.01.18 ~ 2026.02.2",
+      toolUrl: "https://juwoni.github.io/fantasyworld",
       screenshots: [
         "images/AINarrativeGenerator/1.png",
         "images/AINarrativeGenerator/2.png",
