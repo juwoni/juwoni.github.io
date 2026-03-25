@@ -1,0 +1,690 @@
+[
+  {
+    "texture": {
+      "coords": [
+        0,
+        0
+      ],
+      "size": [
+        1,
+        1
+      ],
+      "textureName": "skill-icons"
+    },
+    "name": "stickiness",
+    "script": "",
+    "localizedText": {
+      "name_kr": "아이템 한국어 이름",
+      "name_en": "item english name",
+      "desc_kr": "한국어 설명",
+      "desc_en": "English description"
+    },
+    "id": "928192a4-0200-489a-8220-d7c274688a3a",
+    "skillType": "PASSIVE",
+    "tier": 0,
+    "entityType": "SKILL"
+  },
+  {
+    "texture": {
+      "coords": [
+        1,
+        0
+      ],
+      "size": [
+        1,
+        1
+      ],
+      "textureName": "spritesheet_16x16"
+    },
+    "name": "Armor",
+    "script": "",
+    "localizedText": {
+      "name_kr": "아이템 한국어 이름",
+      "name_en": "item english name",
+      "desc_kr": "인접한 ARMOR 아이템에게 +1 방어력을 추가합니다.",
+      "desc_en": "English description"
+    },
+    "entityType": "SKILL",
+    "id": "cd1e0eec-9d2d-498f-bc03-87c9192a65fb",
+    "skillType": "PASSIVE",
+    "tier": 0
+  },
+  {
+    "texture": {
+      "coords": [
+        4,
+        0
+      ],
+      "size": [
+        1,
+        1
+      ],
+      "textureName": "skill-icons"
+    },
+    "name": "Unyielding Spirit",
+    "script": "",
+    "localizedText": {
+      "name_kr": "아이템 한국어 이름",
+      "name_en": "item english name",
+      "desc_kr": "한국어 설명",
+      "desc_en": "English description"
+    },
+    "id": "397df3ca-18fd-4934-b883-9283b13660a0",
+    "skillType": "PASSIVE",
+    "tier": 0,
+    "entityType": "SKILL"
+  },
+  {
+    "texture": {
+      "coords": [
+        3,
+        2
+      ],
+      "size": [
+        2,
+        2
+      ],
+      "textureName": "skill-icons"
+    },
+    "name": "Indomitable",
+    "script": "",
+    "localizedText": {
+      "name_kr": "불굴의 의지",
+      "name_en": "Indomitable Will",
+      "desc_kr": "인벤토리에 방어구 아이템이 해당아이템밖에 없을때 방어력 +10을 얻습니다.",
+      "desc_en": "A ring symbolizing unwavering spirit even in the most extreme situations. Reduces incoming damage and provides additional defense essential for survival."
+    },
+    "id": "bb9c980c-920e-48a9-a36b-db9f7c575747",
+    "skillType": "PASSIVE",
+    "tier": 0,
+    "entityType": "SKILL"
+  },
+  {
+    "texture": {
+      "coords": [
+        6,
+        0
+      ],
+      "size": [
+        1,
+        1
+      ],
+      "textureName": "skill-icons"
+    },
+    "name": "Boy Adventurer",
+    "script": "",
+    "localizedText": {
+      "name_kr": "아이템 한국어 이름",
+      "name_en": "item english name",
+      "desc_kr": "한국어 설명",
+      "desc_en": "English description"
+    },
+    "id": "8164d3ed-975c-48ea-ae61-ba7c00c59c23",
+    "skillType": "PASSIVE",
+    "tier": 0,
+    "entityType": "SKILL"
+  },
+  {
+    "texture": {
+      "coords": [
+        5,
+        1
+      ],
+      "size": [
+        1,
+        1
+      ],
+      "textureName": "skill-icons"
+    },
+    "name": "dual wield",
+    "script": "",
+    "localizedText": {
+      "name_kr": "아이템 한국어 이름",
+      "name_en": "item english name",
+      "desc_kr": "한국어 설명",
+      "desc_en": "English description"
+    },
+    "id": "549fb2ef-5566-44e2-adcc-37a74be9918a",
+    "skillType": "PASSIVE",
+    "tier": 0,
+    "entityType": "SKILL"
+  },
+  {
+    "texture": {
+      "coords": [],
+      "size": []
+    },
+    "name": "PhysicalAttack",
+    "script": "",
+    "localizedText": {
+      "name_kr": "아이템 한국어 이름",
+      "name_en": "item english name",
+      "desc_kr": "한국어 설명",
+      "desc_en": "English description"
+    },
+    "id": "5a38edd0-3866-463e-8c33-b3ecfc54a721",
+    "tier": 0,
+    "skillType": "ACTIVE",
+    "entityType": "EFFECT"
+  },
+  {
+    "texture": {
+      "coords": [],
+      "size": []
+    },
+    "name": "Explosion",
+    "script": "",
+    "localizedText": {
+      "name_kr": "아이템 한국어 이름",
+      "name_en": "item english name",
+      "desc_kr": "한국어 설명",
+      "desc_en": "English description"
+    },
+    "id": "75d8d6f8-edc5-4436-b6d9-52de0d50d0e3",
+    "tier": 0,
+    "skillType": "ACTIVE",
+    "entityType": "EFFECT"
+  },
+  {
+    "texture": {
+      "coords": [],
+      "size": []
+    },
+    "name": "Weapon",
+    "script": "",
+    "localizedText": {
+      "name_kr": "아이템 한국어 이름",
+      "name_en": "item english name",
+      "desc_kr": "한국어 설명",
+      "desc_en": "English description"
+    },
+    "id": "0673c13d-36d1-4abf-bda9-6eed84439576",
+    "tier": 0,
+    "skillType": "ACTIVE",
+    "entityType": "EFFECT"
+  },
+  {
+    "texture": {
+      "coords": [],
+      "size": []
+    },
+    "name": "Zap",
+    "script": "",
+    "localizedText": {
+      "name_kr": "아이템 한국어 이름",
+      "name_en": "item english name",
+      "desc_kr": "한국어 설명",
+      "desc_en": "English description"
+    },
+    "id": "bc749de4-8db3-496c-991a-1cf38dffc0ae",
+    "tier": 0,
+    "skillType": "ACTIVE",
+    "entityType": "EFFECT"
+  },
+  {
+    "texture": {
+      "coords": [],
+      "size": []
+    },
+    "name": "FireBall",
+    "script": "",
+    "localizedText": {
+      "name_kr": "아이템 한국어 이름",
+      "name_en": "item english name",
+      "desc_kr": "한국어 설명",
+      "desc_en": "English description"
+    },
+    "id": "c3cb6bd9-de10-4cfb-8593-e0fe3a5c1289",
+    "tier": 0,
+    "skillType": "ACTIVE",
+    "entityType": "EFFECT"
+  },
+  {
+    "texture": {
+      "coords": [],
+      "size": []
+    },
+    "name": "Heal",
+    "script": "",
+    "localizedText": {
+      "name_kr": "아이템 한국어 이름",
+      "name_en": "item english name",
+      "desc_kr": "한국어 설명",
+      "desc_en": "English description"
+    },
+    "id": "893bbd7e-2a28-4ba6-91c2-2c9f52bbb596",
+    "tier": 0,
+    "skillType": "ACTIVE",
+    "entityType": "EFFECT"
+  },
+  {
+    "texture": {
+      "coords": [],
+      "size": []
+    },
+    "name": "Lightning",
+    "script": "",
+    "localizedText": {
+      "name_kr": "아이템 한국어 이름",
+      "name_en": "item english name",
+      "desc_kr": "한국어 설명",
+      "desc_en": "English description"
+    },
+    "id": "785fd569-2698-4eed-b533-e4eb691d8de9",
+    "tier": 0,
+    "skillType": "ACTIVE",
+    "entityType": "EFFECT"
+  },
+  {
+    "texture": {
+      "coords": [],
+      "size": []
+    },
+    "name": "RangedAttack",
+    "script": "",
+    "localizedText": {
+      "name_kr": "아이템 한국어 이름",
+      "name_en": "item english name",
+      "desc_kr": "한국어 설명",
+      "desc_en": "English description"
+    },
+    "id": "5ee7e710-eb4c-4722-9f77-ca8fd205e3f8",
+    "tier": 0,
+    "skillType": "ACTIVE",
+    "entityType": "EFFECT"
+  },
+  {
+    "texture": {
+      "coords": [],
+      "size": []
+    },
+    "name": "Projectile",
+    "script": "",
+    "localizedText": {
+      "name_kr": "아이템 한국어 이름",
+      "name_en": "item english name",
+      "desc_kr": "한국어 설명",
+      "desc_en": "English description"
+    },
+    "id": "65a3262f-8fc7-4259-9605-ed0d7dd1c2ba",
+    "tier": 0,
+    "skillType": "ACTIVE",
+    "entityType": "EFFECT"
+  },
+  {
+    "texture": {
+      "coords": [],
+      "size": []
+    },
+    "name": "RestoreMana",
+    "script": "",
+    "localizedText": {
+      "name_kr": "아이템 한국어 이름",
+      "name_en": "item english name",
+      "desc_kr": "한국어 설명",
+      "desc_en": "English description"
+    },
+    "id": "d58b1be7-2929-4f78-82de-6d5af363e235",
+    "tier": 0,
+    "skillType": "ACTIVE",
+    "entityType": "EFFECT"
+  },
+  {
+    "texture": {
+      "coords": [
+        9,
+        18
+      ],
+      "size": [
+        1,
+        1
+      ],
+      "textureName": "spritesheet_16x16"
+    },
+    "name": "ShieldSmash",
+    "script": "",
+    "localizedText": {
+      "name_kr": "방패 파쇄",
+      "name_en": "Shield Smash",
+      "desc_kr": "방패를 휘둘러 적에게 방어력만큼의 피해를 입힙니다.",
+      "desc_en": "Slam the shield to deal damage equal to your defense stat to enemies."
+    },
+    "id": "dcecb02b-d79d-4722-a5f3-9a964b253e04",
+    "skillType": "PASSIVE",
+    "tier": 0,
+    "entityType": "SKILL"
+  },
+  {
+    "name": "AncientMight",
+    "script": "",
+    "entityType": "SKILL",
+    "skillType": "PASSIVE",
+    "texture": {
+      "coords": [
+        3,
+        3
+      ],
+      "size": [
+        1,
+        2
+      ],
+      "textureName": "weapons"
+    },
+    "localizedText": {
+      "name_kr": "고대의 힘",
+      "name_en": "Ancient Might",
+      "desc_kr": "인벤토리에 무기 아이템이 해당아이템밖에 없을때 DAMAGE +3을 얻습니다.",
+      "desc_en": "Armor imbued with powerful magic accumulated over millennia. Increases both physical attack and defense when worn."
+    },
+    "id": "7ed72342-9a55-4172-ae1e-abb631b2a2f3",
+    "tier": 0
+  },
+  {
+    "texture": {
+      "coords": [],
+      "size": []
+    },
+    "name": "MeleeAttack",
+    "script": "",
+    "localizedText": {
+      "name_kr": "아이템 한국어 이름",
+      "name_en": "item english name",
+      "desc_kr": "한국어 설명",
+      "desc_en": "English description"
+    },
+    "id": "d3452aaf-9671-48c3-b5f4-c9bf5c407a05",
+    "skillType": "ACTIVE",
+    "tier": 0,
+    "entityType": "EFFECT"
+  },
+  {
+    "texture": {
+      "coords": [],
+      "size": []
+    },
+    "name": "SecondWind",
+    "script": "",
+    "localizedText": {
+      "name_kr": "아이템 한국어 이름",
+      "name_en": "item english name",
+      "desc_kr": "한국어 설명",
+      "desc_en": "English description"
+    },
+    "id": "90b714ef-92ce-4d67-9ed0-0732ac95f32e",
+    "skillType": "ACTIVE",
+    "tier": 0,
+    "entityType": "EFFECT"
+  },
+  {
+    "texture": {
+      "coords": [],
+      "size": []
+    },
+    "name": "Balance",
+    "script": "",
+    "localizedText": {
+      "name_kr": "아이템 한국어 이름",
+      "name_en": "item english name",
+      "desc_kr": "한국어 설명",
+      "desc_en": "English description"
+    },
+    "id": "11505c4d-fd80-431a-a200-0ad98688bc03",
+    "skillType": "PASSIVE",
+    "tier": 0,
+    "entityType": "SKILL"
+  },
+  {
+    "texture": {
+      "coords": [],
+      "size": []
+    },
+    "name": "Minimalist",
+    "script": "",
+    "localizedText": {
+      "name_kr": "아이템 한국어 이름",
+      "name_en": "+2 Defense per item when inventory has 3 or fewer items",
+      "desc_kr": "인벤토리에 아이템이 3개 이하일때 +2방어력",
+      "desc_en": "English description"
+    },
+    "id": "3b8ef5b1-ecf9-452a-85de-8db97b0e6d48",
+    "skillType": "PASSIVE",
+    "tier": 0,
+    "entityType": "SKILL"
+  },
+  {
+    "texture": {
+      "coords": [],
+      "size": []
+    },
+    "name": "Collector",
+    "script": "",
+    "localizedText": {
+      "name_kr": "아이템 한국어 이름",
+      "name_en": "+5 Damage when inventory is 90% or more full",
+      "desc_kr": "인벤토리가 90% 이상 가득차면 +5",
+      "desc_en": "English description"
+    },
+    "id": "d9050e7e-cc85-4ec0-bc80-4f686f309261",
+    "skillType": "PASSIVE",
+    "tier": 0,
+    "entityType": "SKILL"
+  },
+  {
+    "texture": {
+      "coords": [],
+      "size": []
+    },
+    "name": "Specialist",
+    "script": "",
+    "localizedText": {
+      "name_kr": "아이템 한국어 이름",
+      "name_en": "3 to relevant stat when 3+ items of same type exist",
+      "desc_kr": "한국어 설명",
+      "desc_en": "English description"
+    },
+    "id": "24e7073b-617e-444a-a892-7dd441ec1f0e",
+    "skillType": "PASSIVE",
+    "tier": 0,
+    "entityType": "SKILL"
+  },
+  {
+    "texture": {
+      "coords": [],
+      "size": []
+    },
+    "name": "PsychoBall",
+    "script": "",
+    "localizedText": {
+      "name_kr": "아이템 한국어 이름",
+      "name_en": "item english name",
+      "desc_kr": "한국어 설명",
+      "desc_en": "English description"
+    },
+    "id": "3ec6344e-d643-4f12-88e4-6689e537a117",
+    "skillType": "ACTIVE",
+    "tier": 0,
+    "entityType": "EFFECT"
+  },
+  {
+    "texture": {
+      "coords": [
+        10,
+        9
+      ],
+      "size": [
+        1,
+        1
+      ],
+      "textureName": "spritesheet_16x16"
+    },
+    "name": "ChaosStack",
+    "script": "",
+    "localizedText": {
+      "name_kr": "아이템 한국어 이름",
+      "name_en": "item english name",
+      "desc_kr": "한국어 설명",
+      "desc_en": "English description"
+    },
+    "entityType": "STACK",
+    "id": "66619ebe-2d70-4dd4-b90a-37b39d5b4240",
+    "tier": 0
+  },
+  {
+    "texture": {
+      "coords": [
+        8,
+        9
+      ],
+      "size": [
+        1,
+        1
+      ],
+      "textureName": "spritesheet_16x16"
+    },
+    "name": "BurnStack",
+    "script": "",
+    "localizedText": {
+      "name_kr": "아이템 한국어 이름",
+      "name_en": "item english name",
+      "desc_kr": "한국어 설명",
+      "desc_en": "English description"
+    },
+    "entityType": "STACK",
+    "id": "987b86cb-08bb-4c81-8c3d-b634eafd5af9",
+    "tier": 0
+  },
+  {
+    "texture": {
+      "coords": [
+        14,
+        9
+      ],
+      "size": [
+        1,
+        1
+      ],
+      "textureName": "spritesheet_16x16"
+    },
+    "name": "PoisonStack",
+    "script": "",
+    "localizedText": {
+      "name_kr": "아이템 한국어 이름",
+      "name_en": "item english name",
+      "desc_kr": "한국어 설명",
+      "desc_en": "English description"
+    },
+    "entityType": "STACK",
+    "id": "6172f2c5-8598-4445-b7cc-dbf3dd879251",
+    "tier": 0
+  },
+  {
+    "texture": {
+      "coords": [],
+      "size": []
+    },
+    "name": "IceBall",
+    "script": "",
+    "localizedText": {
+      "name_kr": "아이템 한국어 이름",
+      "name_en": "item english name",
+      "desc_kr": "한국어 설명",
+      "desc_en": "English description"
+    },
+    "entityType": "EFFECT",
+    "id": "ca4ad590-fb23-46b8-8cff-ee142435bb85",
+    "tier": 0,
+    "skillType": "ACTIVE"
+  },
+  {
+    "texture": {
+      "coords": [
+        7,
+        9
+      ],
+      "size": [
+        1,
+        1
+      ],
+      "textureName": "spritesheet_16x16"
+    },
+    "name": "FreezeStack",
+    "script": "",
+    "localizedText": {
+      "name_kr": "아이템 한국어 이름",
+      "name_en": "item english name",
+      "desc_kr": "한국어 설명",
+      "desc_en": "English description"
+    },
+    "entityType": "STACK",
+    "id": "82945630-78c5-4dd9-9013-6080532f0401",
+    "tier": 0
+  },
+  {
+    "texture": {
+      "coords": [
+        14,
+        0
+      ],
+      "size": [
+        1,
+        1
+      ],
+      "textureName": "spritesheet_16x16"
+    },
+    "name": "Pierce",
+    "script": "",
+    "localizedText": {
+      "name_kr": "인접한 영역마다, 아이템이 없을 때 공격력 1을 획득.",
+      "name_en": "item english name",
+      "desc_kr": "한국어 설명",
+      "desc_en": "English description"
+    },
+    "entityType": "SKILL",
+    "id": "7a4fcb9c-b30b-42e2-a79b-eeab23dfda83",
+    "skillType": "PASSIVE",
+    "tier": 0
+  },
+  {
+    "name": "SwordAura",
+    "script": "",
+    "entityType": "EFFECT",
+    "skillType": "ACTIVE",
+    "texture": {
+      "coords": [],
+      "size": []
+    },
+    "localizedText": {
+      "name_kr": "아이템 한국어 이름",
+      "name_en": "item english name",
+      "desc_kr": "한국어 설명",
+      "desc_en": "English description"
+    },
+    "id": "a1025061-4a68-4fd3-9eb3-ac87d2afc080",
+    "tier": 0
+  },
+  {
+    "name": "BladeTempest",
+    "script": "",
+    "entityType": "SKILL",
+    "skillType": "PASSIVE",
+    "texture": {
+      "coords": [
+        5,
+        1
+      ],
+      "size": [
+        1,
+        1
+      ],
+      "textureName": "skill-icons"
+    },
+    "localizedText": {
+      "name_kr": "BladeTempest",
+      "name_en": "item english name",
+      "desc_kr": "현재 인벤토리에 있는 모든 소드가 검기로 변해 발사된다.",
+      "desc_en": "English description"
+    },
+    "id": "7a803686-7c41-4d41-9e10-f8cb5f1ef6d0",
+    "tier": 0
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "name": "USABLE",
+    "soundEffect": {
+      "attack": "",
+      "hit": "",
+      "pickup": "Footsteps/Stone/Stone Run 1.ogg",
+      "drop": "Footsteps/Stone/Stone Run 2.ogg"
+    },
+    "id": "USABLE"
+  },
+  {
+    "name": "WEAPON",
+    "soundEffect": {
+      "attack": "Attacks/Sword Attacks Hits and Blocks/Sword Attack 1.ogg",
+      "hit": "Attacks/Sword Attacks Hits and Blocks/Sword Impact Hit 1.ogg",
+      "pickup": "Footsteps/Wood/Wood Run 1.ogg",
+      "drop": "Footsteps/Wood/Wood Walk 5.ogg"
+    },
+    "id": "WEAPON"
+  },
+  {
+    "name": "ARMOR",
+    "soundEffect": {
+      "attack": "",
+      "hit": "",
+      "pickup": "Footsteps/Stone/Stone Run 1.ogg",
+      "drop": "Footsteps/Stone/Stone Run 2.ogg"
+    },
+    "id": "ARMOR"
+  },
+  {
+    "name": "SPELL",
+    "soundEffect": {
+      "attack": "",
+      "hit": "",
+      "pickup": "Footsteps/Stone/Stone Run 5.ogg",
+      "drop": "Chopping and Mining/chop 2.ogg"
+    },
+    "id": "SPELL"
+  },
+  {
+    "name": "GEM",
+    "soundEffect": {
+      "attack": "",
+      "hit": "",
+      "pickup": "Footsteps/Water/Water Run 1.ogg",
+      "drop": "Footsteps/Water/Water Run 2.ogg"
+    },
+    "id": "GEM"
+  },
+  {
+    "name": "BAG",
+    "soundEffect": {
+      "attack": "",
+      "hit": "",
+      "pickup": "Footsteps/Dirt/Dirt Jump.ogg",
+      "drop": "Footsteps/Wood/Wood Land.ogg"
+    },
+    "id": "BAG"
+  },
+  {
+    "name": "AMMO",
+    "soundEffect": {
+      "attack": "",
+      "hit": "",
+      "pickup": "Footsteps/Stone/Stone Run 5.ogg",
+      "drop": "Footsteps/Water/Water Jump.ogg"
+    },
+    "id": "AMMO"
+  }
+]

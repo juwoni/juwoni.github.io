@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "defaultConditionOp": "eq",
+  "defaultEffectOp": "set",
+  "nodeTypes": [
+    "DIALOG",
+    "ENCOUNTER",
+    "CHOICE",
+    "END",
+    "CONDITION",
+    "ACTION",
+    "RANDOM",
+    "WAIT",
+    "SCENE",
+    "BATTLE",
+    "LOOT",
+    "SHOP",
+    "CALL"
+  ],
+  "edgeTypes": [
+    "DEFAULT",
+    "CHOICE"
+  ],
+  "actionTypes": [
+    "NONE",
+    "GIVE_ITEM",
+    "DROP_ITEM",
+    "SPAWN_NPC",
+    "DESPAWN_NPC"
+  ],
+  "conditionOps": [
+    {
+      "id": "eq"
+    },
+    {
+      "id": "neq",
+      "aliases": [
+        "ne"
+      ]
+    },
+    {
+      "id": "gt"
+    },
+    {
+      "id": "gte"
+    },
+    {
+      "id": "lt"
+    },
+    {
+      "id": "lte"
+    },
+    {
+      "id": "exists"
+    },
+    {
+      "id": "not_exists"
+    }
+  ],
+  "effectOps": [
+    {
+      "id": "set"
+    },
+    {
+      "id": "clear"
+    },
+    {
+      "id": "inc",
+      "aliases": [
+        "increment",
+        "add"
+      ]
+    },
+    {
+      "id": "toggle"
+    }
+  ]
+}

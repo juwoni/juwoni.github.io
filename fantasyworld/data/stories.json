@@ -1,0 +1,4685 @@
+{
+  "items": [
+    {
+      "title": "오우거와 금단의 도구",
+      "id": "8662d3c5-26ef-410c-863b-e7d4a1b73444",
+      "summary": "험한 오우거가 마을 근처에서 발견된 신비로운 장검에 대해 이야기하며, 플레이어는 그 물건을 넘길지 말지를 결정하게 된다.",
+      "storyType": "item",
+      "encounterMode": "npc_to_player",
+      "tags": [],
+      "entranceConditions": [],
+      "exitEffects": [],
+      "locations": [],
+      "timeOfDay": "",
+      "toneTags": [],
+      "conflict": "",
+      "hook": "",
+      "pacing": "",
+      "stage": "",
+      "climaxLevel": 0,
+      "rarity": 0,
+      "npcs": [
+        "npc-ogre",
+        "player"
+      ],
+      "requiredNpcs": [],
+      "blueprint": {
+        "schemaVersion": 1,
+        "startNodeId": "n1",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENCOUNTER",
+            "data": {
+              "mode": "npc_to_player"
+            },
+            "position": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "id": "n2",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "1ccba99d-71fe-4cf6-b55d-8bddd7b53206",
+              "text": "마을을 떠나기 전, 이곳에서 강력한 장검이 발견되었네."
+            },
+            "position": {
+              "x": 540,
+              "y": 0
+            }
+          },
+          {
+            "id": "n3",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "그게 무슨 물건이에요? 왜 나에게 주는 거죠?"
+            },
+            "position": {
+              "x": 1080,
+              "y": 0
+            }
+          },
+          {
+            "id": "n4",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "npc-ogre",
+              "text": "내가 찾은 보물이라면 좋겠는데, 혹시 내 부탁을 들어줄 수 있을까?"
+            },
+            "position": {
+              "x": 1620,
+              "y": 0
+            }
+          },
+          {
+            "id": "n5",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "어떤 부탁이야? 내가 그걸 써서 도와주려면…"
+            },
+            "position": {
+              "x": 2160,
+              "y": 0
+            }
+          },
+          {
+            "id": "n6",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "npc-ogre",
+              "text": "그 장검을 가져가면 내 힘이 늘어나고, 너도 이득이 될 거다."
+            },
+            "position": {
+              "x": 2700,
+              "y": 0
+            }
+          },
+          {
+            "id": "n7",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "음... 이게 정말 좋은 제안인가?"
+            },
+            "position": {
+              "x": 3240,
+              "y": 0
+            }
+          },
+          {
+            "id": "n8",
+            "type": "CHOICE",
+            "data": {
+              "prompt": "장검을 오우거에게 넘길까요, 아니면 보관할까요?"
+            },
+            "position": {
+              "x": 3780,
+              "y": 0
+            }
+          },
+          {
+            "id": "n9",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "npc-ogre",
+              "text": "오우거가 웃으며 손을 내밀었다."
+            },
+            "position": {
+              "x": 4320,
+              "y": 0
+            }
+          },
+          {
+            "id": "n10",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "나는 마법의 장검을 넘겨준다.",
+              "action": {
+                "type": "GIVE_ITEM",
+                "itemId": "9441aca5-a944-45da-a6b8-9fc81e8c96ba",
+                "itemType": "WEAPON"
+              }
+            },
+            "position": {
+              "x": 4860,
+              "y": 0
+            }
+          },
+          {
+            "id": "n11",
+            "type": "END",
+            "data": {
+              "result": {
+                "jumpToStoryletId": "choice_1"
+              }
+            },
+            "position": {
+              "x": 5400,
+              "y": 0
+            }
+          },
+          {
+            "id": "n12",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "npc-ogre",
+              "text": "오우거는 실망스러운 눈빛으로 바라본다."
+            },
+            "position": {
+              "x": 4320,
+              "y": 140
+            }
+          },
+          {
+            "id": "n13",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "나는 물건을 보관한다."
+            },
+            "position": {
+              "x": 4891.748021487078,
+              "y": 270.16688809702083
+            }
+          },
+          {
+            "id": "n14",
+            "type": "END",
+            "data": {
+              "result": {
+                "jumpToStoryletId": "choice_2"
+              }
+            },
+            "position": {
+              "x": 5400,
+              "y": 140
+            }
+          }
+        ],
+        "edges": [
+          {
+            "id": "edge-n1-n2-1",
+            "source": "n1",
+            "target": "n2",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n2-n3-2",
+            "source": "n2",
+            "target": "n3",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n3-n4-3",
+            "source": "n3",
+            "target": "n4",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n4-n5-4",
+            "source": "n4",
+            "target": "n5",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n5-n6-5",
+            "source": "n5",
+            "target": "n6",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n6-n7-6",
+            "source": "n6",
+            "target": "n7",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n7-n8-7",
+            "source": "n7",
+            "target": "n8",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n8-n9-8",
+            "source": "n8",
+            "target": "n9",
+            "type": "CHOICE",
+            "data": {
+              "label": "제안 받아들인다",
+              "effects": [
+                {
+                  "op": "inc",
+                  "key": "reward_item",
+                  "value": 1
+                }
+              ],
+              "editable": true
+            }
+          },
+          {
+            "id": "edge-n9-n10-9",
+            "source": "n9",
+            "target": "n10",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n10-n11-10",
+            "source": "n10",
+            "target": "n11",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n8-n12-11",
+            "source": "n8",
+            "target": "n12",
+            "type": "CHOICE",
+            "data": {
+              "label": "거절한다",
+              "effects": [
+                {
+                  "op": "inc",
+                  "key": "setback",
+                  "value": 1
+                },
+                {
+                  "op": "inc",
+                  "key": "future_help",
+                  "value": 1
+                },
+                {
+                  "op": "inc",
+                  "key": "item_clue",
+                  "value": 1
+                }
+              ],
+              "editable": true
+            }
+          },
+          {
+            "id": "edge-n12-n13-12",
+            "source": "n12",
+            "target": "n13",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n13-n14-13",
+            "source": "n13",
+            "target": "n14",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          }
+        ]
+      },
+      "name": "오우거와 금단의 도구",
+      "createdAt": "2026-01-26T12:32:39.365Z",
+      "updatedAt": "2026-01-26T12:32:39.365Z",
+      "tier": 0,
+      "localizedText": {
+        "name_kr": "아이템 한국어 이름",
+        "name_en": "item english name",
+        "desc_kr": "한국어 설명",
+        "desc_en": "English description"
+      }
+    },
+    {
+      "title": "길가의 그롤",
+      "id": "caaa0ed8-5604-4d87-b2fc-1b9898ff4337",
+      "summary": "적이 나타난 길에서 벌어지는 짧은 전투를 다루는 이야기.",
+      "storyType": "combat",
+      "encounterMode": "player_finds_npc",
+      "tags": [],
+      "entranceConditions": [],
+      "exitEffects": [],
+      "locations": [],
+      "timeOfDay": "",
+      "toneTags": [],
+      "conflict": "",
+      "hook": "",
+      "pacing": "",
+      "stage": "",
+      "climaxLevel": 0,
+      "rarity": 0,
+      "npcs": [
+        "player",
+        "4ab8506b-a968-4b9b-a661-793bf1496786"
+      ],
+      "requiredNpcs": [],
+      "blueprint": {
+        "schemaVersion": 1,
+        "startNodeId": "n1",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENCOUNTER",
+            "data": {
+              "mode": "npc_to_player"
+            },
+            "position": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "id": "n2",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "이 길가에 이상한 기운을 느낍니다."
+            },
+            "position": {
+              "x": 540,
+              "y": 0
+            }
+          },
+          {
+            "id": "n3",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "4ab8506b-a968-4b9b-a661-793bf1496786",
+              "text": "하! 인간, 도망쳐!"
+            },
+            "position": {
+              "x": 1080,
+              "y": 0
+            }
+          },
+          {
+            "id": "n4",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "도망치는 건 위험해 보이니, 싸워야겠어."
+            },
+            "position": {
+              "x": 1620,
+              "y": 0
+            }
+          },
+          {
+            "id": "n5",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "4ab8506b-a968-4b9b-a661-793bf1496786",
+              "text": "내가 강한 걸 알아? 나를 물리칠 수 있을까?"
+            },
+            "position": {
+              "x": 2160,
+              "y": 0
+            }
+          },
+          {
+            "id": "n6",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "준비됐어! 검을 휘두르겠다!"
+            },
+            "position": {
+              "x": 2700,
+              "y": 0
+            }
+          },
+          {
+            "id": "n7",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "4ab8506b-a968-4b9b-a661-793bf1496786",
+              "text": "이런, 이길 수 없겠군."
+            },
+            "position": {
+              "x": 3240,
+              "y": 0
+            }
+          },
+          {
+            "id": "n8",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "그래도 최후까지 버텨야지."
+            },
+            "position": {
+              "x": 3780,
+              "y": 0
+            }
+          },
+          {
+            "id": "n9",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "4ab8506b-a968-4b9b-a661-793bf1496786",
+              "text": "내가 물러서겠다... 아니, 내 검을 떨어뜨려!",
+              "action": {
+                "type": "GIVE_ITEM",
+                "itemId": "833e2bd2-8329-4d42-9a8a-ca22e785e085",
+                "itemType": "WEAPON"
+              }
+            },
+            "position": {
+              "x": 4320,
+              "y": 0
+            }
+          },
+          {
+            "id": "n10",
+            "type": "CHOICE",
+            "data": {
+              "prompt": "어떤 행동으로 진행할까요?"
+            },
+            "position": {
+              "x": 4860,
+              "y": 0
+            }
+          },
+          {
+            "id": "n11",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "4ab8506b-a968-4b9b-a661-793bf1496786",
+              "text": "너의 공격이 강력하다!"
+            },
+            "position": {
+              "x": 5400,
+              "y": 0
+            }
+          },
+          {
+            "id": "n12",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "나는 앞으로도 싸울 것이다."
+            },
+            "position": {
+              "x": 5940,
+              "y": 0
+            }
+          },
+          {
+            "id": "n13",
+            "type": "END",
+            "data": {
+              "result": {
+                "jumpToStoryletId": "choice_1"
+              }
+            },
+            "position": {
+              "x": 6480,
+              "y": 0
+            }
+          },
+          {
+            "id": "n14",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "4ab8506b-a968-4b9b-a661-793bf1496786",
+              "text": "네가 도망치는 걸 못 막겠어!"
+            },
+            "position": {
+              "x": 5400,
+              "y": 140
+            }
+          },
+          {
+            "id": "n15",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "나는 빠져나간다."
+            },
+            "position": {
+              "x": 5940,
+              "y": 140
+            }
+          },
+          {
+            "id": "n16",
+            "type": "END",
+            "data": {
+              "result": {
+                "jumpToStoryletId": "choice_2"
+              }
+            },
+            "position": {
+              "x": 6480,
+              "y": 140
+            }
+          }
+        ],
+        "edges": [
+          {
+            "id": "edge-n1-n2-1",
+            "source": "n1",
+            "target": "n2",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n2-n3-2",
+            "source": "n2",
+            "target": "n3",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n3-n4-3",
+            "source": "n3",
+            "target": "n4",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n4-n5-4",
+            "source": "n4",
+            "target": "n5",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n5-n6-5",
+            "source": "n5",
+            "target": "n6",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n6-n7-6",
+            "source": "n6",
+            "target": "n7",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n7-n8-7",
+            "source": "n7",
+            "target": "n8",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n8-n9-8",
+            "source": "n8",
+            "target": "n9",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n9-n10-9",
+            "source": "n9",
+            "target": "n10",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n10-n11-10",
+            "source": "n10",
+            "target": "n11",
+            "type": "CHOICE",
+            "data": {
+              "label": "공격을 선택합니다.",
+              "effects": [
+                {
+                  "op": "set",
+                  "key": "combat_trigger",
+                  "value": true
+                },
+                {
+                  "op": "set",
+                  "key": "combat_advantage",
+                  "value": true
+                }
+              ],
+              "editable": true
+            }
+          },
+          {
+            "id": "edge-n11-n12-11",
+            "source": "n11",
+            "target": "n12",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n12-n13-12",
+            "source": "n12",
+            "target": "n13",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n10-n14-13",
+            "source": "n10",
+            "target": "n14",
+            "type": "CHOICE",
+            "data": {
+              "label": "도망칩니다.",
+              "effects": [
+                {
+                  "op": "set",
+                  "key": "combat_trigger",
+                  "value": true
+                },
+                {
+                  "op": "set",
+                  "key": "combat_advantage",
+                  "value": false
+                },
+                {
+                  "op": "inc",
+                  "key": "future_help",
+                  "value": 1
+                }
+              ],
+              "editable": true
+            }
+          },
+          {
+            "id": "edge-n14-n15-14",
+            "source": "n14",
+            "target": "n15",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n15-n16-15",
+            "source": "n15",
+            "target": "n16",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          }
+        ]
+      },
+      "name": "길가의 그롤",
+      "createdAt": "2026-01-26T15:04:49.015Z",
+      "updatedAt": "2026-01-26T15:04:49.015Z",
+      "tier": 0,
+      "localizedText": {
+        "name_kr": "아이템 한국어 이름",
+        "name_en": "item english name",
+        "desc_kr": "한국어 설명",
+        "desc_en": "English description"
+      }
+    },
+    {
+      "title": "명성의 시험",
+      "id": "b7cdddc9-4343-4c69-87f9-b87758c8854b",
+      "summary": "마을에서 영웅으로 칭송받는 플레이어에게 길동이 찾아와 곤경에 처한 가족을 구해달라고 간곡히 부탁합니다.",
+      "storyType": "reputation",
+      "encounterMode": "npc_to_player",
+      "tags": [],
+      "entranceConditions": [],
+      "exitEffects": [],
+      "locations": [],
+      "timeOfDay": "",
+      "toneTags": [],
+      "conflict": "",
+      "hook": "",
+      "pacing": "",
+      "stage": "",
+      "climaxLevel": 0,
+      "rarity": 0,
+      "npcs": [
+        "1ccba99d-71fe-4cf6-b55d-8bddd7b53206",
+        "player"
+      ],
+      "requiredNpcs": [],
+      "blueprint": {
+        "schemaVersion": 1,
+        "startNodeId": "n1",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENCOUNTER",
+            "data": {
+              "mode": "player_finds_npc"
+            },
+            "position": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "id": "n2",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "1ccba99d-71fe-4cf6-b55d-8bddd7b53206",
+              "text": "드디어 찾았군요! 당신의 명성을 듣고 한참을 헤맸습니다."
+            },
+            "position": {
+              "x": 540,
+              "y": 0
+            }
+          },
+          {
+            "id": "n3",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "저를 아시나요? 무슨 급한 일이라도 있으신 모양이군요."
+            },
+            "position": {
+              "x": 1080,
+              "y": 0
+            }
+          },
+          {
+            "id": "n4",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "1ccba99d-71fe-4cf6-b55d-8bddd7b53206",
+              "text": "마을 사람 모두가 당신의 용맹함과 정의로움에 대해 이야기하더군요."
+            },
+            "position": {
+              "x": 1620,
+              "y": 0
+            }
+          },
+          {
+            "id": "n5",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "과찬이십니다. 그저 곤경에 처한 이들을 지나치지 못했을 뿐입니다."
+            },
+            "position": {
+              "x": 2160,
+              "y": 0
+            }
+          },
+          {
+            "id": "n6",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "1ccba99d-71fe-4cf6-b55d-8bddd7b53206",
+              "text": "그 고결한 성품을 믿고 부탁드립니다. 제 동생이 마수들의 소굴 근처에서 실종되었습니다."
+            },
+            "position": {
+              "x": 2700,
+              "y": 0
+            }
+          },
+          {
+            "id": "n7",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "마수들의 소굴이라니, 위험한 상황이군요. 정확히 어디입니까?"
+            },
+            "position": {
+              "x": 3240,
+              "y": 0
+            }
+          },
+          {
+            "id": "n8",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "1ccba99d-71fe-4cf6-b55d-8bddd7b53206",
+              "text": "숲 북동쪽의 동굴입니다. 당신처럼 명성 높은 분만이 동생을 구할 수 있습니다."
+            },
+            "position": {
+              "x": 3780,
+              "y": 0
+            }
+          },
+          {
+            "id": "n9",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "알겠습니다. 당신의 간절한 요청을 외면할 수 없겠군요."
+            },
+            "position": {
+              "x": 4320,
+              "y": 0
+            }
+          },
+          {
+            "id": "n10",
+            "type": "CHOICE",
+            "data": {
+              "prompt": "길동의 간절한 요청에 어떻게 응답하시겠습니까?"
+            },
+            "position": {
+              "x": 4860,
+              "y": 0
+            }
+          },
+          {
+            "id": "n11",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "1ccba99d-71fe-4cf6-b55d-8bddd7b53206",
+              "text": "역시 소문대로 의로운 분이시군요! 하늘이 돕는 기분입니다."
+            },
+            "position": {
+              "x": 5400,
+              "y": 0
+            }
+          },
+          {
+            "id": "n12",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "시간이 촉박하니 서둘러야 합니다. 지금 바로 숲으로 출발하겠습니다."
+            },
+            "position": {
+              "x": 5940,
+              "y": 0
+            }
+          },
+          {
+            "id": "n13",
+            "type": "END",
+            "data": {
+              "result": {
+                "jumpToStoryletId": "go_now"
+              }
+            },
+            "position": {
+              "x": 6480,
+              "y": 0
+            }
+          },
+          {
+            "id": "n14",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "1ccba99d-71fe-4cf6-b55d-8bddd7b53206",
+              "text": "명성 뒤에 숨겨진 차가운 면모를 보게 되는군요. 하지만 동생을 위해서라면 무엇이든 드리겠습니다."
+            },
+            "position": {
+              "x": 5400,
+              "y": 140
+            }
+          },
+          {
+            "id": "n15",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "위험한 일에는 그만한 보상이 따르는 법입니다. 보상을 약속하신다면 움직이겠습니다."
+            },
+            "position": {
+              "x": 5940,
+              "y": 140
+            }
+          },
+          {
+            "id": "n16",
+            "type": "END",
+            "data": {
+              "result": {
+                "jumpToStoryletId": "ask_price"
+              }
+            },
+            "position": {
+              "x": 6480,
+              "y": 140
+            }
+          }
+        ],
+        "edges": [
+          {
+            "id": "edge-n1-n2-1",
+            "source": "n1",
+            "target": "n2",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n2-n3-2",
+            "source": "n2",
+            "target": "n3",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n3-n4-3",
+            "source": "n3",
+            "target": "n4",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n4-n5-4",
+            "source": "n4",
+            "target": "n5",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n5-n6-5",
+            "source": "n5",
+            "target": "n6",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n6-n7-6",
+            "source": "n6",
+            "target": "n7",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n7-n8-7",
+            "source": "n7",
+            "target": "n8",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n8-n9-8",
+            "source": "n8",
+            "target": "n9",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n9-n10-9",
+            "source": "n9",
+            "target": "n10",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n10-n11-10",
+            "source": "n10",
+            "target": "n11",
+            "type": "CHOICE",
+            "data": {
+              "label": "정의를 위해 즉시 출발한다",
+              "effects": [
+                {
+                  "op": "inc",
+                  "key": "reputation",
+                  "value": 1
+                }
+              ],
+              "editable": true
+            }
+          },
+          {
+            "id": "edge-n11-n12-11",
+            "source": "n11",
+            "target": "n12",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n12-n13-12",
+            "source": "n12",
+            "target": "n13",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n10-n14-13",
+            "source": "n10",
+            "target": "n14",
+            "type": "CHOICE",
+            "data": {
+              "label": "위험 부담에 따른 대가를 요구한다",
+              "effects": [
+                {
+                  "op": "inc",
+                  "key": "reputation",
+                  "value": -1
+                },
+                {
+                  "op": "inc",
+                  "key": "future_help",
+                  "value": 1
+                }
+              ],
+              "editable": true
+            }
+          },
+          {
+            "id": "edge-n14-n15-14",
+            "source": "n14",
+            "target": "n15",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n15-n16-15",
+            "source": "n15",
+            "target": "n16",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          }
+        ]
+      },
+      "name": "명성의 시험",
+      "createdAt": "2026-01-27T20:48:09.189Z",
+      "updatedAt": "2026-01-27T20:48:09.189Z",
+      "tier": 0,
+      "localizedText": {
+        "name_kr": "아이템 한국어 이름",
+        "name_en": "item english name",
+        "desc_kr": "한국어 설명",
+        "desc_en": "English description"
+      }
+    },
+    {
+      "title": "숲속의 굶주린 오우거",
+      "id": "33a688ab-c8a3-4960-97d9-34c170190ca3",
+      "summary": "동굴 앞에서 잠자던 거대한 오우거를 발견한 플레이어는 피할 수 없는 전투를 마주하게 됩니다.",
+      "storyType": "combat",
+      "encounterMode": "player_finds_npc",
+      "tags": [],
+      "entranceConditions": [],
+      "exitEffects": [],
+      "locations": [],
+      "timeOfDay": "",
+      "toneTags": [],
+      "conflict": "",
+      "hook": "",
+      "pacing": "",
+      "stage": "",
+      "climaxLevel": 0,
+      "rarity": 0,
+      "npcs": [
+        "player",
+        "1b360138-1951-4a06-9259-52f4ee6d728f"
+      ],
+      "requiredNpcs": [],
+      "blueprint": {
+        "schemaVersion": 1,
+        "startNodeId": "n1",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENCOUNTER",
+            "data": {
+              "mode": "player_finds_npc"
+            },
+            "position": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "id": "node-1769547901447-470",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "npc-large-knight-elite",
+              "text": "ㅎㅇ"
+            },
+            "position": {
+              "x": 612.666243681566,
+              "y": 46.77128602928865
+            }
+          },
+          {
+            "id": "node-1769547912650-395",
+            "type": "END",
+            "data": {
+              "result": {}
+            },
+            "position": {
+              "x": 1525.8940679398595,
+              "y": 148.82264536108298
+            }
+          },
+          {
+            "id": "node-1769547997852-373",
+            "type": "CHOICE",
+            "data": {
+              "prompt": "Choice"
+            },
+            "position": {
+              "x": 1020.370348591218,
+              "y": -30.50072141244694
+            }
+          },
+          {
+            "id": "node-1769548000090-524",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "Narrator",
+              "text": ""
+            },
+            "position": {
+              "x": 1278.5657085277187,
+              "y": -60.40751986069027
+            }
+          },
+          {
+            "id": "node-1769548002100-781",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "Narrator",
+              "text": ""
+            },
+            "position": {
+              "x": 1245.6682302346512,
+              "y": 259.5952235355134
+            }
+          },
+          {
+            "id": "node-1769548010834-589",
+            "type": "END",
+            "data": {
+              "result": {}
+            },
+            "position": {
+              "x": 1581.6212661365846,
+              "y": -31.49761469405505
+            }
+          }
+        ],
+        "edges": [
+          {
+            "id": "xy-edge__n1-node-1769547901447-470",
+            "source": "n1",
+            "target": "node-1769547901447-470",
+            "type": "DEFAULT",
+            "data": {
+              "label": "",
+              "editable": false,
+              "conditions": [],
+              "effects": []
+            }
+          },
+          {
+            "id": "xy-edge__node-1769547901447-470-node-1769547997852-373",
+            "source": "node-1769547901447-470",
+            "target": "node-1769547997852-373",
+            "type": "DEFAULT",
+            "data": {
+              "label": "",
+              "editable": false,
+              "conditions": [],
+              "effects": []
+            }
+          },
+          {
+            "id": "xy-edge__node-1769547997852-373-node-1769548000090-524",
+            "source": "node-1769547997852-373",
+            "target": "node-1769548000090-524",
+            "type": "CHOICE",
+            "data": {
+              "label": "Choice",
+              "editable": true,
+              "conditions": [],
+              "effects": []
+            }
+          },
+          {
+            "id": "xy-edge__node-1769547997852-373-node-1769548002100-781",
+            "source": "node-1769547997852-373",
+            "target": "node-1769548002100-781",
+            "type": "CHOICE",
+            "data": {
+              "label": "Choice",
+              "editable": true,
+              "conditions": [],
+              "effects": []
+            }
+          },
+          {
+            "id": "xy-edge__node-1769548002100-781-node-1769547912650-395",
+            "source": "node-1769548002100-781",
+            "target": "node-1769547912650-395",
+            "type": "DEFAULT",
+            "data": {
+              "label": "",
+              "editable": false,
+              "conditions": [],
+              "effects": []
+            }
+          },
+          {
+            "id": "xy-edge__node-1769548000090-524-node-1769548010834-589",
+            "source": "node-1769548000090-524",
+            "target": "node-1769548010834-589",
+            "type": "DEFAULT",
+            "data": {
+              "label": "",
+              "editable": false,
+              "conditions": [],
+              "effects": []
+            }
+          }
+        ]
+      },
+      "name": "숲속의 굶주린 오우거",
+      "createdAt": "2026-01-27T21:03:51.424Z",
+      "updatedAt": "2026-01-27T21:03:51.424Z",
+      "tier": 0,
+      "localizedText": {
+        "name_kr": "아이템 한국어 이름",
+        "name_en": "item english name",
+        "desc_kr": "한국어 설명",
+        "desc_en": "English description"
+      }
+    },
+    {
+      "title": "마법사 F의 은밀한 제안",
+      "id": "a00eb2a6-7887-43aa-96f7-0c2e7f7c9ac7",
+      "summary": "신비로운 마법사 F가 플레이어에게 접근하여 명성을 높일 수 있는 귀중한 사파이어를 건네며 거래를 제안합니다.",
+      "storyType": "reputation",
+      "encounterMode": "npc_to_player",
+      "tags": [],
+      "entranceConditions": [],
+      "exitEffects": [],
+      "locations": [],
+      "timeOfDay": "",
+      "toneTags": [],
+      "conflict": "",
+      "hook": "",
+      "pacing": "",
+      "stage": "",
+      "climaxLevel": 0,
+      "rarity": 0,
+      "npcs": [
+        "npc-wizzard-f",
+        "player"
+      ],
+      "requiredNpcs": [],
+      "blueprint": {
+        "schemaVersion": 1,
+        "startNodeId": "n1",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENCOUNTER",
+            "data": {
+              "mode": "npc_to_player"
+            },
+            "position": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "id": "n2",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "npc-wizzard-f",
+              "text": "자네가 그 유명한 모험가인가? 드디어 만났군, 한참을 기다리고 있었네."
+            },
+            "position": {
+              "x": 540,
+              "y": 0
+            }
+          },
+          {
+            "id": "n3",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "누구시죠? 저를 어떻게 알고 여기까지 찾아오신 겁니까?"
+            },
+            "position": {
+              "x": 1080,
+              "y": 0
+            }
+          },
+          {
+            "id": "n4",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "npc-wizzard-f",
+              "text": "나는 마법사 F라고 하네. 자네의 명성을 단숨에 드높여줄 귀한 물건을 가져왔지."
+            },
+            "position": {
+              "x": 1620,
+              "y": 0
+            }
+          },
+          {
+            "id": "n5",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "제 명성을요? 그게 대체 어떤 물건이길래 확신하시는 거죠?"
+            },
+            "position": {
+              "x": 2160,
+              "y": 0
+            }
+          },
+          {
+            "id": "n6",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "npc-wizzard-f",
+              "text": "이 푸른 사파이어라네. 왕실에서 분실된 보물이지. 이걸 자네가 찾은 것으로 하게.",
+              "action": {
+                "type": "GIVE_ITEM",
+                "itemId": "79a8d385-1860-428f-870e-d0e519c64340",
+                "itemType": "GEM"
+              }
+            },
+            "position": {
+              "x": 2700,
+              "y": 0
+            }
+          },
+          {
+            "id": "n7",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "왕실의 보물을 제가 직접 돌려준다면 확실히 제 입지가 달라지겠군요."
+            },
+            "position": {
+              "x": 3240,
+              "y": 0
+            }
+          },
+          {
+            "id": "n8",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "npc-wizzard-f",
+              "text": "그렇고말고. 대신 내가 나중에 요청할 작은 심부름 하나만 약속해주게나."
+            },
+            "position": {
+              "x": 3780,
+              "y": 0
+            }
+          },
+          {
+            "id": "n9",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "세상에 공짜는 없다는 뜻이군요. 어떤 선택을 할지 고민해 봐야겠습니다."
+            },
+            "position": {
+              "x": 4320,
+              "y": 0
+            }
+          },
+          {
+            "id": "n10",
+            "type": "CHOICE",
+            "data": {
+              "prompt": "마법사 F의 위험한 제안을 수락하시겠습니까?"
+            },
+            "position": {
+              "x": 4860,
+              "y": 0
+            }
+          },
+          {
+            "id": "n11",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "npc-wizzard-f",
+              "text": "현명한 판단이네. 이제 자네의 이름이 온 대륙에 칭송받게 될 것이야."
+            },
+            "position": {
+              "x": 5400,
+              "y": 0
+            }
+          },
+          {
+            "id": "n12",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "빛나는 사파이어를 품에 넣고 명성을 얻기 위해 왕궁으로 발걸음을 옮깁니다."
+            },
+            "position": {
+              "x": 5940,
+              "y": 0
+            }
+          },
+          {
+            "id": "n13",
+            "type": "END",
+            "data": {
+              "result": {
+                "jumpToStoryletId": "choice_1"
+              }
+            },
+            "position": {
+              "x": 6480,
+              "y": 0
+            }
+          },
+          {
+            "id": "n14",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "npc-wizzard-f",
+              "text": "쯧쯧, 눈앞의 명성을 발로 차버리다니. 자네는 생각보다 야망이 없군 그래."
+            },
+            "position": {
+              "x": 5400,
+              "y": 140
+            }
+          },
+          {
+            "id": "n15",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "보석의 유혹을 뿌리치고 마법사 F를 뒤로한 채 자신의 길을 계속 갑니다."
+            },
+            "position": {
+              "x": 5940,
+              "y": 140
+            }
+          },
+          {
+            "id": "n16",
+            "type": "END",
+            "data": {
+              "result": {
+                "jumpToStoryletId": "choice_2"
+              }
+            },
+            "position": {
+              "x": 6480,
+              "y": 140
+            }
+          }
+        ],
+        "edges": [
+          {
+            "id": "edge-n1-n2-1",
+            "source": "n1",
+            "target": "n2",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n2-n3-2",
+            "source": "n2",
+            "target": "n3",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n3-n4-3",
+            "source": "n3",
+            "target": "n4",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n4-n5-4",
+            "source": "n4",
+            "target": "n5",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n5-n6-5",
+            "source": "n5",
+            "target": "n6",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n6-n7-6",
+            "source": "n6",
+            "target": "n7",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n7-n8-7",
+            "source": "n7",
+            "target": "n8",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n8-n9-8",
+            "source": "n8",
+            "target": "n9",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n9-n10-9",
+            "source": "n9",
+            "target": "n10",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n10-n11-10",
+            "source": "n10",
+            "target": "n11",
+            "type": "CHOICE",
+            "data": {
+              "label": "사파이어를 받아 왕실로 향한다",
+              "effects": [
+                {
+                  "op": "inc",
+                  "key": "reputation",
+                  "value": 1
+                }
+              ],
+              "editable": true
+            }
+          },
+          {
+            "id": "edge-n11-n12-11",
+            "source": "n11",
+            "target": "n12",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n12-n13-12",
+            "source": "n12",
+            "target": "n13",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n10-n14-13",
+            "source": "n10",
+            "target": "n14",
+            "type": "CHOICE",
+            "data": {
+              "label": "의심스러운 거래를 거절한다",
+              "effects": [
+                {
+                  "op": "inc",
+                  "key": "reputation",
+                  "value": -1
+                },
+                {
+                  "op": "inc",
+                  "key": "future_help",
+                  "value": 1
+                }
+              ],
+              "editable": true
+            }
+          },
+          {
+            "id": "edge-n14-n15-14",
+            "source": "n14",
+            "target": "n15",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n15-n16-15",
+            "source": "n15",
+            "target": "n16",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          }
+        ]
+      },
+      "name": "마법사 F의 은밀한 제안",
+      "createdAt": "2026-01-27T23:15:54.808Z",
+      "updatedAt": "2026-01-27T23:15:54.808Z",
+      "tier": 0,
+      "localizedText": {
+        "name_kr": "아이템 한국어 이름",
+        "name_en": "item english name",
+        "desc_kr": "한국어 설명",
+        "desc_en": "English description"
+      }
+    },
+    {
+      "title": "기사 M의 시험",
+      "id": "62e43d34-de9b-4287-b46d-2ec15f292718",
+      "summary": "명성 높은 기사 M이 플레이어의 실력을 확인하기 위해 직접 찾아와 시험을 제안합니다.",
+      "storyType": "reputation",
+      "encounterMode": "npc_to_player",
+      "tags": [],
+      "entranceConditions": [],
+      "exitEffects": [],
+      "locations": [],
+      "timeOfDay": "",
+      "toneTags": [],
+      "conflict": "",
+      "hook": "",
+      "pacing": "",
+      "stage": "",
+      "climaxLevel": 0,
+      "rarity": 0,
+      "npcs": [
+        "npc-knight-m",
+        "player"
+      ],
+      "requiredNpcs": [],
+      "blueprint": {
+        "schemaVersion": 1,
+        "startNodeId": "n1",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENCOUNTER",
+            "data": {
+              "mode": "npc_to_player"
+            },
+            "position": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "id": "n2",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "npc-knight-m",
+              "text": "잠시 멈추게. 자네가 요즘 대륙에서 소문이 자자한 그 모험가인가?"
+            },
+            "position": {
+              "x": 540,
+              "y": 0
+            }
+          },
+          {
+            "id": "n3",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "그렇습니다만, 기사님은 누구신가요?"
+            },
+            "position": {
+              "x": 1080,
+              "y": 0
+            }
+          },
+          {
+            "id": "n4",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "npc-knight-m",
+              "text": "나는 기사 M이라네. 자네의 명성이 실력에 기반한 것인지 직접 확인하러 왔지."
+            },
+            "position": {
+              "x": 1620,
+              "y": 0
+            }
+          },
+          {
+            "id": "n5",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "제 실력이 궁금하시다면 직접 보여드릴 수도 있습니다."
+            },
+            "position": {
+              "x": 2160,
+              "y": 0
+            }
+          },
+          {
+            "id": "n6",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "npc-knight-m",
+              "text": "좋은 패기로군. 하지만 진정한 명성은 검술 실력만으로 쌓이는 게 아니라네."
+            },
+            "position": {
+              "x": 2700,
+              "y": 0
+            }
+          },
+          {
+            "id": "n7",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "그럼 제가 무엇을 증명해야 합니까?"
+            },
+            "position": {
+              "x": 3240,
+              "y": 0
+            }
+          },
+          {
+            "id": "n8",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "npc-knight-m",
+              "text": "근처 마을을 위협하는 괴물들을 처치하게. 자네의 태도와 결과를 지켜보겠네."
+            },
+            "position": {
+              "x": 3780,
+              "y": 0
+            }
+          },
+          {
+            "id": "n9",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "알겠습니다. 기사님의 기대에 부응하도록 하죠."
+            },
+            "position": {
+              "x": 4320,
+              "y": 0
+            }
+          },
+          {
+            "id": "n10",
+            "type": "CHOICE",
+            "data": {
+              "prompt": "기사 M의 시험 제안에 어떻게 반응하시겠습니까?"
+            },
+            "position": {
+              "x": 4860,
+              "y": 0
+            }
+          },
+          {
+            "id": "n11",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "npc-knight-m",
+              "text": "훌륭한 태도로군. 자네 같은 자라면 믿고 맡길 수 있겠어."
+            },
+            "position": {
+              "x": 5400,
+              "y": 0
+            }
+          },
+          {
+            "id": "n12",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "믿어주셔서 감사합니다. 즉시 마을로 향해 괴물들을 소탕하겠습니다."
+            },
+            "position": {
+              "x": 5940,
+              "y": 0
+            }
+          },
+          {
+            "id": "n13",
+            "type": "END",
+            "data": {
+              "result": {
+                "jumpToStoryletId": "choice_1"
+              }
+            },
+            "position": {
+              "x": 6480,
+              "y": 0
+            }
+          },
+          {
+            "id": "n14",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "npc-knight-m",
+              "text": "실력은 있을지 모르나, 그 오만함이 자네의 명성을 깎아먹는구만."
+            },
+            "position": {
+              "x": 5400,
+              "y": 140
+            }
+          },
+          {
+            "id": "n15",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "결과만 좋으면 상관없지 않습니까? 지금 당장 가서 증명해 보이죠."
+            },
+            "position": {
+              "x": 5940,
+              "y": 140
+            }
+          },
+          {
+            "id": "n16",
+            "type": "END",
+            "data": {
+              "result": {
+                "jumpToStoryletId": "choice_2"
+              }
+            },
+            "position": {
+              "x": 6480,
+              "y": 140
+            }
+          }
+        ],
+        "edges": [
+          {
+            "id": "edge-n1-n2-1",
+            "source": "n1",
+            "target": "n2",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n2-n3-2",
+            "source": "n2",
+            "target": "n3",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n3-n4-3",
+            "source": "n3",
+            "target": "n4",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n4-n5-4",
+            "source": "n4",
+            "target": "n5",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n5-n6-5",
+            "source": "n5",
+            "target": "n6",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n6-n7-6",
+            "source": "n6",
+            "target": "n7",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n7-n8-7",
+            "source": "n7",
+            "target": "n8",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n8-n9-8",
+            "source": "n8",
+            "target": "n9",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n9-n10-9",
+            "source": "n9",
+            "target": "n10",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n10-n11-10",
+            "source": "n10",
+            "target": "n11",
+            "type": "CHOICE",
+            "data": {
+              "label": "예의를 갖추며 수락한다",
+              "effects": [
+                {
+                  "op": "inc",
+                  "key": "reputation",
+                  "value": 1
+                }
+              ],
+              "editable": true
+            }
+          },
+          {
+            "id": "edge-n11-n12-11",
+            "source": "n11",
+            "target": "n12",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n12-n13-12",
+            "source": "n12",
+            "target": "n13",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n10-n14-13",
+            "source": "n10",
+            "target": "n14",
+            "type": "CHOICE",
+            "data": {
+              "label": "자신만만한 태도로 응수한다",
+              "effects": [
+                {
+                  "op": "inc",
+                  "key": "reputation",
+                  "value": -1
+                },
+                {
+                  "op": "inc",
+                  "key": "future_help",
+                  "value": 1
+                }
+              ],
+              "editable": true
+            }
+          },
+          {
+            "id": "edge-n14-n15-14",
+            "source": "n14",
+            "target": "n15",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n15-n16-15",
+            "source": "n15",
+            "target": "n16",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          }
+        ]
+      },
+      "name": "기사 M의 시험",
+      "createdAt": "2026-01-27T23:28:58.711Z",
+      "updatedAt": "2026-01-27T23:28:58.711Z",
+      "tier": 0,
+      "localizedText": {
+        "name_kr": "아이템 한국어 이름",
+        "name_en": "item english name",
+        "desc_kr": "한국어 설명",
+        "desc_en": "English description"
+      }
+    },
+    {
+      "title": "거대 좀비의 습격",
+      "id": "e3592ae8-62bf-4fc7-a6be-ea0205ee8335",
+      "summary": "좁은 골목길에서 마주친 거대한 좀비가 플레이어를 향해 돌진합니다. 살아남기 위한 치열한 전투가 시작됩니다.",
+      "storyType": "combat",
+      "encounterMode": "npc_to_player",
+      "tags": [],
+      "entranceConditions": [],
+      "exitEffects": [],
+      "locations": [],
+      "timeOfDay": "",
+      "toneTags": [],
+      "conflict": "",
+      "hook": "",
+      "pacing": "",
+      "stage": "",
+      "climaxLevel": 0,
+      "rarity": 0,
+      "npcs": [
+        "0739b39e-a6bc-4128-af39-df6c7cb6a0d0",
+        "player"
+      ],
+      "requiredNpcs": [],
+      "blueprint": {
+        "schemaVersion": 1,
+        "startNodeId": "n1",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENCOUNTER",
+            "data": {
+              "mode": "npc_to_player"
+            },
+            "position": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "id": "n2",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "0739b39e-a6bc-4128-af39-df6c7cb6a0d0",
+              "text": "쿠오오오! (무거운 발자국 소리가 골목 바닥을 울리며 플레이어에게 다가온다.)"
+            },
+            "position": {
+              "x": 540,
+              "y": 0
+            }
+          },
+          {
+            "id": "n3",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "저 덩치는 대체 뭐야? 골목을 통째로 가로막고 있잖아."
+            },
+            "position": {
+              "x": 1080,
+              "y": 0
+            }
+          },
+          {
+            "id": "n4",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "0739b39e-a6bc-4128-af39-df6c7cb6a0d0",
+              "text": "(벽을 부수며 거대한 팔을 머리 위로 높게 들어 올린다.)"
+            },
+            "position": {
+              "x": 1620,
+              "y": 0
+            }
+          },
+          {
+            "id": "n5",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "공격 범위가 너무 넓어서 피할 곳이 마땅치 않아. 정면은 위험해."
+            },
+            "position": {
+              "x": 2160,
+              "y": 0
+            }
+          },
+          {
+            "id": "n6",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "0739b39e-a6bc-4128-af39-df6c7cb6a0d0",
+              "text": "그르르... (썩은 고기 냄새를 풍기며 플레이어를 구석으로 몰아넣는다.)"
+            },
+            "position": {
+              "x": 2700,
+              "y": 0
+            }
+          },
+          {
+            "id": "n7",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "녀석의 공격이 시작되기 직전이야. 빈틈을 노려야만 해!"
+            },
+            "position": {
+              "x": 3240,
+              "y": 0
+            }
+          },
+          {
+            "id": "n8",
+            "type": "CHOICE",
+            "data": {
+              "prompt": "거대 좀비의 강력한 내려치기 공격에 어떻게 대응하시겠습니까?"
+            },
+            "position": {
+              "x": 3780,
+              "y": 0
+            }
+          },
+          {
+            "id": "n9",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "0739b39e-a6bc-4128-af39-df6c7cb6a0d0",
+              "text": "쿠오? (공격이 바닥을 강타하자 당황하며 플레이어를 놓친다.)"
+            },
+            "position": {
+              "x": 4320,
+              "y": 0
+            }
+          },
+          {
+            "id": "n10",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "성공이다! 다리 사이로 굴러 빠져나와 녀석의 비어있는 등 뒤를 잡았다."
+            },
+            "position": {
+              "x": 4860,
+              "y": 0
+            }
+          },
+          {
+            "id": "n11",
+            "type": "END",
+            "data": {
+              "result": {
+                "jumpToStoryletId": "roll_under"
+              }
+            },
+            "position": {
+              "x": 5400,
+              "y": 0
+            }
+          },
+          {
+            "id": "n12",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "0739b39e-a6bc-4128-af39-df6c7cb6a0d0",
+              "text": "콰앙! (거대한 주먹으로 플레이어의 방패를 짓눌러 바닥에 처박는다.)"
+            },
+            "position": {
+              "x": 4320,
+              "y": 140
+            }
+          },
+          {
+            "id": "n13",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "윽, 힘이 너무 강해! 방패를 든 팔이 꺾이며 균형을 잃고 말았다."
+            },
+            "position": {
+              "x": 4860,
+              "y": 140
+            }
+          },
+          {
+            "id": "n14",
+            "type": "END",
+            "data": {
+              "result": {
+                "jumpToStoryletId": "block_front"
+              }
+            },
+            "position": {
+              "x": 5400,
+              "y": 140
+            }
+          }
+        ],
+        "edges": [
+          {
+            "id": "edge-n1-n2-1",
+            "source": "n1",
+            "target": "n2",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n2-n3-2",
+            "source": "n2",
+            "target": "n3",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n3-n4-3",
+            "source": "n3",
+            "target": "n4",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n4-n5-4",
+            "source": "n4",
+            "target": "n5",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n5-n6-5",
+            "source": "n5",
+            "target": "n6",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n6-n7-6",
+            "source": "n6",
+            "target": "n7",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n7-n8-7",
+            "source": "n7",
+            "target": "n8",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n8-n9-8",
+            "source": "n8",
+            "target": "n9",
+            "type": "CHOICE",
+            "data": {
+              "label": "다리 사이로 빠르게 구르기",
+              "effects": [
+                {
+                  "op": "set",
+                  "key": "combat_trigger",
+                  "value": true
+                },
+                {
+                  "op": "set",
+                  "key": "combat_advantage",
+                  "value": true
+                }
+              ],
+              "editable": true
+            }
+          },
+          {
+            "id": "edge-n9-n10-9",
+            "source": "n9",
+            "target": "n10",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n10-n11-10",
+            "source": "n10",
+            "target": "n11",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n8-n12-11",
+            "source": "n8",
+            "target": "n12",
+            "type": "CHOICE",
+            "data": {
+              "label": "정면에서 방패로 막아내기",
+              "effects": [
+                {
+                  "op": "set",
+                  "key": "combat_trigger",
+                  "value": true
+                },
+                {
+                  "op": "set",
+                  "key": "combat_advantage",
+                  "value": false
+                },
+                {
+                  "op": "inc",
+                  "key": "future_help",
+                  "value": 1
+                }
+              ],
+              "editable": true
+            }
+          },
+          {
+            "id": "edge-n12-n13-12",
+            "source": "n12",
+            "target": "n13",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n13-n14-13",
+            "source": "n13",
+            "target": "n14",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          }
+        ]
+      },
+      "name": "거대 좀비의 습격",
+      "createdAt": "2026-01-28T01:32:14.477Z",
+      "updatedAt": "2026-01-28T01:32:14.477Z",
+      "tier": 0,
+      "localizedText": {
+        "name_kr": "아이템 한국어 이름",
+        "name_en": "item english name",
+        "desc_kr": "한국어 설명",
+        "desc_en": "English description"
+      }
+    },
+    {
+      "title": "기사 M의 결투 신청",
+      "id": "f8593648-ae3e-47a1-8e4c-efd02c77fa99",
+      "summary": "숲길을 지나던 중, 명성 높은 기사 M이 나타나 플레이어의 실력을 시험하기 위해 앞을 가로막고 결투를 신청합니다.",
+      "storyType": "combat",
+      "encounterMode": "npc_to_player",
+      "tags": [],
+      "entranceConditions": [],
+      "exitEffects": [],
+      "locations": [],
+      "timeOfDay": "",
+      "toneTags": [],
+      "conflict": "",
+      "hook": "",
+      "pacing": "",
+      "stage": "",
+      "climaxLevel": 0,
+      "rarity": 0,
+      "npcs": [
+        "006bd590-0c3e-46c0-b08d-f52818f8251f",
+        "player"
+      ],
+      "requiredNpcs": [],
+      "blueprint": {
+        "schemaVersion": 1,
+        "startNodeId": "n1",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENCOUNTER",
+            "data": {
+              "mode": "npc_to_player"
+            },
+            "position": {
+              "x": -49.00000207301104,
+              "y": -34.00000143841581
+            }
+          },
+          {
+            "id": "n2",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "npc-executioner",
+              "text": "거기 멈춰라. 네 검술이 예사롭지 않다는 소문을 듣고 예의 주시하고 있었다."
+            },
+            "position": {
+              "x": 569.9621709795962,
+              "y": -49.65129634576833
+            }
+          },
+          {
+            "id": "n13",
+            "type": "END",
+            "data": {
+              "result": {
+                "jumpToStoryletId": "choice_parry"
+              }
+            },
+            "position": {
+              "x": 2567.242220364341,
+              "y": -58.77155464602445
+            }
+          },
+          {
+            "id": "node-1769965689994-796",
+            "type": "BATTLE",
+            "data": {
+              "battleId": "",
+              "enemyId": "npc-executioner"
+            },
+            "position": {
+              "x": 1295.0628760667664,
+              "y": -57.668884551254735
+            }
+          },
+          {
+            "id": "node-1770042579614-341-0",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "npc-executioner",
+              "text": "test"
+            },
+            "position": {
+              "x": 1645.1768297156182,
+              "y": -39.069954798077944
+            }
+          },
+          {
+            "id": "node-1770047503813-213",
+            "type": "CHOICE",
+            "data": {
+              "prompt": "Choice"
+            },
+            "position": {
+              "x": 1844.5953209134443,
+              "y": 180.1826549028102
+            }
+          },
+          {
+            "id": "node-1770047516545-8",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "Narrator",
+              "text": ""
+            },
+            "position": {
+              "x": 2141.9366970749193,
+              "y": -31.48408744942609
+            }
+          },
+          {
+            "id": "node-1770047519105-567",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "Narrator",
+              "text": ""
+            },
+            "position": {
+              "x": 2264.1490423616274,
+              "y": 365.39105446101695
+            }
+          },
+          {
+            "id": "node-1770047533985-567",
+            "type": "END",
+            "data": {
+              "result": {}
+            },
+            "position": {
+              "x": 2580.373504332507,
+              "y": 336.39683419286774
+            }
+          }
+        ],
+        "edges": [
+          {
+            "id": "edge-n1-n2-1",
+            "source": "n1",
+            "target": "n2",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "xy-edge__n2-node-1769965689994-796",
+            "source": "n2",
+            "target": "node-1769965689994-796",
+            "type": "DEFAULT",
+            "data": {
+              "label": "",
+              "editable": false,
+              "conditions": [],
+              "effects": []
+            }
+          },
+          {
+            "id": "xy-edge__node-1769965689994-796-node-1770042579614-341-0",
+            "source": "node-1769965689994-796",
+            "target": "node-1770042579614-341-0",
+            "type": "DEFAULT",
+            "data": {
+              "label": "",
+              "editable": false,
+              "conditions": [],
+              "effects": []
+            }
+          },
+          {
+            "id": "xy-edge__node-1770042579614-341-0-node-1770047503813-213",
+            "source": "node-1770042579614-341-0",
+            "target": "node-1770047503813-213",
+            "type": "DEFAULT",
+            "data": {
+              "label": "",
+              "editable": false,
+              "conditions": [],
+              "effects": []
+            }
+          },
+          {
+            "id": "xy-edge__node-1770047503813-213-node-1770047516545-8",
+            "source": "node-1770047503813-213",
+            "target": "node-1770047516545-8",
+            "type": "CHOICE",
+            "data": {
+              "label": "Choice",
+              "editable": true,
+              "conditions": [],
+              "effects": []
+            }
+          },
+          {
+            "id": "xy-edge__node-1770047503813-213-node-1770047519105-567",
+            "source": "node-1770047503813-213",
+            "target": "node-1770047519105-567",
+            "type": "CHOICE",
+            "data": {
+              "label": "Choice",
+              "editable": true,
+              "conditions": [],
+              "effects": []
+            }
+          },
+          {
+            "id": "xy-edge__node-1770047516545-8-n13",
+            "source": "node-1770047516545-8",
+            "target": "n13",
+            "type": "DEFAULT",
+            "data": {
+              "label": "",
+              "editable": false,
+              "conditions": [],
+              "effects": []
+            }
+          },
+          {
+            "id": "xy-edge__node-1770047519105-567-node-1770047533985-567",
+            "source": "node-1770047519105-567",
+            "target": "node-1770047533985-567",
+            "type": "DEFAULT",
+            "data": {
+              "label": "",
+              "editable": false,
+              "conditions": [],
+              "effects": []
+            }
+          }
+        ]
+      },
+      "name": "기사 M의 결투 신청",
+      "createdAt": "2026-01-28T01:45:11.805Z",
+      "updatedAt": "2026-01-28T01:45:11.805Z",
+      "tier": 0,
+      "localizedText": {
+        "name_kr": "아이템 한국어 이름",
+        "name_en": "item english name",
+        "desc_kr": "한국어 설명",
+        "desc_en": "English description"
+      }
+    },
+    {
+      "title": "정예 거대 기사의 습격",
+      "id": "52b60a8d-c1c6-4fd8-8643-824c1363e709",
+      "summary": "길을 가로막는 정예 거대 기사와 마주쳐 피할 수 없는 전투를 시작합니다.",
+      "storyType": "combat",
+      "encounterMode": "npc_to_player",
+      "tags": [],
+      "entranceConditions": [],
+      "exitEffects": [],
+      "locations": [],
+      "timeOfDay": "",
+      "toneTags": [],
+      "conflict": "",
+      "hook": "",
+      "pacing": "",
+      "stage": "",
+      "climaxLevel": 0,
+      "rarity": 0,
+      "npcs": [
+        "39b2ef79-0d4f-4041-9ab8-d9a5cb5f7ed2",
+        "player"
+      ],
+      "requiredNpcs": [],
+      "blueprint": {
+        "schemaVersion": 1,
+        "startNodeId": "n1",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENCOUNTER",
+            "data": {
+              "mode": "npc_to_player"
+            },
+            "position": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "id": "n2",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "39b2ef79-0d4f-4041-9ab8-d9a5cb5f7ed2",
+              "text": "거기 서라, 이방인. 이곳은 허가 없이 지날 수 없는 성역이다."
+            },
+            "position": {
+              "x": 540,
+              "y": 0
+            }
+          },
+          {
+            "id": "n3",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "나는 그저 길을 지나가고 있을 뿐이다. 싸울 생각은 없다."
+            },
+            "position": {
+              "x": 1080,
+              "y": 0
+            }
+          },
+          {
+            "id": "n4",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "39b2ef79-0d4f-4041-9ab8-d9a5cb5f7ed2",
+              "text": "침입자의 변명 따위는 필요 없다. 내 거대한 검이 네 죄를 심판할 것이다."
+            },
+            "position": {
+              "x": 1620,
+              "y": 0
+            }
+          },
+          {
+            "id": "n5",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "대화로 해결할 수는 없는 건가? 당신의 갑옷이 예사롭지 않군."
+            },
+            "position": {
+              "x": 2160,
+              "y": 0
+            }
+          },
+          {
+            "id": "n6",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "39b2ef79-0d4f-4041-9ab8-d9a5cb5f7ed2",
+              "text": "나는 왕실의 정예 기사다. 명예를 걸고 너를 쓰러뜨리겠다!"
+            },
+            "position": {
+              "x": 2700,
+              "y": 0
+            }
+          },
+          {
+            "id": "n7",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "정 그렇다면 어쩔 수 없지. 검을 뽑겠다."
+            },
+            "position": {
+              "x": 3240,
+              "y": 0
+            }
+          },
+          {
+            "id": "n8",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "39b2ef79-0d4f-4041-9ab8-d9a5cb5f7ed2",
+              "text": "준비해라! 진정한 힘이 무엇인지 보여주마!"
+            },
+            "position": {
+              "x": 3780,
+              "y": 0
+            }
+          },
+          {
+            "id": "n9",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "오너라, 기사여. 나도 호락호락하지는 않을 거다."
+            },
+            "position": {
+              "x": 4320,
+              "y": 0
+            }
+          },
+          {
+            "id": "n10",
+            "type": "CHOICE",
+            "data": {
+              "prompt": "기사의 강력한 일격이 날아옵니다. 어떻게 대응하시겠습니까?"
+            },
+            "position": {
+              "x": 4860,
+              "y": 0
+            }
+          },
+          {
+            "id": "n11",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "39b2ef79-0d4f-4041-9ab8-d9a5cb5f7ed2",
+              "text": "제법이군, 내 일격을 정면으로 막아내다니!"
+            },
+            "position": {
+              "x": 5400,
+              "y": 0
+            }
+          },
+          {
+            "id": "n12",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "방패로 충격을 흘려보내고, 기사의 옆구리를 향해 검을 휘두릅니다."
+            },
+            "position": {
+              "x": 5940,
+              "y": 0
+            }
+          },
+          {
+            "id": "n13",
+            "type": "END",
+            "data": {
+              "result": {
+                "jumpToStoryletId": "choice_1"
+              }
+            },
+            "position": {
+              "x": 6480,
+              "y": 0
+            }
+          },
+          {
+            "id": "n14",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "39b2ef79-0d4f-4041-9ab8-d9a5cb5f7ed2",
+              "text": "어리석다! 그런 어설픈 돌진은 죽음을 자초할 뿐이다!"
+            },
+            "position": {
+              "x": 5400,
+              "y": 140
+            }
+          },
+          {
+            "id": "n15",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "기사의 거대한 검에 밀려 뒤로 나동그라지며 자세가 흐트러집니다."
+            },
+            "position": {
+              "x": 5940,
+              "y": 140
+            }
+          },
+          {
+            "id": "n16",
+            "type": "END",
+            "data": {
+              "result": {
+                "jumpToStoryletId": "choice_2"
+              }
+            },
+            "position": {
+              "x": 6480,
+              "y": 140
+            }
+          }
+        ],
+        "edges": [
+          {
+            "id": "edge-n1-n2-1",
+            "source": "n1",
+            "target": "n2",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n2-n3-2",
+            "source": "n2",
+            "target": "n3",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n3-n4-3",
+            "source": "n3",
+            "target": "n4",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n4-n5-4",
+            "source": "n4",
+            "target": "n5",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n5-n6-5",
+            "source": "n5",
+            "target": "n6",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n6-n7-6",
+            "source": "n6",
+            "target": "n7",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n7-n8-7",
+            "source": "n7",
+            "target": "n8",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n8-n9-8",
+            "source": "n8",
+            "target": "n9",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n9-n10-9",
+            "source": "n9",
+            "target": "n10",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n10-n11-10",
+            "source": "n10",
+            "target": "n11",
+            "type": "CHOICE",
+            "data": {
+              "label": "방패로 공격을 막아내고 반격한다",
+              "effects": [
+                {
+                  "op": "set",
+                  "key": "combat_trigger",
+                  "value": true
+                },
+                {
+                  "op": "set",
+                  "key": "combat_advantage",
+                  "value": true
+                }
+              ],
+              "editable": true
+            }
+          },
+          {
+            "id": "edge-n11-n12-11",
+            "source": "n11",
+            "target": "n12",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n12-n13-12",
+            "source": "n12",
+            "target": "n13",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n10-n14-13",
+            "source": "n10",
+            "target": "n14",
+            "type": "CHOICE",
+            "data": {
+              "label": "기사의 빈틈을 노려 무모하게 돌진한다",
+              "effects": [
+                {
+                  "op": "set",
+                  "key": "combat_trigger",
+                  "value": true
+                },
+                {
+                  "op": "set",
+                  "key": "combat_advantage",
+                  "value": false
+                },
+                {
+                  "op": "inc",
+                  "key": "future_help",
+                  "value": 1
+                }
+              ],
+              "editable": true
+            }
+          },
+          {
+            "id": "edge-n14-n15-14",
+            "source": "n14",
+            "target": "n15",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n15-n16-15",
+            "source": "n15",
+            "target": "n16",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          }
+        ]
+      },
+      "name": "정예 거대 기사의 습격",
+      "createdAt": "2026-01-29T21:20:49.140Z",
+      "updatedAt": "2026-01-29T21:20:49.140Z",
+      "tier": 0,
+      "localizedText": {
+        "name_kr": "아이템 한국어 이름",
+        "name_en": "item english name",
+        "desc_kr": "한국어 설명",
+        "desc_en": "English description"
+      }
+    },
+    {
+      "title": "숲의 탈출자와 경쟁자들",
+      "id": "6922f4a1-aede-4514-9352-41ae452866af",
+      "summary": "안개 낀 숲에서 깨어난 주인공이 길잡이 엘린을 만나 탈출 방법을 듣고, 다른 모험가들 사이에서 명성을 쌓기 위한 여정을 시작합니다.",
+      "storyType": "operning",
+      "encounterMode": "npc_to_player",
+      "tags": [],
+      "entranceConditions": [],
+      "exitEffects": [],
+      "locations": [],
+      "timeOfDay": "",
+      "toneTags": [],
+      "conflict": "",
+      "hook": "",
+      "pacing": "",
+      "stage": "",
+      "climaxLevel": 0,
+      "rarity": 0,
+      "npcs": [
+        "player",
+        "691505ec-6e57-4062-9840-2c7bc3ada8c6"
+      ],
+      "requiredNpcs": [],
+      "blueprint": {
+        "schemaVersion": 1,
+        "startNodeId": "n1",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENCOUNTER",
+            "data": {
+              "mode": "npc_to_player"
+            },
+            "position": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "id": "n2",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "…여긴 어디지? 머리가 깨질 것 같군."
+            },
+            "position": {
+              "x": 540,
+              "y": 0
+            }
+          },
+          {
+            "id": "n3",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "691505ec-6e57-4062-9840-2c7bc3ada8c6",
+              "text": "정신이 좀 들어? 숲의 마기에 취해 쓰러져 있길래 내가 깨워줬어."
+            },
+            "position": {
+              "x": 1080,
+              "y": 0
+            }
+          },
+          {
+            "id": "n4",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "…출구는… 어디야? 여기서 당장 나가야 해."
+            },
+            "position": {
+              "x": 1620,
+              "y": 0
+            }
+          },
+          {
+            "id": "n5",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "691505ec-6e57-4062-9840-2c7bc3ada8c6",
+              "text": "너도 길을 찾는 거지? 이 숲에서 나가는 방법은 하나뿐이야.",
+              "action": {
+                "type": "GIVE_ITEM",
+                "itemId": "87a775ae-01a1-4fdb-b8b0-9ab972524b84",
+                "itemType": "ETC"
+              }
+            },
+            "position": {
+              "x": 2160,
+              "y": 0
+            }
+          },
+          {
+            "id": "n6",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "지도를 주는 건가? 중앙으로 가는 길을 가리키고 있군."
+            },
+            "position": {
+              "x": 2700,
+              "y": 0
+            }
+          },
+          {
+            "id": "n7",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "691505ec-6e57-4062-9840-2c7bc3ada8c6",
+              "text": "그래. 중앙을 돌파해야 해. 하지만 너 말고도 탈출하려는 모험가들이 아주 많지."
+            },
+            "position": {
+              "x": 3240,
+              "y": 0
+            }
+          },
+          {
+            "id": "n8",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "다른 모험가들이라니, 그들과 경쟁해야 한다는 뜻인가?"
+            },
+            "position": {
+              "x": 3780,
+              "y": 0
+            }
+          },
+          {
+            "id": "n9",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "691505ec-6e57-4062-9840-2c7bc3ada8c6",
+              "text": "단순한 경쟁이 아니야. 네 실력을 증명해서 명성을 얻지 못하면 도태될 뿐이지."
+            },
+            "position": {
+              "x": 4320,
+              "y": 0
+            }
+          },
+          {
+            "id": "n10",
+            "type": "CHOICE",
+            "data": {
+              "prompt": "엘린에게 당신의 각오를 어떻게 증명하겠습니까?"
+            },
+            "position": {
+              "x": 4860,
+              "y": 0
+            }
+          },
+          {
+            "id": "n11",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "691505ec-6e57-4062-9840-2c7bc3ada8c6",
+              "text": "패기가 대단하군! 네 이름이 숲 전체에 울려 퍼지길 기대하겠어."
+            },
+            "position": {
+              "x": 5400,
+              "y": 0
+            }
+          },
+          {
+            "id": "n12",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "내가 앞장설 테니 지켜봐라. 내 명성은 행동으로 증명하겠다."
+            },
+            "position": {
+              "x": 5940,
+              "y": 0
+            }
+          },
+          {
+            "id": "n13",
+            "type": "END",
+            "data": {
+              "result": {
+                "jumpToStoryletId": "choice_lead"
+              }
+            },
+            "position": {
+              "x": 6480,
+              "y": 0
+            }
+          },
+          {
+            "id": "n14",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "691505ec-6e57-4062-9840-2c7bc3ada8c6",
+              "text": "신중한 것도 좋지만, 너무 뒤처지면 아무도 널 기억해주지 않을 거야."
+            },
+            "position": {
+              "x": 5400,
+              "y": 140
+            }
+          },
+          {
+            "id": "n15",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "무모하게 움직이다 죽고 싶진 않다. 일단 적들의 정보부터 모으지."
+            },
+            "position": {
+              "x": 5940,
+              "y": 140
+            }
+          },
+          {
+            "id": "n16",
+            "type": "END",
+            "data": {
+              "result": {
+                "jumpToStoryletId": "choice_wary"
+              }
+            },
+            "position": {
+              "x": 6480,
+              "y": 140
+            }
+          }
+        ],
+        "edges": [
+          {
+            "id": "edge-n1-n2-1",
+            "source": "n1",
+            "target": "n2",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n2-n3-2",
+            "source": "n2",
+            "target": "n3",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n3-n4-3",
+            "source": "n3",
+            "target": "n4",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n4-n5-4",
+            "source": "n4",
+            "target": "n5",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n5-n6-5",
+            "source": "n5",
+            "target": "n6",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n6-n7-6",
+            "source": "n6",
+            "target": "n7",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n7-n8-7",
+            "source": "n7",
+            "target": "n8",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n8-n9-8",
+            "source": "n8",
+            "target": "n9",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n9-n10-9",
+            "source": "n9",
+            "target": "n10",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n10-n11-10",
+            "source": "n10",
+            "target": "n11",
+            "type": "CHOICE",
+            "data": {
+              "label": "선두에 서서 길을 개척하겠다고 선언한다",
+              "effects": [
+                {
+                  "op": "inc",
+                  "key": "reputation",
+                  "value": 1
+                }
+              ],
+              "editable": true
+            }
+          },
+          {
+            "id": "edge-n11-n12-11",
+            "source": "n11",
+            "target": "n12",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n12-n13-12",
+            "source": "n12",
+            "target": "n13",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n10-n14-13",
+            "source": "n10",
+            "target": "n14",
+            "type": "CHOICE",
+            "data": {
+              "label": "다른 모험가들의 동태를 살피며 신중히 움직인다",
+              "effects": [
+                {
+                  "op": "inc",
+                  "key": "reputation",
+                  "value": -1
+                },
+                {
+                  "op": "inc",
+                  "key": "future_help",
+                  "value": 1
+                }
+              ],
+              "editable": true
+            }
+          },
+          {
+            "id": "edge-n14-n15-14",
+            "source": "n14",
+            "target": "n15",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n15-n16-15",
+            "source": "n15",
+            "target": "n16",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          }
+        ]
+      },
+      "name": "숲의 탈출자와 경쟁자들",
+      "createdAt": "2026-01-30T17:35:31.420Z",
+      "updatedAt": "2026-01-30T17:35:31.420Z",
+      "tier": 0,
+      "localizedText": {
+        "name_kr": "아이템 한국어 이름",
+        "name_en": "item english name",
+        "desc_kr": "한국어 설명",
+        "desc_en": "English description"
+      }
+    },
+    {
+      "title": "성소의 수호자",
+      "id": "25d7b5af-33a6-4b1e-b24e-3482ee1f4746",
+      "summary": "안개 낀 숲의 끝에서 고대 성소를 지키는 파수꾼 에린을 발견하고 조심스럽게 다가갑니다.",
+      "storyType": "reputation",
+      "encounterMode": "player_finds_npc",
+      "tags": [],
+      "entranceConditions": [],
+      "exitEffects": [],
+      "locations": [],
+      "timeOfDay": "",
+      "toneTags": [],
+      "conflict": "",
+      "hook": "",
+      "pacing": "",
+      "stage": "",
+      "climaxLevel": 0,
+      "rarity": 0,
+      "npcs": [
+        "player",
+        "9e8f48b7-8881-45bf-a4c0-a606cb2076b7"
+      ],
+      "requiredNpcs": [],
+      "blueprint": {
+        "schemaVersion": 1,
+        "startNodeId": "n1",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENCOUNTER",
+            "data": {
+              "mode": "player_finds_npc"
+            },
+            "position": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "id": "n2",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "안개 속에서 희미한 형체가 보여. 누군가 성문 앞을 지키고 있군."
+            },
+            "position": {
+              "x": 540,
+              "y": 0
+            }
+          },
+          {
+            "id": "n3",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "9e8f48b7-8881-45bf-a4c0-a606cb2076b7",
+              "text": "거기 누구냐! 허락 없이 이 성소에 발을 들이는 자는 용서치 않겠다."
+            },
+            "position": {
+              "x": 1080,
+              "y": 0
+            }
+          },
+          {
+            "id": "n4",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "진정하십시오. 저는 그저 길을 잃고 헤매다 이곳에 도달했을 뿐입니다."
+            },
+            "position": {
+              "x": 1620,
+              "y": 0
+            }
+          },
+          {
+            "id": "n5",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "9e8f48b7-8881-45bf-a4c0-a606cb2076b7",
+              "text": "길을 잃은 자가 이 깊은 곳까지 오다니, 예사로운 인연은 아니군."
+            },
+            "position": {
+              "x": 2160,
+              "y": 0
+            }
+          },
+          {
+            "id": "n6",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "당신은 누구시죠? 이 거대한 문 뒤에는 무엇이 있습니까?"
+            },
+            "position": {
+              "x": 2700,
+              "y": 0
+            }
+          },
+          {
+            "id": "n7",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "9e8f48b7-8881-45bf-a4c0-a606cb2076b7",
+              "text": "나는 성소의 파수꾼 에린이다. 문 뒤의 비밀은 자격이 있는 자에게만 허락되지."
+            },
+            "position": {
+              "x": 3240,
+              "y": 0
+            }
+          },
+          {
+            "id": "n8",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "제게 그 자격이 있는지 확인해보고 싶습니다. 무엇을 하면 되겠습니까?"
+            },
+            "position": {
+              "x": 3780,
+              "y": 0
+            }
+          },
+          {
+            "id": "n9",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "9e8f48b7-8881-45bf-a4c0-a606cb2076b7",
+              "text": "자격은 말로 증명하는 것이 아니다. 네 눈빛에 서린 결의를 보여라."
+            },
+            "position": {
+              "x": 4320,
+              "y": 0
+            }
+          },
+          {
+            "id": "n10",
+            "type": "CHOICE",
+            "data": {
+              "prompt": "에린에게 당신의 결의를 어떻게 증명하시겠습니까?"
+            },
+            "position": {
+              "x": 4860,
+              "y": 0
+            }
+          },
+          {
+            "id": "n11",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "9e8f48b7-8881-45bf-a4c0-a606cb2076b7",
+              "text": "오만한 자들만 보아왔는데, 너는 제법 예의를 아는구나. 이 징표를 받아라.",
+              "action": {
+                "type": "GIVE_ITEM",
+                "itemId": "253b891d-6fff-4efa-9836-1b804f1bc738",
+                "itemType": "KEY"
+              }
+            },
+            "position": {
+              "x": 5488.000003722958,
+              "y": -128.00000541521246
+            }
+          },
+          {
+            "id": "n12",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "성소의 규칙을 존중하며 따르겠습니다. 길을 열어주셔서 감사합니다."
+            },
+            "position": {
+              "x": 6048.000004569085,
+              "y": -64.00000270760623
+            }
+          },
+          {
+            "id": "n13",
+            "type": "END",
+            "data": {
+              "result": {
+                "jumpToStoryletId": "choice_humble"
+              }
+            },
+            "position": {
+              "x": 6574.0000039767965,
+              "y": -73.00000308836337
+            }
+          },
+          {
+            "id": "n14",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "9e8f48b7-8881-45bf-a4c0-a606cb2076b7",
+              "text": "힘으로 나를 억누르려 하다니, 무례하기 짝이 없군! 그 대가를 치르게 해주마."
+            },
+            "position": {
+              "x": 5388.99999953463,
+              "y": 221.00000342681412
+            }
+          },
+          {
+            "id": "n15",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "말보다는 실력으로 보여주는 것이 빠를 것 같군. 무기를 들어라!"
+            },
+            "position": {
+              "x": 6070.0000054998245,
+              "y": 236.00000406140936
+            }
+          },
+          {
+            "id": "n16",
+            "type": "END",
+            "data": {
+              "result": {
+                "jumpToStoryletId": "choice_power"
+              }
+            },
+            "position": {
+              "x": 6685.000008672801,
+              "y": 270.0000054998252
+            }
+          }
+        ],
+        "edges": [
+          {
+            "id": "edge-n1-n2-1",
+            "source": "n1",
+            "target": "n2",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n2-n3-2",
+            "source": "n2",
+            "target": "n3",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n3-n4-3",
+            "source": "n3",
+            "target": "n4",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n4-n5-4",
+            "source": "n4",
+            "target": "n5",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n5-n6-5",
+            "source": "n5",
+            "target": "n6",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n6-n7-6",
+            "source": "n6",
+            "target": "n7",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n7-n8-7",
+            "source": "n7",
+            "target": "n8",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n8-n9-8",
+            "source": "n8",
+            "target": "n9",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n9-n10-9",
+            "source": "n9",
+            "target": "n10",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n10-n11-10",
+            "source": "n10",
+            "target": "n11",
+            "type": "CHOICE",
+            "data": {
+              "label": "겸손하게 무릎을 꿇고 예의를 갖춘다",
+              "editable": true
+            }
+          },
+          {
+            "id": "edge-n11-n12-11",
+            "source": "n11",
+            "target": "n12",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n12-n13-12",
+            "source": "n12",
+            "target": "n13",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n10-n14-13",
+            "source": "n10",
+            "target": "n14",
+            "type": "CHOICE",
+            "data": {
+              "label": "강력한 마력을 뿜어내며 실력을 과시한다",
+              "editable": true
+            }
+          },
+          {
+            "id": "edge-n14-n15-14",
+            "source": "n14",
+            "target": "n15",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n15-n16-15",
+            "source": "n15",
+            "target": "n16",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          }
+        ]
+      },
+      "name": "성소의 수호자",
+      "createdAt": "2026-01-31T21:25:12.185Z",
+      "updatedAt": "2026-01-31T21:25:12.185Z",
+      "tier": 0,
+      "localizedText": {
+        "name_kr": "아이템 한국어 이름",
+        "name_en": "item english name",
+        "desc_kr": "한국어 설명",
+        "desc_en": "English description"
+      }
+    },
+    {
+      "title": "마법사의 요청",
+      "id": "3dc78399-a52a-4bc7-9cf9-48be11e60598",
+      "summary": "엘라는 플레이어에게 마법 지팡이를 전달하고, 그 선택에 따라 모험이 달라진다.",
+      "storyType": "item",
+      "encounterMode": "npc_to_player",
+      "tags": [],
+      "entranceConditions": [],
+      "exitEffects": [],
+      "locations": [],
+      "timeOfDay": "",
+      "toneTags": [],
+      "conflict": "",
+      "hook": "",
+      "pacing": "",
+      "stage": "",
+      "climaxLevel": 0,
+      "rarity": 0,
+      "npcs": [
+        "95eb181e-5122-4d26-9ea5-748be8de745a",
+        "player"
+      ],
+      "requiredNpcs": [],
+      "blueprint": {
+        "schemaVersion": 1,
+        "startNodeId": "n1",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENCOUNTER",
+            "data": {
+              "mode": "npc_to_player"
+            },
+            "position": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "id": "n2",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "95eb181e-5122-4d26-9ea5-748be8de745a",
+              "text": "오랜 기다림 끝에 당신을 찾았습니다."
+            },
+            "position": {
+              "x": 540,
+              "y": 0
+            }
+          },
+          {
+            "id": "n3",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "왜 저를 찾아왔나요?"
+            },
+            "position": {
+              "x": 1080,
+              "y": 0
+            }
+          },
+          {
+            "id": "n4",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "95eb181e-5122-4d26-9ea5-748be8de745a",
+              "text": "저의 마법 지팡이가 필요해요. 당신에게 건네려 합니다."
+            },
+            "position": {
+              "x": 1620,
+              "y": 0
+            }
+          },
+          {
+            "id": "n5",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "이 지팡이를 받아도 될까요?"
+            },
+            "position": {
+              "x": 2160,
+              "y": 0
+            }
+          },
+          {
+            "id": "n6",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "95eb181e-5122-4d26-9ea5-748be8de745a",
+              "text": "물론입니다, 이걸 받으세요.",
+              "action": {
+                "type": "GIVE_ITEM",
+                "itemId": "0beabab9-8f73-44a1-8fb3-813e5eb73b76",
+                "itemType": "WEAPON"
+              }
+            },
+            "position": {
+              "x": 2700,
+              "y": 0
+            }
+          },
+          {
+            "id": "n7",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "감사합니다, 엘라."
+            },
+            "position": {
+              "x": 3240,
+              "y": 0
+            }
+          },
+          {
+            "id": "n8",
+            "type": "CHOICE",
+            "data": {
+              "prompt": "지팡이를 받는 순간, 당신은 어떻게 할까요?"
+            },
+            "position": {
+              "x": 3780,
+              "y": 0
+            }
+          },
+          {
+            "id": "n9",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "95eb181e-5122-4d26-9ea5-748be8de745a",
+              "text": "당신의 손이 빛을 내며, 마법이 흐릅니다."
+            },
+            "position": {
+              "x": 4320,
+              "y": 0
+            }
+          },
+          {
+            "id": "n10",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "지팡이를 사용해 보니 힘이 솟아오르네."
+            },
+            "position": {
+              "x": 4860,
+              "y": 0
+            }
+          },
+          {
+            "id": "n11",
+            "type": "END",
+            "data": {
+              "result": {
+                "jumpToStoryletId": "choice_1"
+              }
+            },
+            "position": {
+              "x": 5400,
+              "y": 0
+            }
+          },
+          {
+            "id": "n12",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "95eb181e-5122-4d26-9ea5-748be8de745a",
+              "text": "당신은 지팡이를 믿고 맡깁니다. 하지만 위험은 여전히 남습니다."
+            },
+            "position": {
+              "x": 4320,
+              "y": 140
+            }
+          },
+          {
+            "id": "n13",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "지팡이를 안전한 곳에 두었습니다."
+            },
+            "position": {
+              "x": 4860,
+              "y": 140
+            }
+          },
+          {
+            "id": "n14",
+            "type": "END",
+            "data": {
+              "result": {
+                "jumpToStoryletId": "choice_2"
+              }
+            },
+            "position": {
+              "x": 5400,
+              "y": 140
+            }
+          }
+        ],
+        "edges": [
+          {
+            "id": "edge-n1-n2-1",
+            "source": "n1",
+            "target": "n2",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n2-n3-2",
+            "source": "n2",
+            "target": "n3",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n3-n4-3",
+            "source": "n3",
+            "target": "n4",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n4-n5-4",
+            "source": "n4",
+            "target": "n5",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n5-n6-5",
+            "source": "n5",
+            "target": "n6",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n6-n7-6",
+            "source": "n6",
+            "target": "n7",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n7-n8-7",
+            "source": "n7",
+            "target": "n8",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n8-n9-8",
+            "source": "n8",
+            "target": "n9",
+            "type": "CHOICE",
+            "data": {
+              "label": "마법 지팡이를 즉시 사용해 보인다",
+              "effects": [
+                {
+                  "op": "inc",
+                  "key": "reward_item",
+                  "value": 1
+                }
+              ],
+              "editable": true
+            }
+          },
+          {
+            "id": "edge-n9-n10-9",
+            "source": "n9",
+            "target": "n10",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n10-n11-10",
+            "source": "n10",
+            "target": "n11",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n8-n12-11",
+            "source": "n8",
+            "target": "n12",
+            "type": "CHOICE",
+            "data": {
+              "label": "지팡이를 안전한 곳에 두고 다른 사람에게 전달한다",
+              "effects": [
+                {
+                  "op": "inc",
+                  "key": "setback",
+                  "value": 1
+                },
+                {
+                  "op": "inc",
+                  "key": "future_help",
+                  "value": 1
+                },
+                {
+                  "op": "inc",
+                  "key": "item_clue",
+                  "value": 1
+                }
+              ],
+              "editable": true
+            }
+          },
+          {
+            "id": "edge-n12-n13-12",
+            "source": "n12",
+            "target": "n13",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n13-n14-13",
+            "source": "n13",
+            "target": "n14",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          }
+        ]
+      },
+      "name": "마법사의 요청",
+      "createdAt": "2026-01-31T21:35:14.724Z",
+      "updatedAt": "2026-01-31T21:35:14.724Z",
+      "tier": 0,
+      "localizedText": {
+        "name_kr": "아이템 한국어 이름",
+        "name_en": "item english name",
+        "desc_kr": "한국어 설명",
+        "desc_en": "English description"
+      }
+    },
+    {
+      "title": "잊혀진 보물 지도",
+      "id": "19f16eef-1c0b-424b-ae44-8eed2fe60d1a",
+      "summary": "안개 속에서 나타난 엘린이 정체불명의 낡은 지도를 건네며 위험한 탐험의 동행을 제안합니다.",
+      "storyType": "item",
+      "encounterMode": "npc_to_player",
+      "tags": [],
+      "entranceConditions": [],
+      "exitEffects": [],
+      "locations": [],
+      "timeOfDay": "",
+      "toneTags": [],
+      "conflict": "",
+      "hook": "",
+      "pacing": "",
+      "stage": "",
+      "climaxLevel": 0,
+      "rarity": 0,
+      "npcs": [
+        "451eec03-f763-4c7e-85b4-82f73b323813",
+        "player"
+      ],
+      "requiredNpcs": [],
+      "blueprint": {
+        "schemaVersion": 1,
+        "startNodeId": "n1",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENCOUNTER",
+            "data": {
+              "mode": "npc_to_player"
+            },
+            "position": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "id": "n2",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "451eec03-f763-4c7e-85b4-82f73b323813",
+              "text": "잠시만요! 거기 여행자분, 제 말을 좀 들어주시겠어요?"
+            },
+            "position": {
+              "x": 540,
+              "y": 0
+            }
+          },
+          {
+            "id": "n3",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "누구시죠? 갑자기 안개 속에서 나타나시다니 놀랍군요."
+            },
+            "position": {
+              "x": 1080,
+              "y": 0
+            }
+          },
+          {
+            "id": "n4",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "451eec03-f763-4c7e-85b4-82f73b323813",
+              "text": "놀라게 해서 죄송해요. 저는 엘린이라고 합니다. 방금 아주 귀한 물건을 손에 넣었거든요."
+            },
+            "position": {
+              "x": 1620,
+              "y": 0
+            }
+          },
+          {
+            "id": "n5",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "귀한 물건이라니, 도대체 무엇을 가지고 계신 겁니까?"
+            },
+            "position": {
+              "x": 2160,
+              "y": 0
+            }
+          },
+          {
+            "id": "n6",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "451eec03-f763-4c7e-85b4-82f73b323813",
+              "text": "바로 이 낡은 지도예요. 전설 속 고대 유적이 숨겨진 위치가 정확히 기록되어 있죠.",
+              "action": {
+                "type": "GIVE_ITEM",
+                "itemId": "d493d94b-617a-4e1c-b749-d96895010e01",
+                "itemType": "ITEM"
+              }
+            },
+            "position": {
+              "x": 2700,
+              "y": 0
+            }
+          },
+          {
+            "id": "n7",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "지도가 꽤 오래되어 보이는데, 왜 이 귀중한 것을 제게 보여주는 거죠?"
+            },
+            "position": {
+              "x": 3240,
+              "y": 0
+            }
+          },
+          {
+            "id": "n8",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "451eec03-f763-4c7e-85b4-82f73b323813",
+              "text": "혼자 가기엔 유적 주변의 마물들이 너무 위험해서요. 당신 같은 실력자의 도움이 절실해요."
+            },
+            "position": {
+              "x": 3780,
+              "y": 0
+            }
+          },
+          {
+            "id": "n9",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "결국 보물을 나누자는 제안인가요?"
+            },
+            "position": {
+              "x": 4320,
+              "y": 0
+            }
+          },
+          {
+            "id": "n10",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "451eec03-f763-4c7e-85b4-82f73b323813",
+              "text": "맞아요. 저를 도와 유적 입구까지만 동행해 주시면 보물은 공평하게 나누겠다고 약속할게요."
+            },
+            "position": {
+              "x": 4728.968207115282,
+              "y": -5.039684341719919
+            }
+          },
+          {
+            "id": "n11",
+            "type": "CHOICE",
+            "data": {
+              "prompt": "엘린의 위험한 제안을 수락하시겠습니까?"
+            },
+            "position": {
+              "x": 5299.206313165602,
+              "y": -76.85518621122866
+            }
+          },
+          {
+            "id": "n12",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "451eec03-f763-4c7e-85b4-82f73b323813",
+              "text": "현명한 선택이에요! 지도를 보면 여기서 멀지 않은 곳에 비밀 통로가 있어요."
+            },
+            "position": {
+              "x": 5940,
+              "y": 0
+            }
+          },
+          {
+            "id": "n13",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "좋습니다. 안내하시죠. 대신 함정이나 거짓이 있다면 무사하지 못할 겁니다."
+            },
+            "position": {
+              "x": 6480,
+              "y": 0
+            }
+          },
+          {
+            "id": "n14",
+            "type": "END",
+            "data": {
+              "result": {
+                "jumpToStoryletId": "choice_1"
+              }
+            },
+            "position": {
+              "x": 7020,
+              "y": 0
+            }
+          },
+          {
+            "id": "n15",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "451eec03-f763-4c7e-85b4-82f73b323813",
+              "text": "아... 역시 무리인가요? 혼자서 가기엔 너무 무서운데 정말 아쉽네요."
+            },
+            "position": {
+              "x": 5940,
+              "y": 140
+            }
+          },
+          {
+            "id": "n16",
+            "type": "DIALOG",
+            "data": {
+              "speakerId": "player",
+              "text": "세상에 공짜 점심은 없는 법이죠. 지도는 여기 돌려드릴 테니 다른 동료를 찾아보세요."
+            },
+            "position": {
+              "x": 6480,
+              "y": 140
+            }
+          },
+          {
+            "id": "n17",
+            "type": "END",
+            "data": {
+              "result": {
+                "jumpToStoryletId": "choice_2"
+              }
+            },
+            "position": {
+              "x": 7020,
+              "y": 140
+            }
+          }
+        ],
+        "edges": [
+          {
+            "id": "edge-n1-n2-1",
+            "source": "n1",
+            "target": "n2",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n2-n3-2",
+            "source": "n2",
+            "target": "n3",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n3-n4-3",
+            "source": "n3",
+            "target": "n4",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n4-n5-4",
+            "source": "n4",
+            "target": "n5",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n5-n6-5",
+            "source": "n5",
+            "target": "n6",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n6-n7-6",
+            "source": "n6",
+            "target": "n7",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n7-n8-7",
+            "source": "n7",
+            "target": "n8",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n8-n9-8",
+            "source": "n8",
+            "target": "n9",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n9-n10-9",
+            "source": "n9",
+            "target": "n10",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n10-n11-10",
+            "source": "n10",
+            "target": "n11",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n11-n12-11",
+            "source": "n11",
+            "target": "n12",
+            "type": "CHOICE",
+            "data": {
+              "label": "지도를 믿고 엘린과 함께 유적으로 향한다.",
+              "effects": [
+                {
+                  "op": "inc",
+                  "key": "reward_item",
+                  "value": 1
+                }
+              ],
+              "editable": true
+            }
+          },
+          {
+            "id": "edge-n12-n13-12",
+            "source": "n12",
+            "target": "n13",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n13-n14-13",
+            "source": "n13",
+            "target": "n14",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n11-n15-14",
+            "source": "n11",
+            "target": "n15",
+            "type": "CHOICE",
+            "data": {
+              "label": "수상한 제안을 거절하고 지도를 돌려준다.",
+              "effects": [
+                {
+                  "op": "inc",
+                  "key": "setback",
+                  "value": 1
+                },
+                {
+                  "op": "inc",
+                  "key": "future_help",
+                  "value": 1
+                },
+                {
+                  "op": "inc",
+                  "key": "item_clue",
+                  "value": 1
+                }
+              ],
+              "editable": true
+            }
+          },
+          {
+            "id": "edge-n15-n16-15",
+            "source": "n15",
+            "target": "n16",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          },
+          {
+            "id": "edge-n16-n17-16",
+            "source": "n16",
+            "target": "n17",
+            "type": "DEFAULT",
+            "data": {
+              "editable": false
+            }
+          }
+        ]
+      },
+      "name": "잊혀진 보물 지도",
+      "createdAt": "2026-01-31T21:35:56.822Z",
+      "updatedAt": "2026-01-31T21:35:56.822Z",
+      "tier": 0,
+      "localizedText": {
+        "name_kr": "아이템 한국어 이름",
+        "name_en": "item english name",
+        "desc_kr": "한국어 설명",
+        "desc_en": "English description"
+      }
+    }
+  ]
+}

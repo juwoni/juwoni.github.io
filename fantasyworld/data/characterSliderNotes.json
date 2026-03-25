@@ -1,0 +1,247 @@
+[
+  {
+    "field": "base",
+    "value": 0,
+    "text": "큰체형"
+  },
+  {
+    "field": "base",
+    "value": 1,
+    "text": "큰체형(로브)"
+  },
+  {
+    "field": "base",
+    "value": 2,
+    "text": "마른체형(로브)"
+  },
+  {
+    "field": "base",
+    "value": 3,
+    "text": "마른체형"
+  },
+  {
+    "field": "head",
+    "value": 0,
+    "text": "네모난 얼굴(대머리)"
+  },
+  {
+    "field": "head",
+    "value": 1,
+    "text": "둥근 얼굴(대머리)"
+  },
+  {
+    "field": "head",
+    "value": 2,
+    "text": "기다란 얼굴(대머리)"
+  },
+  {
+    "field": "head",
+    "value": 3,
+    "text": "기다란 얼굴(사성점)"
+  },
+  {
+    "field": "head",
+    "value": 4,
+    "text": "더 기다란얼굴(삼성점)"
+  },
+  {
+    "field": "head",
+    "value": 5,
+    "text": "솟아오른 머리(대머리)"
+  },
+  {
+    "field": "head",
+    "value": 6,
+    "text": "심슨머리(대머리)"
+  },
+  {
+    "field": "head",
+    "value": 7,
+    "text": "각진헤어"
+  },
+  {
+    "field": "head",
+    "value": 8,
+    "text": "개성있는머리"
+  },
+  {
+    "field": "head",
+    "value": 9,
+    "text": "여성머리(꽃)"
+  },
+  {
+    "field": "head",
+    "value": 10,
+    "text": "할아버지 머리"
+  },
+  {
+    "field": "head",
+    "value": 11,
+    "text": "털보"
+  },
+  {
+    "field": "head",
+    "value": 12,
+    "text": "긴머리(여성)"
+  },
+  {
+    "field": "head",
+    "value": 13,
+    "text": "더벅머리"
+  },
+  {
+    "field": "head",
+    "value": 14,
+    "text": "대머리수염"
+  },
+  {
+    "field": "head",
+    "value": 15,
+    "text": "밤톨머리"
+  },
+  {
+    "field": "head",
+    "value": 16,
+    "text": "마법사모자"
+  },
+  {
+    "field": "head",
+    "value": 17,
+    "text": "윙헤어"
+  },
+  {
+    "field": "head",
+    "value": 18,
+    "text": "하이 윙헤어"
+  },
+  {
+    "field": "head",
+    "value": 19,
+    "text": "외계인머리"
+  },
+  {
+    "field": "head",
+    "value": 20,
+    "text": "3개달린눈(대머리)"
+  },
+  {
+    "field": "head",
+    "value": 21,
+    "text": "기사헬멧"
+  },
+  {
+    "field": "head",
+    "value": 26,
+    "text": "중절모자"
+  },
+  {
+    "field": "head",
+    "value": 27,
+    "text": "신사모자"
+  },
+  {
+    "field": "head",
+    "value": 28,
+    "text": "신사모자(컬러)"
+  },
+  {
+    "field": "head",
+    "value": 29,
+    "text": "해적모자"
+  },
+  {
+    "field": "head",
+    "value": 31,
+    "text": "해적모자(뒷머리)"
+  },
+  {
+    "field": "head",
+    "value": 32,
+    "text": "선원모자"
+  },
+  {
+    "field": "head",
+    "value": 33,
+    "text": "깃털머리(사각얼굴)"
+  },
+  {
+    "field": "head",
+    "value": 34,
+    "text": "깃털머리"
+  },
+  {
+    "field": "head",
+    "value": 35,
+    "text": "헤어밴드"
+  },
+  {
+    "field": "face",
+    "value": 0,
+    "text": "기본"
+  },
+  {
+    "field": "face",
+    "value": 1,
+    "text": "큰눈썹"
+  },
+  {
+    "field": "face",
+    "value": 2,
+    "text": "일자눈썹"
+  },
+  {
+    "field": "face",
+    "value": 3,
+    "text": "화난눈썹"
+  },
+  {
+    "field": "face",
+    "value": 4,
+    "text": "눈망울"
+  },
+  {
+    "field": "face",
+    "value": 5,
+    "text": "괴물입"
+  },
+  {
+    "field": "face",
+    "value": 6,
+    "text": "오크입"
+  },
+  {
+    "field": "face",
+    "value": 7,
+    "text": "좀비"
+  },
+  {
+    "field": "face",
+    "value": 8,
+    "text": "침흘림"
+  },
+  {
+    "field": "face",
+    "value": 9,
+    "text": "큰입"
+  },
+  {
+    "field": "face",
+    "value": 10,
+    "text": "돼지코"
+  },
+  {
+    "field": "face",
+    "value": 11,
+    "text": "뼈가면"
+  },
+  {
+    "field": "face",
+    "value": 12,
+    "text": "부족가면"
+  },
+  {
+    "field": "face",
+    "value": 13,
+    "text": "가면"
+  }
+]
