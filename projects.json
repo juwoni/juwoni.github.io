@@ -22,12 +22,10 @@
         //        "images/fantasyWorld/uielement.png"
       ],
       description: [
-        "내러티브 생성 시 프롬프트 준비 → 컨텍스트 반영 → LLM 생성(스트리밍) → 반영, 옵션(대화 리파인·캐릭터 커스텀)과 분기 포함 본문 제작.",
-        "Local LLM, Gemini 등 멀티 프로바이더 지원 + 모델/온도/언어 설정 가능",
-        "생성 결과를 JSON 스키마로 파싱해 대화·NPC·아이템·분기 선택을 자동 정규화",
-        "진행 단계/출력 로그를 모달에서 실시간 확인(Plan/Story/Character 출력 패널)",
-        "랜덤 모드(시드 포함), 대화 리파인, 액션 제약 같은 생성 옵션 제공",
-        "캐릭터 커스텀 생성 연동으로 스토리와 캐릭터를 함께 확장 가능"
+        "LLM 기반 내러티브 생성 파이프라인 설계 (Prompt → Context Injection → Streaming → Post-processing)\n",
+        "멀티 LLM Provider 추상화 레이어 구현 (Local / Gemini )",
+        "JSON Schema 기반 구조화 파싱 및 런타임 데이터 모델링\n",
+        "블루프린트 그래프 파싱 기반 노드 그래프 실행 로직(C#) 개발",
       ]
     },
     {
