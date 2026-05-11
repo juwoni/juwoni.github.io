@@ -2,246 +2,246 @@
   {
     "field": "base",
     "value": 0,
-    "text": "Large build"
+    "text": "큰체형"
   },
   {
     "field": "base",
     "value": 1,
-    "text": "Large build (robe)"
+    "text": "큰체형(로브)"
   },
   {
     "field": "base",
     "value": 2,
-    "text": "Slim build (robe)"
+    "text": "마른체형(로브)"
   },
   {
     "field": "base",
     "value": 3,
-    "text": "Slim build"
+    "text": "마른체형"
   },
   {
     "field": "head",
     "value": 0,
-    "text": "Square face (bald)"
+    "text": "네모난 얼굴(대머리)"
   },
   {
     "field": "head",
     "value": 1,
-    "text": "Round face (bald)"
+    "text": "둥근 얼굴(대머리)"
   },
   {
     "field": "head",
     "value": 2,
-    "text": "Long face (bald)"
+    "text": "기다란 얼굴(대머리)"
   },
   {
     "field": "head",
     "value": 3,
-    "text": "Long face (four-dot mark)"
+    "text": "기다란 얼굴(사성점)"
   },
   {
     "field": "head",
     "value": 4,
-    "text": "Extra long face (three-dot mark)"
+    "text": "더 기다란얼굴(삼성점)"
   },
   {
     "field": "head",
     "value": 5,
-    "text": "Raised head (bald)"
+    "text": "솟아오른 머리(대머리)"
   },
   {
     "field": "head",
     "value": 6,
-    "text": "Simpson head (bald)"
+    "text": "심슨머리(대머리)"
   },
   {
     "field": "head",
     "value": 7,
-    "text": "Angular hair"
+    "text": "각진헤어"
   },
   {
     "field": "head",
     "value": 8,
-    "text": "Distinctive hair"
+    "text": "개성있는머리"
   },
   {
     "field": "head",
     "value": 9,
-    "text": "Female hair (flower)"
+    "text": "여성머리(꽃)"
   },
   {
     "field": "head",
     "value": 10,
-    "text": "Grandpa hair"
+    "text": "할아버지 머리"
   },
   {
     "field": "head",
     "value": 11,
-    "text": "Bearded"
+    "text": "털보"
   },
   {
     "field": "head",
     "value": 12,
-    "text": "Long hair (female)"
+    "text": "긴머리(여성)"
   },
   {
     "field": "head",
     "value": 13,
-    "text": "Shaggy hair"
+    "text": "더벅머리"
   },
   {
     "field": "head",
     "value": 14,
-    "text": "Bald with beard"
+    "text": "대머리수염"
   },
   {
     "field": "head",
     "value": 15,
-    "text": "Chestnut hair"
+    "text": "밤톨머리"
   },
   {
     "field": "head",
     "value": 16,
-    "text": "Wizard hat"
+    "text": "마법사모자"
   },
   {
     "field": "head",
     "value": 17,
-    "text": "Wing hair"
+    "text": "윙헤어"
   },
   {
     "field": "head",
     "value": 18,
-    "text": "High wing hair"
+    "text": "하이 윙헤어"
   },
   {
     "field": "head",
     "value": 19,
-    "text": "Alien head"
+    "text": "외계인머리"
   },
   {
     "field": "head",
     "value": 20,
-    "text": "Three eyes (bald)"
+    "text": "3개달린눈(대머리)"
   },
   {
     "field": "head",
     "value": 21,
-    "text": "Knight helmet"
+    "text": "기사헬멧"
   },
   {
     "field": "head",
     "value": 26,
-    "text": "Fedora"
+    "text": "중절모자"
   },
   {
     "field": "head",
     "value": 27,
-    "text": "Gentleman's hat"
+    "text": "신사모자"
   },
   {
     "field": "head",
     "value": 28,
-    "text": "Gentleman's hat (colored)"
+    "text": "신사모자(컬러)"
   },
   {
     "field": "head",
     "value": 29,
-    "text": "Pirate hat"
+    "text": "해적모자"
   },
   {
     "field": "head",
     "value": 31,
-    "text": "Pirate hat (back hair)"
+    "text": "해적모자(뒷머리)"
   },
   {
     "field": "head",
     "value": 32,
-    "text": "Sailor hat"
+    "text": "선원모자"
   },
   {
     "field": "head",
     "value": 33,
-    "text": "Feather hair (square face)"
+    "text": "깃털머리(사각얼굴)"
   },
   {
     "field": "head",
     "value": 34,
-    "text": "Feather hair"
+    "text": "깃털머리"
   },
   {
     "field": "head",
     "value": 35,
-    "text": "Headband"
+    "text": "헤어밴드"
   },
   {
     "field": "face",
     "value": 0,
-    "text": "Default"
+    "text": "기본"
   },
   {
     "field": "face",
     "value": 1,
-    "text": "Thick eyebrows"
+    "text": "큰눈썹"
   },
   {
     "field": "face",
     "value": 2,
-    "text": "Straight eyebrows"
+    "text": "일자눈썹"
   },
   {
     "field": "face",
     "value": 3,
-    "text": "Angry eyebrows"
+    "text": "화난눈썹"
   },
   {
     "field": "face",
     "value": 4,
-    "text": "Round eyes"
+    "text": "눈망울"
   },
   {
     "field": "face",
     "value": 5,
-    "text": "Monster mouth"
+    "text": "괴물입"
   },
   {
     "field": "face",
     "value": 6,
-    "text": "Orc mouth"
+    "text": "오크입"
   },
   {
     "field": "face",
     "value": 7,
-    "text": "Zombie"
+    "text": "좀비"
   },
   {
     "field": "face",
     "value": 8,
-    "text": "Drooling"
+    "text": "침흘림"
   },
   {
     "field": "face",
     "value": 9,
-    "text": "Large mouth"
+    "text": "큰입"
   },
   {
     "field": "face",
     "value": 10,
-    "text": "Pig nose"
+    "text": "돼지코"
   },
   {
     "field": "face",
     "value": 11,
-    "text": "Bone mask"
+    "text": "뼈가면"
   },
   {
     "field": "face",
     "value": 12,
-    "text": "Tribal mask"
+    "text": "부족가면"
   },
   {
     "field": "face",
     "value": 13,
-    "text": "Mask"
+    "text": "가면"
   }
 ]
