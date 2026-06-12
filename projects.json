@@ -242,7 +242,7 @@
         "3DMax SDK를 활용하여 버텍스 및 애니메이션 행렬을 Export하는 3DMax Utility개발",
         "Vertex Shader를 이용한 Skinned Animation 구현"
       ]
-    }
+    },
     //    {
     //      title: "Dogs Of Chaos",
     //      date: "2007.11 (1month)",
@@ -252,17 +252,17 @@
     //      ],
     //
     //    },
-    //    {
-    //      title: "Dogs of doom",
-    //      stack: ["C++", "WINAPI"],
-    //      date: "2007.10 (1week)",
-    //      screenshots: [
-    //        "images/DogsOfDoom.png",
-    //      ],
-    //
-    //      description  :[
-    //      "삼각함수를 활용하여 유도탄, 샷건, 관통탄, 기관총 등 다양한 발사체 구현",
-    //    ]
-    //    },
+        {
+          title: "Dogs of doom",
+          stack: ["C++", "WINAPI"],
+          date: "2007.10 (1week)",
+          screenshots: [
+            "images/DogsOfDoom.png",
+          ],
+
+          description  :[
+          "삼각함수를 활용하여 유도탄, 샷건, 관통탄, 기관총 등 다양한 발사체 구현",
+        ]
+        },
   ]
 }
