@@ -83,7 +83,8 @@
         "Gameplay Ability System-based",
         "Combat system: sword, unarmed, and bow",
         "Animation state machine: idle, ready, aiming, recoil, and draw",
-        "Overlay system",
+        "OverlayPose system",
+        "Per-bone layered animation blending with alpha-based pose control",
         "Inventory system",
         "Enemy AI using State Tree"
       ]
