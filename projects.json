@@ -25,7 +25,7 @@
         "LLM 기반 내러티브 생성 파이프라인 설계 (Prompt → Context Injection → Streaming → Post-processing)\n",
         "멀티 LLM Provider 추상화 레이어 구현 (Local / Gemini )",
         "JSON Schema 기반 구조화 파싱 및 런타임 데이터 모델링\n",
-        "블루프린트 그래프 실행 로직(C#) 개발",
+        "블루프린트 파싱, 그래프 실행 로직(C#) 개발",
       ]
     },
     {
