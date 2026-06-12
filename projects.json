@@ -1,6 +1,28 @@
 {
   items: [
     {
+      title: "Mud and Blood",
+      stack: [
+        "UnrealEngine5",
+        "cpp",
+        "blueprint"
+      ],
+      date: "2026.03.14 ~ 2026.04.6",
+
+      screenshots: [
+        "images/MudAndBlood/img.png",
+      ],
+      description: [
+        "Locomotion system based on GASP with Motion Matching",
+        "Gameplay Ability System-based",
+        "Combat system: sword, unarmed, and bow",
+        "Animation state machine: idle, ready, aiming, recoil, and draw",
+        "Overlay system",
+        "Inventory system",
+        "Enemy AI using State Tree"
+      ]
+    },
+    {
       title: "AI Narrative Generator",
       stack: [
         "node.js",
