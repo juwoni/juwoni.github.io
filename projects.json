@@ -1,4 +1,70 @@
 {
+  stackCategories: [
+    {
+      category: "Engine",
+      stacks: [
+        { id: "unrealEngine5", label: "Unreal Engine 5", aliases: ["UnrealEngine5", "Unreal Engine 5", "UE5"] },
+        { id: "unity", label: "Unity", aliases: ["Unity Engine"] },
+        { id: "godot", label: "Godot", aliases: ["godt", "Godot 4.5.1", "Godot 3.5 mono"] },
+      ]
+    },
+    {
+      category: "Language",
+      stacks: [
+        { id: "cpp", label: "C++", aliases: ["cpp"] },
+        { id: "csharp", label: "C#", aliases: ["c#"] },
+        { id: "javascript", label: "JavaScript", aliases: ["javascript", "jascript"] },
+        { id: "typescript", label: "TypeScript", aliases: ["typescript"] },
+        { id: "gdscript", label: "GDScript", aliases: ["gdscript"] },
+        { id: "glsl", label: "GLSL", aliases: ["glsl"] },
+        { id: "blueprint", label: "Blueprint", aliases: ["blueprint"] },
+      ]
+    },
+    {
+      category: "Frontend",
+      stacks: [
+        { id: "react", label: "React", aliases: ["react.js", "react"] },
+        { id: "pixi", label: "PixiJS", aliases: ["pixi.js", "pixijs"] },
+        { id: "redux", label: "Redux", aliases: ["redux"] },
+        { id: "reactReconciliation", label: "React Reconciliation", aliases: ["react-reconciliation"] },
+        { id: "yogaLayout", label: "Yoga Layout", aliases: ["Yoga-layout", "yoga-layout"] },
+      ]
+    },
+    {
+      category: "Backend",
+      stacks: [
+        { id: "node", label: "Node.js", aliases: ["node.js", "Node.js"] },
+        { id: "prisma", label: "Prisma", aliases: ["prisma"] },
+        { id: "sequelize", label: "Sequelize", aliases: ["Sequelize"] },
+        { id: "uwebsocket", label: "uWebSocket", aliases: ["uWebsocket", "uWebSocket"] },
+      ]
+    },
+    {
+      category: "Database",
+      stacks: [
+        { id: "postgresql", label: "PostgreSQL", aliases: ["postgresql", "Postgres"] },
+        { id: "mongodb", label: "MongoDB", aliases: ["Mongodb", "MongoDB"] },
+      ]
+    },
+    {
+      category: "Graphics / Native",
+      stacks: [
+        { id: "winapi", label: "WinAPI", aliases: ["WINAPI", "winapi"] },
+        { id: "winsock", label: "Winsock", aliases: ["Winsock"] },
+        { id: "iocp", label: "IOCP", aliases: ["IOCP"] },
+        { id: "directx9", label: "DirectX 9.0", aliases: ["Directx9.0", "DirectX 9.0"] },
+        { id: "mfc", label: "MFC", aliases: ["MFC"] },
+        { id: "shader", label: "Shader", aliases: ["Shader"] },
+        { id: "maxsdk", label: "3ds Max SDK", aliases: ["3dmaxsdk", "3ds Max SDK"] },
+      ]
+    },
+    {
+      category: "Cloud",
+      stacks: [
+        { id: "aws", label: "AWS", aliases: ["AWS"] },
+      ]
+    },
+  ],
   items: [
     {
       title: "Mud and Blood(Ongoing)",
