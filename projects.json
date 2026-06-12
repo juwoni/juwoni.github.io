@@ -256,6 +256,8 @@
           title: "Dogs of doom",
           stack: ["C++", "WINAPI"],
           date: "2007.10 (1week)",
+          "videoLink": "https://youtu.be/hAa9NTO64S0",
+
           screenshots: [
             "images/DogsOfDoom.png",
           ],
