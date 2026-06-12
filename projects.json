@@ -86,6 +86,7 @@
         "OverlayPose system",
         "Per-bone layered animation blending with alpha-based pose control",
         "Inventory system",
+        "Interaction system",
         "Enemy AI using State Tree"
       ]
     },
