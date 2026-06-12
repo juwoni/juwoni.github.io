@@ -241,7 +241,7 @@
         "pixi.js + react.js로 웹툴을 개발",
         "Unity 엔진 으로 웹툴플레이어 개발 (web export)",
         "게임 오브젝트에 물리 적용",
-        "*A 알고리즘으로 길찾기 구현",
+        "A star 길찾기 알고리즘 구현",
         "Room detection 구현",
         "Unity UI elements 사용",
         "Unity custom URP 개발"
