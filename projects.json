@@ -260,6 +260,9 @@
         "Yoga-layout"
       ],
       date: "2018.10",
+      sourceLinks: [
+        { label: "Worker System Source", url: "https://github.com/juwoni/FantasyCraft-WorkerSystem/blob/master/actions/index.js" },
+      ],
       screenshots: [
         "images/fantasyCraft/fantasyCraft11.png",
         "images/fantasyCraft/fantasyCraft22.png",
@@ -271,7 +274,7 @@
       description: [
         //        "UI 개발 시 React JSX 스타일 적용을 위해 react-reconciliation 도입, React 방식으로 WebGL UI 구현",
         "게임 오브젝트에 물리 적용",
-        "*A 알고리즘으로 길찾기 구현",
+        "A star 길찾기 알고리즘 구현",
         "UI 개발시 react-reconciliation 사용하여 JSX문법 적용",
         "시뮬레이션 행동 시스템 구현.",
         "Yoga-layout 사용하여 flexbox 레이아웃 적용."
