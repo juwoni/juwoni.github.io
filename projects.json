@@ -67,29 +67,60 @@
   ],
   items: [
     {
-      title: "Mud and Blood(Ongoing)",
-      stack: [
-        "UnrealEngine5",
-        "cpp",
-        "blueprint"
-      ],
-      date: "2026.03.14 ~ 2026.04.6",
+      "versions": {
+        "v0.2" :     {
+          title: "Mud and Blood(Ongoing)",
+          stack: [
+            "UnrealEngine5",
+            "cpp",
+            "blueprint"
+          ],
+          date: "2026.06.11 ~ 2026.06.22",
+          "videoLink": "https://youtu.be/sqNyZp3NZtY",
 
-      screenshots: [
-        "images/MudAndBlood/img.png",
-      ],
-      description: [
-        "Locomotion system based on GASP with Motion Matching",
-        "Gameplay Ability System-based",
-        "Combat system: sword, unarmed, and bow",
-        "Animation state machine: idle, ready, aiming, recoil, and draw",
-        "OverlayPose system",
-        "Per-bone layered animation blending with alpha-based pose control",
-        "Inventory system",
-        "Interaction system",
-        "Enemy AI using State Tree"
-      ]
+          screenshots: [
+            "images/MudAndBlood/v0.2.png",
+          ],
+          description: [
+            "Locomotion system based on GASP with Motion Matching",
+            "Gameplay Ability System-based",
+            "Combat system: sword, unarmed, and bow",
+            "Animation state machine: idle, ready, aiming, recoil, and draw",
+            "OverlayPose system",
+            "Per-bone layered animation blending with alpha-based pose control",
+            "Inventory system",
+            "Interaction system",
+            "Enemy AI using State Tree",
+            "Implemented parry and roll"
+          ]
+        },
+        "v0.1" :     {
+          title: "Mud and Blood(Ongoing)",
+          stack: [
+            "UnrealEngine5",
+            "cpp",
+            "blueprint"
+          ],
+          date: "2026.03.14 ~ 2026.04.6",
+
+          screenshots: [
+            "images/MudAndBlood/img.png",
+          ],
+          description: [
+            "Locomotion system based on GASP with Motion Matching",
+            "Gameplay Ability System-based",
+            "Combat system: sword, unarmed, and bow",
+            "Animation state machine: idle, ready, aiming, recoil, and draw",
+            "OverlayPose system",
+            "Per-bone layered animation blending with alpha-based pose control",
+            "Inventory system",
+            "Interaction system",
+            "Enemy AI using State Tree",
+          ]
+        }
+      }
     },
+
     {
       title: "AI Narrative Generator",
       stack: [
