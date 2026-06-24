@@ -279,7 +279,7 @@
             "Implemented the inventory system",
             "Implemented the interaction system",
             "Refactored enemy AI using State Tree",
-            "Implemented parry and roll mechanics",
+            "Implemented parry and roll",
             "Implemented a runtime curve editor"
           ]
         },
@@ -295,15 +295,15 @@
             "images/MudAndBlood/img.png"
           ],
           description: [
-            "Locomotion system based on GASP with Motion Matching",
-            "Gameplay Ability System (GAS)",
-            "Combat system: sword, unarmed, and bow",
-            "Animation state machine: idle, ready, aiming, recoil, and draw",
-            "OverlayPose system",
-            "Per-bone layered animation blending with alpha-based pose control",
-            "Inventory system",
-            "Interaction system",
-            "Enemy AI using State Tree"
+            "Refactored GASP-based locomotion with Motion Matching",
+            "Implemented Gameplay Ability System (GAS)",
+            "Implemented sword, unarmed, and bow combat systems",
+            "Refactored animation state machines (idle, ready, aiming, recoil, and draw)",
+            "Refactored the Overlay Pose system",
+            "Refactored per-bone layered animation blending with alpha-based pose control",
+            "Implemented the inventory system",
+            "Implemented the interaction system",
+            "Refactored enemy AI using State Tree"
           ]
         }
       }
