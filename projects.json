@@ -270,17 +270,6 @@
             "images/MudAndBlood/v0.3.1.png"
           ],
           description: [
-            "Refactored GASP-based locomotion with Motion Matching",
-            "Implemented Gameplay Ability System (GAS)",
-            "Implemented sword, unarmed, and bow combat systems",
-            "Refactored animation state machines (idle, ready, aiming, recoil, and draw)",
-            "Refactored the Overlay Pose system",
-            "Refactored per-bone layered animation blending with alpha-based pose control",
-            "Implemented the inventory system",
-            "Implemented the interaction system",
-            "Refactored enemy AI using State Tree",
-            "Implemented parry and roll",
-            "Implemented a runtime curve editor",
             "Implemented Lock-On System and Finisher System"
           ]
         },
@@ -297,15 +286,6 @@
             "images/MudAndBlood/v0.3.png"
           ],
           description: [
-            "Refactored GASP-based locomotion with Motion Matching",
-            "Implemented Gameplay Ability System (GAS)",
-            "Implemented sword, unarmed, and bow combat systems",
-            "Refactored animation state machines (idle, ready, aiming, recoil, and draw)",
-            "Refactored the Overlay Pose system",
-            "Refactored per-bone layered animation blending with alpha-based pose control",
-            "Implemented the inventory system",
-            "Implemented the interaction system",
-            "Refactored enemy AI using State Tree",
             "Implemented parry and roll",
             "Implemented a runtime curve editor"
           ]
@@ -386,11 +366,10 @@
             "images/fantasyDuel-alpha/deck.png"
           ],
           description: [
-            "Godot 기반 1:1 전투 게임으로, 데이터 레이어부터 매칭·리플레이·인벤토리 시스템 설계 및 구현",
+            "Godot 4.5.1 기반으로 데이터 레이어, 매칭, 리플레이, 인벤토리 흐름 재구현",
             "로컬 캐시 및 폴백 처리 로직 구현",
             "MMR 기반 1:1 매칭 시스템 구현, 서버 매칭 실패 시 캐시된 인벤토리 스냅샷을 활용한 대체 매칭 흐름 구성",
             "전투 중 발생하는 주요 이벤트를 기록하는 이벤트 로그 기반 리플레이 시스템 구현",
-            "아이템 그리드 기반 인벤토리 및 상점 시스템 구현(배치, 회전·리롤 구조 설계)",
             "커스텀 셰이더 및 VFX 제작을 통해 전투 연출 및 아이템 효과 시각화",
             "아이템 드롭 시 물리 기반 연출(낙하·충돌·바운스) 구현"
           ]
