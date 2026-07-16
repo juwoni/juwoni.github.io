@@ -259,6 +259,25 @@
 
     {
       "versions": {
+        "v0.1": {
+          title: "Fantasy Survival",
+          stack: [
+            "Unity6.5",
+            "c#"
+          ],
+          date: "2026.07.14 ~ 2026.07.16",
+          "play": "https://play.unity.com/api/v1/games/game/44abc83f-72b4-4846-a88e-792b4c5080ab/build/latest/frame",
+          "videoLink": "https://youtu.be/lPxLh_nGWCE",
+          screenshots: [
+            "images/FantasySurvival/1.png",
+            "images/FantasySurvival/2.png",
+            "images/FantasySurvival/3.png",
+            "images/FantasySurvival/4.png"
+
+          ],
+          description: [
+          ]
+        },
         "prototype": {
           title: "Fantasy Survival",
           stack: [
