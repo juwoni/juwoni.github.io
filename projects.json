@@ -259,6 +259,7 @@
 
     {
       title: "Fantasy Survival",
+      summary: "Unity 기반의 뱀파이어 서바이벌 스타일 게임으로, 전투, 성장, 장비, 온라인 리더보드 시스템을 중심으로 구현했습니다. ScriptableObject 기반 데이터 구조와 Unity Gaming Services를 활용하여 확장성과 유지보수성을 고려한 게임 플레이 시스템을 설계했습니다.",
       development: "1인 개발",
       "versions": {
         "v0.2": {
@@ -312,6 +313,7 @@
 
         },
         "prototype": {
+          subtitle: "Unity 액션 서바이벌 게임 프로토타입",
           stack: [
             "Unity6.5",
             "c#"
