@@ -259,6 +259,31 @@
 
     {
       "versions": {
+        "v0.2": {
+          title: "Fantasy Survival",
+          stack: [
+            "Unity6.5",
+            "c#"
+          ],
+          date: "2026.07.16 ~ 2026.07.19",
+          "play": "https://play.unity.com/api/v1/games/game/f6791f24-7dff-4141-87e8-85f47b235e18/build/latest/frame",
+          "videoLink": "https://youtu.be/lPxLh_nGWCE",
+          screenshots: [
+            "images/FantasySurvival/11.png",
+            "images/FantasySurvival/22.png",
+            "images/FantasySurvival/33.png"
+
+          ],
+          description: [
+            "플레이어 스킬 및 보스 패턴 추가",
+            "Unity Cloud Code와 Cloud Save 기반 서버 권위 인벤토리 및 상점 시스템 구현",
+            "상점 구매/판매, 장비 저장, 던전 정산 API 및 서버 검증 로직 구현",
+            "Cloud Code 호출 수와 서버 RTT를 줄이기 위한 성능 최적화 적용",
+            "멱등성(operationId)과 서버 보상 검증을 통한 치트 방지 시스템 구현",
+            "SQLite 기반 로컬 테스트 환경 및 Journey 통합 테스트 구축"
+          ]
+
+        },
         "v0.1": {
           title: "Fantasy Survival",
           stack: [
