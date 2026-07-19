@@ -626,6 +626,7 @@
     },
     {
       title: "맛짱",
+      development: "팀 프로젝트",
       stack: [
         "C++",
         "WINAPI",
@@ -660,6 +661,7 @@
     //    },
     {
       title: "Dogs of doom",
+      development: "팀 프로젝트",
       stack: [
         "C++",
         "WINAPI"
