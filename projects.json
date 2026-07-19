@@ -258,9 +258,10 @@
   items: [
 
     {
+      title: "Fantasy Survival",
+      development: "1인 개발",
       "versions": {
         "v0.2": {
-          title: "Fantasy Survival",
           stack: [
             "Unity6.5",
             "c#"
@@ -285,7 +286,6 @@
 
         },
         "v0.1": {
-          title: "Fantasy Survival",
           stack: [
             "Unity6.5",
             "c#"
@@ -312,7 +312,6 @@
 
         },
         "prototype": {
-          title: "Fantasy Survival",
           stack: [
             "Unity6.5",
             "c#"
@@ -342,9 +341,10 @@
       }
     },
     {
+      title: "Mud and Blood(Ongoing)",
+      development: "1인 개발",
       "versions": {
         "v0.3.1": {
-          title: "Mud and Blood(Ongoing)",
           stack: [
             "UnrealEngine5",
             "cpp",
@@ -360,7 +360,6 @@
           ]
         },
         "v0.3": {
-          title: "Mud and Blood(Ongoing)",
           stack: [
             "UnrealEngine5",
             "cpp",
@@ -377,7 +376,6 @@
           ]
         },
         "v0.1": {
-          title: "Mud and Blood(Ongoing)",
           stack: [
             "UnrealEngine5",
             "cpp",
@@ -403,6 +401,7 @@
     },
     {
       title: "AI Narrative Generator",
+      development: "1인 개발",
       stack: [
         "node.js",
         "react.js",
@@ -429,9 +428,10 @@
       ]
     },
     {
+      title: "Fantasy Duel(Godot)",
+      development: "1인 개발",
       "versions": {
         "alphaV2": {
-          title: "Fantasy Duel(Godot)",
           stack: [
             "C#",
             "Godot 4.5.1",
@@ -461,7 +461,6 @@
           ]
         },
         "alpha": {
-          title: "Fantasy Duel(Godot)",
           stack: [
             "C#",
             "Godot 4.5.1",
@@ -493,7 +492,6 @@
           ]
         },
         "prototype": {
-          title: "Fantasy Duel(Godot)",
           stack: [
             "C#",
             "Godot 3.5 mono",
@@ -528,6 +526,7 @@
     },
     {
       title: "Fantasy World(Unity) & WebTool",
+      development: "1인 개발",
       stack: [
         "C#",
         "Unity Engine",
@@ -558,6 +557,7 @@
     },
     {
       title: "Fantasy Craft",
+      development: "1인 개발",
       stack: [
         "JavaScript",
         "Pixi.js",
@@ -594,6 +594,7 @@
     },
     {
       title: "Fantasy Heroes",
+      development: "1인 개발",
       stack: [
         "JavaScript",
         "Pixi.js",
